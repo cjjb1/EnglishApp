@@ -61,4 +61,4 @@ Y abrir `http://localhost:8000` en tu navegador.
 ## 👤 Autor
 
 **Carlos Juárez**  
-© 2026 Carlos Juárez · Desarrollado con HTML5, JavaScript & Tailwind CSS · Desplegado en Render con GitHub
+© 2026 Carlos Juárez · Desplegado en Render con GitHub
