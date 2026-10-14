@@ -1,0 +1,12063 @@
+// Transformed from phrases.json to bypass browser CORS policy in file://
+const PHRASES_DATA = [
+  {
+    "id": 1,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "How are you?",
+    "spanish": "¿Cómo estás?"
+  },
+  {
+    "id": 2,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "I'm good, thanks.",
+    "spanish": "Estoy bien, gracias."
+  },
+  {
+    "id": 3,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "What's going on?",
+    "spanish": "¿Qué pasa?"
+  },
+  {
+    "id": 4,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Nice to meet you.",
+    "spanish": "Encantado de conocerte."
+  },
+  {
+    "id": 5,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "See you later.",
+    "spanish": "Nos vemos luego."
+  },
+  {
+    "id": 6,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Take care.",
+    "spanish": "Cuídate."
+  },
+  {
+    "id": 7,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Have a nice day.",
+    "spanish": "Que tengas un buen día."
+  },
+  {
+    "id": 8,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Good morning.",
+    "spanish": "Buenos días."
+  },
+  {
+    "id": 9,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Good evening.",
+    "spanish": "Buenas noches (al llegar)."
+  },
+  {
+    "id": 10,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Good night.",
+    "spanish": "Buenas noches (al despedirse)."
+  },
+  {
+    "id": 11,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Long time no see.",
+    "spanish": "Cuánto tiempo sin verte."
+  },
+  {
+    "id": 12,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "What's your name?",
+    "spanish": "¿Cómo te llamas?"
+  },
+  {
+    "id": 13,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Where are you from?",
+    "spanish": "¿De dónde eres?"
+  },
+  {
+    "id": 14,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "I'm from Spain.",
+    "spanish": "Soy de España."
+  },
+  {
+    "id": 15,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "I don't understand.",
+    "spanish": "No entiendo."
+  },
+  {
+    "id": 16,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Could you repeat that?",
+    "spanish": "¿Puedes repetir eso?"
+  },
+  {
+    "id": 17,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Speak slowly, please.",
+    "spanish": "Habla despacio, por favor."
+  },
+  {
+    "id": 18,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "What do you mean?",
+    "spanish": "¿Qué quieres decir?"
+  },
+  {
+    "id": 19,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "I agree.",
+    "spanish": "Estoy de acuerdo."
+  },
+  {
+    "id": 20,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "I disagree.",
+    "spanish": "No estoy de acuerdo."
+  },
+  {
+    "id": 21,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "That's true.",
+    "spanish": "Es verdad."
+  },
+  {
+    "id": 22,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "That's not right.",
+    "spanish": "Eso no es correcto."
+  },
+  {
+    "id": 23,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Exactly.",
+    "spanish": "Exacto."
+  },
+  {
+    "id": 24,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "I'm not sure.",
+    "spanish": "No estoy seguro."
+  },
+  {
+    "id": 25,
+    "category": "1-25: Saludos y expresiones básicas",
+    "english": "Let me think.",
+    "spanish": "Déjame pensar."
+  },
+  {
+    "id": 26,
+    "category": "26-50: Vida diaria",
+    "english": "What time is it?",
+    "spanish": "¿Qué hora es?"
+  },
+  {
+    "id": 27,
+    "category": "26-50: Vida diaria",
+    "english": "I'm running late.",
+    "spanish": "Voy con retraso."
+  },
+  {
+    "id": 28,
+    "category": "26-50: Vida diaria",
+    "english": "I'm on my way.",
+    "spanish": "Estoy en camino."
+  },
+  {
+    "id": 29,
+    "category": "26-50: Vida diaria",
+    "english": "I'm almost there.",
+    "spanish": "Estoy casi allí."
+  },
+  {
+    "id": 30,
+    "category": "26-50: Vida diaria",
+    "english": "Where is the bathroom?",
+    "spanish": "¿Dónde está el baño?"
+  },
+  {
+    "id": 31,
+    "category": "26-50: Vida diaria",
+    "english": "I'm hungry.",
+    "spanish": "Tengo hambre."
+  },
+  {
+    "id": 32,
+    "category": "26-50: Vida diaria",
+    "english": "I'm thirsty.",
+    "spanish": "Tengo sed."
+  },
+  {
+    "id": 33,
+    "category": "26-50: Vida diaria",
+    "english": "I'm tired.",
+    "spanish": "Estoy cansado."
+  },
+  {
+    "id": 34,
+    "category": "26-50: Vida diaria",
+    "english": "Let's go.",
+    "spanish": "Vámonos."
+  },
+  {
+    "id": 35,
+    "category": "26-50: Vida diaria",
+    "english": "Wait a second.",
+    "spanish": "Espera un segundo."
+  },
+  {
+    "id": 36,
+    "category": "26-50: Vida diaria",
+    "english": "Hold on.",
+    "spanish": "Aguarda / Espera."
+  },
+  {
+    "id": 37,
+    "category": "26-50: Vida diaria",
+    "english": "Come here.",
+    "spanish": "Ven aquí."
+  },
+  {
+    "id": 38,
+    "category": "26-50: Vida diaria",
+    "english": "Look at this.",
+    "spanish": "Mira esto."
+  },
+  {
+    "id": 39,
+    "category": "26-50: Vida diaria",
+    "english": "What's this?",
+    "spanish": "¿Qué es esto?"
+  },
+  {
+    "id": 40,
+    "category": "26-50: Vida diaria",
+    "english": "I like it.",
+    "spanish": "Me gusta."
+  },
+  {
+    "id": 41,
+    "category": "26-50: Vida diaria",
+    "english": "I don't like it.",
+    "spanish": "No me gusta."
+  },
+  {
+    "id": 42,
+    "category": "26-50: Vida diaria",
+    "english": "It's okay.",
+    "spanish": "Está bien."
+  },
+  {
+    "id": 43,
+    "category": "26-50: Vida diaria",
+    "english": "It's not okay.",
+    "spanish": "No está bien."
+  },
+  {
+    "id": 44,
+    "category": "26-50: Vida diaria",
+    "english": "I'm busy right now.",
+    "spanish": "Estoy ocupado ahora."
+  },
+  {
+    "id": 45,
+    "category": "26-50: Vida diaria",
+    "english": "Give me a minute.",
+    "spanish": "Dame un minuto."
+  },
+  {
+    "id": 46,
+    "category": "26-50: Vida diaria",
+    "english": "I'll be right back.",
+    "spanish": "Vuelvo enseguida."
+  },
+  {
+    "id": 47,
+    "category": "26-50: Vida diaria",
+    "english": "I'm just looking.",
+    "spanish": "Solo estoy mirando."
+  },
+  {
+    "id": 48,
+    "category": "26-50: Vida diaria",
+    "english": "How much is this?",
+    "spanish": "¿Cuánto cuesta esto?"
+  },
+  {
+    "id": 49,
+    "category": "26-50: Vida diaria",
+    "english": "Do you need help?",
+    "spanish": "¿Necesitas ayuda?"
+  },
+  {
+    "id": 50,
+    "category": "26-50: Vida diaria",
+    "english": "I need help.",
+    "spanish": "Necesito ayuda."
+  },
+  {
+    "id": 51,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I have a meeting.",
+    "spanish": "Tengo una reunión."
+  },
+  {
+    "id": 52,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Let's start.",
+    "spanish": "Empecemos."
+  },
+  {
+    "id": 53,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Let's finish this.",
+    "spanish": "Terminemos esto."
+  },
+  {
+    "id": 54,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'm working on it.",
+    "spanish": "Estoy trabajando en ello."
+  },
+  {
+    "id": 55,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'll send it to you.",
+    "spanish": "Te lo enviaré."
+  },
+  {
+    "id": 56,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Check your email.",
+    "spanish": "Revisa tu correo."
+  },
+  {
+    "id": 57,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'll let you know.",
+    "spanish": "Te avisaré."
+  },
+  {
+    "id": 58,
+    "category": "51-75: Trabajo y estudio",
+    "english": "That makes sense.",
+    "spanish": "Tiene sentido."
+  },
+  {
+    "id": 59,
+    "category": "51-75: Trabajo y estudio",
+    "english": "It doesn't make sense.",
+    "spanish": "No tiene sentido."
+  },
+  {
+    "id": 60,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I have a question.",
+    "spanish": "Tengo una pregunta."
+  },
+  {
+    "id": 61,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Good job.",
+    "spanish": "Buen trabajo."
+  },
+  {
+    "id": 62,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Well done.",
+    "spanish": "Bien hecho."
+  },
+  {
+    "id": 63,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'm learning English.",
+    "spanish": "Estoy aprendiendo inglés."
+  },
+  {
+    "id": 64,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Can you explain this?",
+    "spanish": "¿Puedes explicar esto?"
+  },
+  {
+    "id": 65,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I need more time.",
+    "spanish": "Necesito más tiempo."
+  },
+  {
+    "id": 66,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'm ready.",
+    "spanish": "Estoy listo."
+  },
+  {
+    "id": 67,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'm not ready.",
+    "spanish": "No estoy listo."
+  },
+  {
+    "id": 68,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Let's take a break.",
+    "spanish": "Tomemos un descanso."
+  },
+  {
+    "id": 69,
+    "category": "51-75: Trabajo y estudio",
+    "english": "That's interesting.",
+    "spanish": "Eso es interesante."
+  },
+  {
+    "id": 70,
+    "category": "51-75: Trabajo y estudio",
+    "english": "That's boring.",
+    "spanish": "Eso es aburrido."
+  },
+  {
+    "id": 71,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I understand now.",
+    "spanish": "Ahora entiendo."
+  },
+  {
+    "id": 72,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I don't get it.",
+    "spanish": "No lo pillo."
+  },
+  {
+    "id": 73,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Can you help me with this?",
+    "spanish": "¿Puedes ayudarme con esto?"
+  },
+  {
+    "id": 74,
+    "category": "51-75: Trabajo y estudio",
+    "english": "I'll think about it.",
+    "spanish": "Lo pensaré."
+  },
+  {
+    "id": 75,
+    "category": "51-75: Trabajo y estudio",
+    "english": "Let's move on.",
+    "spanish": "Sigamos."
+  },
+  {
+    "id": 76,
+    "category": "76-100: Conversación natural",
+    "english": "Really?",
+    "spanish": "¿En serio?"
+  },
+  {
+    "id": 77,
+    "category": "76-100: Conversación natural",
+    "english": "Are you sure?",
+    "spanish": "¿Estás seguro?"
+  },
+  {
+    "id": 78,
+    "category": "76-100: Conversación natural",
+    "english": "I can't believe it.",
+    "spanish": "No puedo creerlo."
+  },
+  {
+    "id": 79,
+    "category": "76-100: Conversación natural",
+    "english": "That's amazing.",
+    "spanish": "Eso es increíble."
+  },
+  {
+    "id": 80,
+    "category": "76-100: Conversación natural",
+    "english": "That's terrible.",
+    "spanish": "Eso es terrible."
+  },
+  {
+    "id": 81,
+    "category": "76-100: Conversación natural",
+    "english": "That's funny.",
+    "spanish": "Qué gracioso."
+  },
+  {
+    "id": 82,
+    "category": "76-100: Conversación natural",
+    "english": "I'm joking.",
+    "spanish": "Estoy bromeando."
+  },
+  {
+    "id": 83,
+    "category": "76-100: Conversación natural",
+    "english": "Just kidding.",
+    "spanish": "Es broma."
+  },
+  {
+    "id": 84,
+    "category": "76-100: Conversación natural",
+    "english": "I'm serious.",
+    "spanish": "Hablo en serio."
+  },
+  {
+    "id": 85,
+    "category": "76-100: Conversación natural",
+    "english": "No worries.",
+    "spanish": "No te preocupes."
+  },
+  {
+    "id": 86,
+    "category": "76-100: Conversación natural",
+    "english": "Don't worry about it.",
+    "spanish": "No te preocupes por eso."
+  },
+  {
+    "id": 87,
+    "category": "76-100: Conversación natural",
+    "english": "It happens.",
+    "spanish": "Pasa / Suele pasar."
+  },
+  {
+    "id": 88,
+    "category": "76-100: Conversación natural",
+    "english": "I don't mind.",
+    "spanish": "No me importa."
+  },
+  {
+    "id": 89,
+    "category": "76-100: Conversación natural",
+    "english": "I'm not interested.",
+    "spanish": "No estoy interesado."
+  },
+  {
+    "id": 90,
+    "category": "76-100: Conversación natural",
+    "english": "That's enough.",
+    "spanish": "Es suficiente."
+  },
+  {
+    "id": 91,
+    "category": "76-100: Conversación natural",
+    "english": "One moment, please.",
+    "spanish": "Un momento, por favor."
+  },
+  {
+    "id": 92,
+    "category": "76-100: Conversación natural",
+    "english": "I'm confused.",
+    "spanish": "Estoy confundido."
+  },
+  {
+    "id": 93,
+    "category": "76-100: Conversación natural",
+    "english": "I'm excited.",
+    "spanish": "Estoy emocionado."
+  },
+  {
+    "id": 94,
+    "category": "76-100: Conversación natural",
+    "english": "I'm bored.",
+    "spanish": "Estoy aburrido."
+  },
+  {
+    "id": 95,
+    "category": "76-100: Conversación natural",
+    "english": "I'm worried.",
+    "spanish": "Estoy preocupado."
+  },
+  {
+    "id": 96,
+    "category": "76-100: Conversación natural",
+    "english": "I'm happy for you.",
+    "spanish": "Me alegro por ti."
+  },
+  {
+    "id": 97,
+    "category": "76-100: Conversación natural",
+    "english": "I'm proud of you.",
+    "spanish": "Estoy orgulloso de ti."
+  },
+  {
+    "id": 98,
+    "category": "76-100: Conversación natural",
+    "english": "Let me show you.",
+    "spanish": "Déjame enseñarte."
+  },
+  {
+    "id": 99,
+    "category": "76-100: Conversación natural",
+    "english": "Let's try.",
+    "spanish": "Probemos."
+  },
+  {
+    "id": 100,
+    "category": "76-100: Conversación natural",
+    "english": "100. It's up to you.",
+    "spanish": "Tú decides."
+  },
+  {
+    "id": 101,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I think so.",
+    "spanish": "Creo que sí."
+  },
+  {
+    "id": 102,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I don't think so.",
+    "spanish": "Creo que no."
+  },
+  {
+    "id": 103,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "In my opinion…",
+    "spanish": "En mi opinión…"
+  },
+  {
+    "id": 104,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "From my point of view…",
+    "spanish": "Desde mi punto de vista…"
+  },
+  {
+    "id": 105,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That's a good idea.",
+    "spanish": "Es una buena idea."
+  },
+  {
+    "id": 106,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That's a bad idea.",
+    "spanish": "Es una mala idea."
+  },
+  {
+    "id": 107,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I love it.",
+    "spanish": "Me encanta."
+  },
+  {
+    "id": 108,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I hate it.",
+    "spanish": "Lo odio."
+  },
+  {
+    "id": 109,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "It's not my thing.",
+    "spanish": "No es lo mío."
+  },
+  {
+    "id": 110,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I'm not convinced.",
+    "spanish": "No estoy convencido."
+  },
+  {
+    "id": 111,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That sounds great.",
+    "spanish": "Suena genial."
+  },
+  {
+    "id": 112,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That sounds awful.",
+    "spanish": "Suena horrible."
+  },
+  {
+    "id": 113,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That's unbelievable.",
+    "spanish": "Eso es increíble."
+  },
+  {
+    "id": 114,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That's impressive.",
+    "spanish": "Eso es impresionante."
+  },
+  {
+    "id": 115,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That's disappointing.",
+    "spanish": "Eso es decepcionante."
+  },
+  {
+    "id": 116,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I'm not sure about that.",
+    "spanish": "No estoy seguro de eso."
+  },
+  {
+    "id": 117,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I totally agree.",
+    "spanish": "Estoy totalmente de acuerdo."
+  },
+  {
+    "id": 118,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I totally disagree.",
+    "spanish": "Estoy totalmente en desacuerdo."
+  },
+  {
+    "id": 119,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "Fair enough.",
+    "spanish": "Vale, es justo."
+  },
+  {
+    "id": 120,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I see your point.",
+    "spanish": "Entiendo tu punto."
+  },
+  {
+    "id": 121,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "You're right.",
+    "spanish": "Tienes razón."
+  },
+  {
+    "id": 122,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "You're wrong.",
+    "spanish": "Estás equivocado."
+  },
+  {
+    "id": 123,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "I didn't expect that.",
+    "spanish": "No esperaba eso."
+  },
+  {
+    "id": 124,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "That's a good question.",
+    "spanish": "Buena pregunta."
+  },
+  {
+    "id": 125,
+    "category": "101-125: Opiniones y reacciones",
+    "english": "Let me explain.",
+    "spanish": "Déjame explicar."
+  },
+  {
+    "id": 126,
+    "category": "126-150: Situaciones sociales",
+    "english": "Do you want to go out?",
+    "spanish": "¿Quieres salir?"
+  },
+  {
+    "id": 127,
+    "category": "126-150: Situaciones sociales",
+    "english": "Let's grab a coffee.",
+    "spanish": "Tomemos un café."
+  },
+  {
+    "id": 128,
+    "category": "126-150: Situaciones sociales",
+    "english": "Let's have lunch.",
+    "spanish": "Almorcemos."
+  },
+  {
+    "id": 129,
+    "category": "126-150: Situaciones sociales",
+    "english": "Let's have dinner.",
+    "spanish": "Cenemos / Vamos a cenar."
+  },
+  {
+    "id": 130,
+    "category": "126-150: Situaciones sociales",
+    "english": "What do you feel like doing?",
+    "spanish": "¿Qué te apetece hacer?"
+  },
+  {
+    "id": 131,
+    "category": "126-150: Situaciones sociales",
+    "english": "I feel like staying home.",
+    "spanish": "Me apetece quedarme en casa."
+  },
+  {
+    "id": 132,
+    "category": "126-150: Situaciones sociales",
+    "english": "I feel like going out.",
+    "spanish": "Me apetece salir."
+  },
+  {
+    "id": 133,
+    "category": "126-150: Situaciones sociales",
+    "english": "I'm not in the mood.",
+    "spanish": "No estoy de humor."
+  },
+  {
+    "id": 134,
+    "category": "126-150: Situaciones sociales",
+    "english": "Count me in.",
+    "spanish": "Cuenta conmigo."
+  },
+  {
+    "id": 135,
+    "category": "126-150: Situaciones sociales",
+    "english": "Count me out.",
+    "spanish": "No cuentes conmigo."
+  },
+  {
+    "id": 136,
+    "category": "126-150: Situaciones sociales",
+    "english": "Let's meet up.",
+    "spanish": "Quedemos."
+  },
+  {
+    "id": 137,
+    "category": "126-150: Situaciones sociales",
+    "english": "Where should we meet?",
+    "spanish": "¿Dónde deberíamos quedar?"
+  },
+  {
+    "id": 138,
+    "category": "126-150: Situaciones sociales",
+    "english": "What time should we meet?",
+    "spanish": "¿A qué hora quedamos?"
+  },
+  {
+    "id": 139,
+    "category": "126-150: Situaciones sociales",
+    "english": "I'll pick you up.",
+    "spanish": "Te recojo."
+  },
+  {
+    "id": 140,
+    "category": "126-150: Situaciones sociales",
+    "english": "I'll be there.",
+    "spanish": "Estaré allí."
+  },
+  {
+    "id": 141,
+    "category": "126-150: Situaciones sociales",
+    "english": "I can't make it.",
+    "spanish": "No puedo ir."
+  },
+  {
+    "id": 142,
+    "category": "126-150: Situaciones sociales",
+    "english": "Maybe next time.",
+    "spanish": "Quizá la próxima vez."
+  },
+  {
+    "id": 143,
+    "category": "126-150: Situaciones sociales",
+    "english": "It was nice seeing you.",
+    "spanish": "Fue un placer verte."
+  },
+  {
+    "id": 144,
+    "category": "126-150: Situaciones sociales",
+    "english": "Let's keep in touch.",
+    "spanish": "Mantengamos el contacto."
+  },
+  {
+    "id": 145,
+    "category": "126-150: Situaciones sociales",
+    "english": "Do you have plans?",
+    "spanish": "¿Tienes planes?"
+  },
+  {
+    "id": 146,
+    "category": "126-150: Situaciones sociales",
+    "english": "I don't have plans.",
+    "spanish": "No tengo planes."
+  },
+  {
+    "id": 147,
+    "category": "126-150: Situaciones sociales",
+    "english": "I'm free today.",
+    "spanish": "Estoy libre hoy."
+  },
+  {
+    "id": 148,
+    "category": "126-150: Situaciones sociales",
+    "english": "I'm busy today.",
+    "spanish": "Estoy ocupado hoy."
+  },
+  {
+    "id": 149,
+    "category": "126-150: Situaciones sociales",
+    "english": "Let's celebrate.",
+    "spanish": "Celebremos."
+  },
+  {
+    "id": 150,
+    "category": "126-150: Situaciones sociales",
+    "english": "Congratulations!",
+    "spanish": "¡Felicidades!"
+  },
+  {
+    "id": 151,
+    "category": "151-175: Compras y dinero",
+    "english": "Do you accept credit cards?",
+    "spanish": "¿Aceptan tarjetas de crédito?"
+  },
+  {
+    "id": 152,
+    "category": "151-175: Compras y dinero",
+    "english": "Can I pay in cash?",
+    "spanish": "¿Puedo pagar en efectivo?"
+  },
+  {
+    "id": 153,
+    "category": "151-175: Compras y dinero",
+    "english": "Can I pay by card?",
+    "spanish": "¿Puedo pagar con tarjeta?"
+  },
+  {
+    "id": 154,
+    "category": "151-175: Compras y dinero",
+    "english": "Do you have change?",
+    "spanish": "¿Tienes cambio?"
+  },
+  {
+    "id": 155,
+    "category": "151-175: Compras y dinero",
+    "english": "It's too expensive.",
+    "spanish": "Es demasiado caro."
+  },
+  {
+    "id": 156,
+    "category": "151-175: Compras y dinero",
+    "english": "It's cheap.",
+    "spanish": "Es barato."
+  },
+  {
+    "id": 157,
+    "category": "151-175: Compras y dinero",
+    "english": "It's a good price.",
+    "spanish": "Es un buen precio."
+  },
+  {
+    "id": 158,
+    "category": "151-175: Compras y dinero",
+    "english": "Can you give me a discount?",
+    "spanish": "¿Puedes darme un descuento?"
+  },
+  {
+    "id": 159,
+    "category": "151-175: Compras y dinero",
+    "english": "I'm just browsing.",
+    "spanish": "Solo estoy mirando."
+  },
+  {
+    "id": 160,
+    "category": "151-175: Compras y dinero",
+    "english": "I'll take it.",
+    "spanish": "Me lo llevo."
+  },
+  {
+    "id": 161,
+    "category": "151-175: Compras y dinero",
+    "english": "Do you have this in another size?",
+    "spanish": "¿Tienes esto en otra talla?"
+  },
+  {
+    "id": 162,
+    "category": "151-175: Compras y dinero",
+    "english": "Do you have this in another colour?",
+    "spanish": "¿Tienes esto en otro color?"
+  },
+  {
+    "id": 163,
+    "category": "151-175: Compras y dinero",
+    "english": "Where is the fitting room?",
+    "spanish": "¿Dónde está el probador?"
+  },
+  {
+    "id": 164,
+    "category": "151-175: Compras y dinero",
+    "english": "It doesn't fit.",
+    "spanish": "No me queda bien."
+  },
+  {
+    "id": 165,
+    "category": "151-175: Compras y dinero",
+    "english": "It fits perfectly.",
+    "spanish": "Me queda perfecto."
+  },
+  {
+    "id": 166,
+    "category": "151-175: Compras y dinero",
+    "english": "Can I return this?",
+    "spanish": "¿Puedo devolver esto?"
+  },
+  {
+    "id": 167,
+    "category": "151-175: Compras y dinero",
+    "english": "I want a refund.",
+    "spanish": "Quiero un reembolso."
+  },
+  {
+    "id": 168,
+    "category": "151-175: Compras y dinero",
+    "english": "I want to exchange it.",
+    "spanish": "Quiero cambiarlo."
+  },
+  {
+    "id": 169,
+    "category": "151-175: Compras y dinero",
+    "english": "Is this on sale?",
+    "spanish": "¿Está esto en oferta?"
+  },
+  {
+    "id": 170,
+    "category": "151-175: Compras y dinero",
+    "english": "How much is the total?",
+    "spanish": "¿Cuánto es el total?"
+  },
+  {
+    "id": 171,
+    "category": "151-175: Compras y dinero",
+    "english": "Can I get a receipt?",
+    "spanish": "¿Puedo obtener el recibo?"
+  },
+  {
+    "id": 172,
+    "category": "151-175: Compras y dinero",
+    "english": "I'm looking for something cheaper.",
+    "spanish": "Busco algo más barato."
+  },
+  {
+    "id": 173,
+    "category": "151-175: Compras y dinero",
+    "english": "I'm looking for something better.",
+    "spanish": "Busco algo mejor."
+  },
+  {
+    "id": 174,
+    "category": "151-175: Compras y dinero",
+    "english": "Do you have any recommendations?",
+    "spanish": "¿Tienes alguna recomendación?"
+  },
+  {
+    "id": 175,
+    "category": "151-175: Compras y dinero",
+    "english": "That's all, thanks.",
+    "spanish": "Eso es todo, gracias."
+  },
+  {
+    "id": 176,
+    "category": "176-200: Viajes y transporte",
+    "english": "Where is the train station?",
+    "spanish": "¿Dónde está la estación de tren?"
+  },
+  {
+    "id": 177,
+    "category": "176-200: Viajes y transporte",
+    "english": "Where is the bus stop?",
+    "spanish": "¿Dónde está la parada de autobús?"
+  },
+  {
+    "id": 178,
+    "category": "176-200: Viajes y transporte",
+    "english": "Where is the airport?",
+    "spanish": "¿Dónde está el aeropuerto?"
+  },
+  {
+    "id": 179,
+    "category": "176-200: Viajes y transporte",
+    "english": "I need a taxi.",
+    "spanish": "Necesito un taxi."
+  },
+  {
+    "id": 180,
+    "category": "176-200: Viajes y transporte",
+    "english": "Call a taxi, please.",
+    "spanish": "Llama a un taxi, por favor."
+  },
+  {
+    "id": 181,
+    "category": "176-200: Viajes y transporte",
+    "english": "How long does it take?",
+    "spanish": "¿Cuánto tarda?"
+  },
+  {
+    "id": 182,
+    "category": "176-200: Viajes y transporte",
+    "english": "How far is it?",
+    "spanish": "¿Qué tan lejos está?"
+  },
+  {
+    "id": 183,
+    "category": "176-200: Viajes y transporte",
+    "english": "I'd like a ticket to London.",
+    "spanish": "Quisiera un billete a Londres."
+  },
+  {
+    "id": 184,
+    "category": "176-200: Viajes y transporte",
+    "english": "Is this the right bus?",
+    "spanish": "¿Es este el autobús correcto?"
+  },
+  {
+    "id": 185,
+    "category": "176-200: Viajes y transporte",
+    "english": "Where does this train go?",
+    "spanish": "¿A dónde va este tren?"
+  },
+  {
+    "id": 186,
+    "category": "176-200: Viajes y transporte",
+    "english": "I'm lost.",
+    "spanish": "Estoy perdido."
+  },
+  {
+    "id": 187,
+    "category": "176-200: Viajes y transporte",
+    "english": "Can you show me on the map?",
+    "spanish": "¿Puedes mostrarme en el mapa?"
+  },
+  {
+    "id": 188,
+    "category": "176-200: Viajes y transporte",
+    "english": "I need directions.",
+    "spanish": "Necesito indicaciones."
+  },
+  {
+    "id": 189,
+    "category": "176-200: Viajes y transporte",
+    "english": "Turn left.",
+    "spanish": "Gira a la izquierda."
+  },
+  {
+    "id": 190,
+    "category": "176-200: Viajes y transporte",
+    "english": "Turn right.",
+    "spanish": "Gira a la derecha."
+  },
+  {
+    "id": 191,
+    "category": "176-200: Viajes y transporte",
+    "english": "Go straight ahead.",
+    "spanish": "Sigue recto."
+  },
+  {
+    "id": 192,
+    "category": "176-200: Viajes y transporte",
+    "english": "Stop here, please.",
+    "spanish": "Para aquí, por favor."
+  },
+  {
+    "id": 193,
+    "category": "176-200: Viajes y transporte",
+    "english": "How much is the fare?",
+    "spanish": "¿Cuánto es la tarifa?"
+  },
+  {
+    "id": 194,
+    "category": "176-200: Viajes y transporte",
+    "english": "I missed my flight.",
+    "spanish": "Perdí mi vuelo."
+  },
+  {
+    "id": 195,
+    "category": "176-200: Viajes y transporte",
+    "english": "My luggage is missing.",
+    "spanish": "Mi equipaje está perdido."
+  },
+  {
+    "id": 196,
+    "category": "176-200: Viajes y transporte",
+    "english": "I need to rent a car.",
+    "spanish": "Necesito alquilar un coche."
+  },
+  {
+    "id": 197,
+    "category": "176-200: Viajes y transporte",
+    "english": "Where can I buy a ticket?",
+    "spanish": "¿Dónde puedo comprar un billete?"
+  },
+  {
+    "id": 198,
+    "category": "176-200: Viajes y transporte",
+    "english": "Is it safe here?",
+    "spanish": "¿Es seguro aquí?"
+  },
+  {
+    "id": 199,
+    "category": "176-200: Viajes y transporte",
+    "english": "I need a hotel.",
+    "spanish": "Necesito un hotel."
+  },
+  {
+    "id": 200,
+    "category": "176-200: Viajes y transporte",
+    "english": "Do you have any rooms available?",
+    "spanish": "¿Tienen habitaciones disponibles?"
+  },
+  {
+    "id": 201,
+    "category": "201-225: Emergencias y salud",
+    "english": "I need a doctor.",
+    "spanish": "Necesito un médico."
+  },
+  {
+    "id": 202,
+    "category": "201-225: Emergencias y salud",
+    "english": "Call an ambulance!",
+    "spanish": "¡Llama a una ambulancia!"
+  },
+  {
+    "id": 203,
+    "category": "201-225: Emergencias y salud",
+    "english": "I don't feel well.",
+    "spanish": "No me siento bien."
+  },
+  {
+    "id": 204,
+    "category": "201-225: Emergencias y salud",
+    "english": "I feel sick.",
+    "spanish": "Me siento enfermo."
+  },
+  {
+    "id": 205,
+    "category": "201-225: Emergencias y salud",
+    "english": "I have a headache.",
+    "spanish": "Tengo dolor de cabeza."
+  },
+  {
+    "id": 206,
+    "category": "201-225: Emergencias y salud",
+    "english": "I have a stomachache.",
+    "spanish": "Tengo dolor de estómago."
+  },
+  {
+    "id": 207,
+    "category": "201-225: Emergencias y salud",
+    "english": "I have a fever.",
+    "spanish": "Tengo fiebre."
+  },
+  {
+    "id": 208,
+    "category": "201-225: Emergencias y salud",
+    "english": "I'm dizzy.",
+    "spanish": "Estoy mareado."
+  },
+  {
+    "id": 209,
+    "category": "201-225: Emergencias y salud",
+    "english": "I'm allergic to…",
+    "spanish": "Soy alérgico a…"
+  },
+  {
+    "id": 210,
+    "category": "201-225: Emergencias y salud",
+    "english": "It hurts here.",
+    "spanish": "Me duele aquí."
+  },
+  {
+    "id": 211,
+    "category": "201-225: Emergencias y salud",
+    "english": "I need medicine.",
+    "spanish": "Necesito medicina."
+  },
+  {
+    "id": 212,
+    "category": "201-225: Emergencias y salud",
+    "english": "Where is the pharmacy?",
+    "spanish": "¿Dónde está la farmacia?"
+  },
+  {
+    "id": 213,
+    "category": "201-225: Emergencias y salud",
+    "english": "Is it serious?",
+    "spanish": "¿Es grave?"
+  },
+  {
+    "id": 214,
+    "category": "201-225: Emergencias y salud",
+    "english": "I need an appointment.",
+    "spanish": "Necesito una cita."
+  },
+  {
+    "id": 215,
+    "category": "201-225: Emergencias y salud",
+    "english": "Can you check my blood pressure?",
+    "spanish": "¿Puedes revisar mi presión?"
+  },
+  {
+    "id": 216,
+    "category": "201-225: Emergencias y salud",
+    "english": "I'm feeling better.",
+    "spanish": "Me siento mejor."
+  },
+  {
+    "id": 217,
+    "category": "201-225: Emergencias y salud",
+    "english": "I'm feeling worse.",
+    "spanish": "Me siento peor."
+  },
+  {
+    "id": 218,
+    "category": "201-225: Emergencias y salud",
+    "english": "I need water.",
+    "spanish": "Necesito agua."
+  },
+  {
+    "id": 219,
+    "category": "201-225: Emergencias y salud",
+    "english": "I need to sit down.",
+    "spanish": "Necesito sentarme."
+  },
+  {
+    "id": 220,
+    "category": "201-225: Emergencias y salud",
+    "english": "I'm injured.",
+    "spanish": "Estoy herido."
+  },
+  {
+    "id": 221,
+    "category": "201-225: Emergencias y salud",
+    "english": "I cut myself.",
+    "spanish": "Me corté."
+  },
+  {
+    "id": 222,
+    "category": "201-225: Emergencias y salud",
+    "english": "I burned myself.",
+    "spanish": "Me quemé."
+  },
+  {
+    "id": 223,
+    "category": "201-225: Emergencias y salud",
+    "english": "I need help right now.",
+    "spanish": "Necesito ayuda ahora mismo."
+  },
+  {
+    "id": 224,
+    "category": "201-225: Emergencias y salud",
+    "english": "Stay calm.",
+    "spanish": "Mantén la calma."
+  },
+  {
+    "id": 225,
+    "category": "201-225: Emergencias y salud",
+    "english": "Everything will be okay.",
+    "spanish": "Todo estará bien."
+  },
+  {
+    "id": 226,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "My phone is dead.",
+    "spanish": "Mi móvil está sin batería."
+  },
+  {
+    "id": 227,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I need a charger.",
+    "spanish": "Necesito un cargador."
+  },
+  {
+    "id": 228,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Do you have WiFi?",
+    "spanish": "¿Tienes WiFi?"
+  },
+  {
+    "id": 229,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "What's the password?",
+    "spanish": "¿Cuál es la contraseña?"
+  },
+  {
+    "id": 230,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "The internet is not working.",
+    "spanish": "Internet no funciona."
+  },
+  {
+    "id": 231,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I'll send you a message.",
+    "spanish": "Te enviaré un mensaje."
+  },
+  {
+    "id": 232,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Text me.",
+    "spanish": "Escríbeme (por mensaje)."
+  },
+  {
+    "id": 233,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Call me.",
+    "spanish": "Llámame."
+  },
+  {
+    "id": 234,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I missed your call.",
+    "spanish": "Perdí tu llamada."
+  },
+  {
+    "id": 235,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I'll call you back.",
+    "spanish": "Te devuelvo la llamada."
+  },
+  {
+    "id": 236,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Can we video call?",
+    "spanish": "¿Podemos hacer videollamada?"
+  },
+  {
+    "id": 237,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "My signal is bad.",
+    "spanish": "Tengo mala señal."
+  },
+  {
+    "id": 238,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I can't hear you.",
+    "spanish": "No te escucho."
+  },
+  {
+    "id": 239,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "You're breaking up.",
+    "spanish": "Se está cortando la llamada."
+  },
+  {
+    "id": 240,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Send me the link.",
+    "spanish": "Envíame el enlace."
+  },
+  {
+    "id": 241,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I'll check online.",
+    "spanish": "Lo revisaré en internet."
+  },
+  {
+    "id": 242,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I can't log in.",
+    "spanish": "No puedo iniciar sesión."
+  },
+  {
+    "id": 243,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "I forgot my password.",
+    "spanish": "Olvidé mi contraseña."
+  },
+  {
+    "id": 244,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "My phone is overheating.",
+    "spanish": "Mi móvil se está calentando."
+  },
+  {
+    "id": 245,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "My computer froze.",
+    "spanish": "Mi ordenador se congeló."
+  },
+  {
+    "id": 246,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Restart it.",
+    "spanish": "Reinícialo."
+  },
+  {
+    "id": 247,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "Update the software.",
+    "spanish": "Actualiza el software."
+  },
+  {
+    "id": 248,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "It's downloading.",
+    "spanish": "Está descargando."
+  },
+  {
+    "id": 249,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "It's uploading.",
+    "spanish": "Está subiendo."
+  },
+  {
+    "id": 250,
+    "category": "226-250: Tecnología y comunicación",
+    "english": "It's loading slowly.",
+    "spanish": "Está cargando lento."
+  },
+  {
+    "id": 251,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I miss you.",
+    "spanish": "Te echo de menos."
+  },
+  {
+    "id": 252,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I care about you.",
+    "spanish": "Me importas."
+  },
+  {
+    "id": 253,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I trust you.",
+    "spanish": "Confío en ti."
+  },
+  {
+    "id": 254,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I don't trust you.",
+    "spanish": "No confío en ti."
+  },
+  {
+    "id": 255,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm angry.",
+    "spanish": "Estoy enfadado."
+  },
+  {
+    "id": 256,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm upset.",
+    "spanish": "Estoy molesto."
+  },
+  {
+    "id": 257,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm frustrated.",
+    "spanish": "Estoy frustrado."
+  },
+  {
+    "id": 258,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm stressed.",
+    "spanish": "Estoy estresado."
+  },
+  {
+    "id": 259,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm relaxed.",
+    "spanish": "Estoy relajado."
+  },
+  {
+    "id": 260,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm grateful.",
+    "spanish": "Estoy agradecido."
+  },
+  {
+    "id": 261,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I appreciate it.",
+    "spanish": "Lo agradezco."
+  },
+  {
+    "id": 262,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm sorry.",
+    "spanish": "Lo siento."
+  },
+  {
+    "id": 263,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I didn't mean to.",
+    "spanish": "No fue mi intención."
+  },
+  {
+    "id": 264,
+    "category": "251-275: Relaciones y emociones",
+    "english": "Forgive me.",
+    "spanish": "Perdóname."
+  },
+  {
+    "id": 265,
+    "category": "251-275: Relaciones y emociones",
+    "english": "Don't be mad.",
+    "spanish": "No te enfades."
+  },
+  {
+    "id": 266,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm proud of you.",
+    "spanish": "Estoy orgulloso de ti."
+  },
+  {
+    "id": 267,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm disappointed.",
+    "spanish": "Estoy decepcionado."
+  },
+  {
+    "id": 268,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm surprised.",
+    "spanish": "Estoy sorprendido."
+  },
+  {
+    "id": 269,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm confused.",
+    "spanish": "Estoy confundido."
+  },
+  {
+    "id": 270,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm scared.",
+    "spanish": "Tengo miedo."
+  },
+  {
+    "id": 271,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm excited.",
+    "spanish": "Estoy emocionado."
+  },
+  {
+    "id": 272,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I'm nervous.",
+    "spanish": "Estoy nervioso."
+  },
+  {
+    "id": 273,
+    "category": "251-275: Relaciones y emociones",
+    "english": "Calm down.",
+    "spanish": "Cálmate."
+  },
+  {
+    "id": 274,
+    "category": "251-275: Relaciones y emociones",
+    "english": "Let's talk about it.",
+    "spanish": "Hablemos de ello."
+  },
+  {
+    "id": 275,
+    "category": "251-275: Relaciones y emociones",
+    "english": "I need some space.",
+    "spanish": "Necesito espacio."
+  },
+  {
+    "id": 276,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm home.",
+    "spanish": "Estoy en casa."
+  },
+  {
+    "id": 277,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Welcome home.",
+    "spanish": "Bienvenido a casa."
+  },
+  {
+    "id": 278,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Make yourself comfortable.",
+    "spanish": "Ponte cómodo."
+  },
+  {
+    "id": 279,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Take off your shoes.",
+    "spanish": "Quítate los zapatos."
+  },
+  {
+    "id": 280,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Come in.",
+    "spanish": "Entra."
+  },
+  {
+    "id": 281,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Close the door.",
+    "spanish": "Cierra la puerta."
+  },
+  {
+    "id": 282,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Open the window.",
+    "spanish": "Abre la ventana."
+  },
+  {
+    "id": 283,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Turn on the lights.",
+    "spanish": "Enciende las luces."
+  },
+  {
+    "id": 284,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Turn off the lights.",
+    "spanish": "Apaga las luces."
+  },
+  {
+    "id": 285,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm cooking.",
+    "spanish": "Estoy cocinando."
+  },
+  {
+    "id": 286,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Dinner is ready.",
+    "spanish": "La cena está lista."
+  },
+  {
+    "id": 287,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm cleaning.",
+    "spanish": "Estoy limpiando."
+  },
+  {
+    "id": 288,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm doing the laundry.",
+    "spanish": "Estoy haciendo la colada."
+  },
+  {
+    "id": 289,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm washing the dishes.",
+    "spanish": "Estoy lavando los platos."
+  },
+  {
+    "id": 290,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm vacuuming.",
+    "spanish": "Estoy aspirando."
+  },
+  {
+    "id": 291,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm taking out the trash.",
+    "spanish": "Estoy sacando la basura."
+  },
+  {
+    "id": 292,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I need to buy groceries.",
+    "spanish": "Necesito comprar comida."
+  },
+  {
+    "id": 293,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "We're out of milk.",
+    "spanish": "No queda leche."
+  },
+  {
+    "id": 294,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "We're out of bread.",
+    "spanish": "No queda pan."
+  },
+  {
+    "id": 295,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "The house is a mess.",
+    "spanish": "La casa está hecha un desastre."
+  },
+  {
+    "id": 296,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Let's tidy up.",
+    "spanish": "Ordenemos."
+  },
+  {
+    "id": 297,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "I'm fixing something.",
+    "spanish": "Estoy arreglando algo."
+  },
+  {
+    "id": 298,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "It's broken.",
+    "spanish": "Está roto."
+  },
+  {
+    "id": 299,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "It works now.",
+    "spanish": "Ahora funciona."
+  },
+  {
+    "id": 300,
+    "category": "276-300: Casa y vida cotidiana",
+    "english": "Be careful with that.",
+    "spanish": "Ten cuidado con eso."
+  },
+  {
+    "id": 301,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's sunny today.",
+    "spanish": "Hoy está soleado."
+  },
+  {
+    "id": 302,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's cloudy today.",
+    "spanish": "Hoy está nublado."
+  },
+  {
+    "id": 303,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's raining.",
+    "spanish": "Está lloviendo."
+  },
+  {
+    "id": 304,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's snowing.",
+    "spanish": "Está nevando."
+  },
+  {
+    "id": 305,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's windy.",
+    "spanish": "Hace viento."
+  },
+  {
+    "id": 306,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's hot outside.",
+    "spanish": "Hace calor afuera."
+  },
+  {
+    "id": 307,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's cold outside.",
+    "spanish": "Hace frío afuera."
+  },
+  {
+    "id": 308,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's freezing.",
+    "spanish": "Está helando."
+  },
+  {
+    "id": 309,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's boiling hot.",
+    "spanish": "Hace muchísimo calor."
+  },
+  {
+    "id": 310,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's humid.",
+    "spanish": "Hay humedad."
+  },
+  {
+    "id": 311,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's dry.",
+    "spanish": "Está seco."
+  },
+  {
+    "id": 312,
+    "category": "301-325: Tiempo y clima",
+    "english": "What's the weather like?",
+    "spanish": "¿Qué tiempo hace?"
+  },
+  {
+    "id": 313,
+    "category": "301-325: Tiempo y clima",
+    "english": "The weather is nice.",
+    "spanish": "El clima es agradable."
+  },
+  {
+    "id": 314,
+    "category": "301-325: Tiempo y clima",
+    "english": "The weather is terrible.",
+    "spanish": "El clima es terrible."
+  },
+  {
+    "id": 315,
+    "category": "301-325: Tiempo y clima",
+    "english": "It looks like rain.",
+    "spanish": "Parece que va a llover."
+  },
+  {
+    "id": 316,
+    "category": "301-325: Tiempo y clima",
+    "english": "It might snow.",
+    "spanish": "Puede que nieve."
+  },
+  {
+    "id": 317,
+    "category": "301-325: Tiempo y clima",
+    "english": "The forecast says…",
+    "spanish": "El pronóstico dice…"
+  },
+  {
+    "id": 318,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's getting colder.",
+    "spanish": "Está haciendo más frío."
+  },
+  {
+    "id": 319,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's getting warmer.",
+    "spanish": "Está haciendo más calor."
+  },
+  {
+    "id": 320,
+    "category": "301-325: Tiempo y clima",
+    "english": "I love this weather.",
+    "spanish": "Me encanta este clima."
+  },
+  {
+    "id": 321,
+    "category": "301-325: Tiempo y clima",
+    "english": "I hate this weather.",
+    "spanish": "Odio este clima."
+  },
+  {
+    "id": 322,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's a beautiful day.",
+    "spanish": "Es un día precioso."
+  },
+  {
+    "id": 323,
+    "category": "301-325: Tiempo y clima",
+    "english": "It's a horrible day.",
+    "spanish": "Es un día horrible."
+  },
+  {
+    "id": 324,
+    "category": "301-325: Tiempo y clima",
+    "english": "The temperature dropped.",
+    "spanish": "La temperatura bajó."
+  },
+  {
+    "id": 325,
+    "category": "301-325: Tiempo y clima",
+    "english": "The temperature went up.",
+    "spanish": "La temperatura subió."
+  },
+  {
+    "id": 326,
+    "category": "326-350: Restaurantes y comida",
+    "english": "A table for two, please.",
+    "spanish": "Una mesa para dos, por favor."
+  },
+  {
+    "id": 327,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Can I see the menu?",
+    "spanish": "¿Puedo ver el menú?"
+  },
+  {
+    "id": 328,
+    "category": "326-350: Restaurantes y comida",
+    "english": "What do you recommend?",
+    "spanish": "¿Qué recomiendas?"
+  },
+  {
+    "id": 329,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'll have the same.",
+    "spanish": "Tomaré lo mismo."
+  },
+  {
+    "id": 330,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'm vegetarian.",
+    "spanish": "Soy vegetariano."
+  },
+  {
+    "id": 331,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'm allergic to nuts.",
+    "spanish": "Soy alérgico a los frutos secos."
+  },
+  {
+    "id": 332,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Is this spicy?",
+    "spanish": "¿Esto es picante?"
+  },
+  {
+    "id": 333,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'd like some water.",
+    "spanish": "Quisiera agua."
+  },
+  {
+    "id": 334,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Still or sparkling?",
+    "spanish": "¿Agua sin gas o con gas?"
+  },
+  {
+    "id": 335,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Can I have the bill?",
+    "spanish": "¿Me trae la cuenta?"
+  },
+  {
+    "id": 336,
+    "category": "326-350: Restaurantes y comida",
+    "english": "The food is delicious.",
+    "spanish": "La comida está deliciosa."
+  },
+  {
+    "id": 337,
+    "category": "326-350: Restaurantes y comida",
+    "english": "The food is cold.",
+    "spanish": "La comida está fría."
+  },
+  {
+    "id": 338,
+    "category": "326-350: Restaurantes y comida",
+    "english": "This is not what I ordered.",
+    "spanish": "Esto no es lo que pedí."
+  },
+  {
+    "id": 339,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Can I get a takeaway?",
+    "spanish": "¿Puedo pedir para llevar?"
+  },
+  {
+    "id": 340,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Do you have any desserts?",
+    "spanish": "¿Tienen postres?"
+  },
+  {
+    "id": 341,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'm full.",
+    "spanish": "Estoy lleno."
+  },
+  {
+    "id": 342,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'm starving.",
+    "spanish": "Me muero de hambre."
+  },
+  {
+    "id": 343,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'd like a coffee.",
+    "spanish": "Quisiera un café."
+  },
+  {
+    "id": 344,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'd like a tea.",
+    "spanish": "Quisiera un té."
+  },
+  {
+    "id": 345,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Can I have more bread?",
+    "spanish": "¿Me puede traer más pan?"
+  },
+  {
+    "id": 346,
+    "category": "326-350: Restaurantes y comida",
+    "english": "The service is great.",
+    "spanish": "El servicio es excelente."
+  },
+  {
+    "id": 347,
+    "category": "326-350: Restaurantes y comida",
+    "english": "The service is slow.",
+    "spanish": "El servicio es lento."
+  },
+  {
+    "id": 348,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Cheers!",
+    "spanish": "¡Salud!"
+  },
+  {
+    "id": 349,
+    "category": "326-350: Restaurantes y comida",
+    "english": "Enjoy your meal.",
+    "spanish": "Que aproveche."
+  },
+  {
+    "id": 350,
+    "category": "326-350: Restaurantes y comida",
+    "english": "I'll come back again.",
+    "spanish": "Volveré otra vez."
+  },
+  {
+    "id": 351,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Let's schedule a meeting.",
+    "spanish": "Programemos una reunión."
+  },
+  {
+    "id": 352,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Can we reschedule?",
+    "spanish": "¿Podemos reprogramar?"
+  },
+  {
+    "id": 353,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "I'll send you the details.",
+    "spanish": "Te enviaré los detalles."
+  },
+  {
+    "id": 354,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Let's review the report.",
+    "spanish": "Revisemos el informe."
+  },
+  {
+    "id": 355,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "I'll update the file.",
+    "spanish": "Actualizaré el archivo."
+  },
+  {
+    "id": 356,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We need to improve this.",
+    "spanish": "Necesitamos mejorar esto."
+  },
+  {
+    "id": 357,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We need a solution.",
+    "spanish": "Necesitamos una solución."
+  },
+  {
+    "id": 358,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "What's the deadline?",
+    "spanish": "¿Cuál es la fecha límite?"
+  },
+  {
+    "id": 359,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "The deadline is tomorrow.",
+    "spanish": "La fecha límite es mañana."
+  },
+  {
+    "id": 360,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We're running out of time.",
+    "spanish": "Se nos acaba el tiempo."
+  },
+  {
+    "id": 361,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Let's prioritise this.",
+    "spanish": "Priorizemos esto."
+  },
+  {
+    "id": 362,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "This is urgent.",
+    "spanish": "Esto es urgente."
+  },
+  {
+    "id": 363,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "This can wait.",
+    "spanish": "Esto puede esperar."
+  },
+  {
+    "id": 364,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "I'll take care of it.",
+    "spanish": "Me encargaré de ello."
+  },
+  {
+    "id": 365,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Let's collaborate.",
+    "spanish": "Colaboremos."
+  },
+  {
+    "id": 366,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We need more resources.",
+    "spanish": "Necesitamos más recursos."
+  },
+  {
+    "id": 367,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We're short-staffed.",
+    "spanish": "Nos falta personal."
+  },
+  {
+    "id": 368,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "I'll join the call.",
+    "spanish": "Me uniré a la llamada."
+  },
+  {
+    "id": 369,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Let's brainstorm.",
+    "spanish": "Hagamos una lluvia de ideas."
+  },
+  {
+    "id": 370,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "That's a great proposal.",
+    "spanish": "Es una gran propuesta."
+  },
+  {
+    "id": 371,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "I'll send the invoice.",
+    "spanish": "Enviaré la factura."
+  },
+  {
+    "id": 372,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We need to negotiate.",
+    "spanish": "Necesitamos negociar."
+  },
+  {
+    "id": 373,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "Let's sign the contract.",
+    "spanish": "Firmemos el contrato."
+  },
+  {
+    "id": 374,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We reached an agreement.",
+    "spanish": "Llegamos a un acuerdo."
+  },
+  {
+    "id": 375,
+    "category": "351-375: Trabajo y negocios (nivel más avanzado)",
+    "english": "We didn't reach an agreement.",
+    "spanish": "No llegamos a un acuerdo."
+  },
+  {
+    "id": 376,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'm studying English.",
+    "spanish": "Estoy estudiando inglés."
+  },
+  {
+    "id": 377,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I need to practise more.",
+    "spanish": "Necesito practicar más."
+  },
+  {
+    "id": 378,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "Can you correct me?",
+    "spanish": "¿Puedes corregirme?"
+  },
+  {
+    "id": 379,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I made a mistake.",
+    "spanish": "Cometí un error."
+  },
+  {
+    "id": 380,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'll try again.",
+    "spanish": "Lo intentaré de nuevo."
+  },
+  {
+    "id": 381,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'm improving.",
+    "spanish": "Estoy mejorando."
+  },
+  {
+    "id": 382,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'm learning new words.",
+    "spanish": "Estoy aprendiendo palabras nuevas."
+  },
+  {
+    "id": 383,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "How do you spell that?",
+    "spanish": "¿Cómo se deletrea eso?"
+  },
+  {
+    "id": 384,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "What does this word mean?",
+    "spanish": "¿Qué significa esta palabra?"
+  },
+  {
+    "id": 385,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "Can you explain the grammar?",
+    "spanish": "¿Puedes explicar la gramática?"
+  },
+  {
+    "id": 386,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I need examples.",
+    "spanish": "Necesito ejemplos."
+  },
+  {
+    "id": 387,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I don't remember.",
+    "spanish": "No recuerdo."
+  },
+  {
+    "id": 388,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I memorised it.",
+    "spanish": "Lo memoricé."
+  },
+  {
+    "id": 389,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "Let's practise together.",
+    "spanish": "Practiquemos juntos."
+  },
+  {
+    "id": 390,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'm taking a course.",
+    "spanish": "Estoy haciendo un curso."
+  },
+  {
+    "id": 391,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I passed the exam.",
+    "spanish": "Aprobé el examen."
+  },
+  {
+    "id": 392,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I failed the exam.",
+    "spanish": "Suspendí el examen."
+  },
+  {
+    "id": 393,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I need to study more.",
+    "spanish": "Necesito estudiar más."
+  },
+  {
+    "id": 394,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "This is difficult.",
+    "spanish": "Esto es difícil."
+  },
+  {
+    "id": 395,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "This is easy.",
+    "spanish": "Esto es fácil."
+  },
+  {
+    "id": 396,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'm focused.",
+    "spanish": "Estoy concentrado."
+  },
+  {
+    "id": 397,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I'm distracted.",
+    "spanish": "Estoy distraído."
+  },
+  {
+    "id": 398,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "Let's review the lesson.",
+    "spanish": "Revisemos la lección."
+  },
+  {
+    "id": 399,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I understand the topic.",
+    "spanish": "Entiendo el tema."
+  },
+  {
+    "id": 400,
+    "category": "376-400: Educación y aprendizaje",
+    "english": "I don't understand the topic.",
+    "spanish": "No entiendo el tema."
+  },
+  {
+    "id": 401,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I need to fill up the tank.",
+    "spanish": "Necesito llenar el depósito."
+  },
+  {
+    "id": 402,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Where is the nearest petrol station?",
+    "spanish": "¿Dónde está la gasolinera más cercana?"
+  },
+  {
+    "id": 403,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I need to check the oil.",
+    "spanish": "Necesito revisar el aceite."
+  },
+  {
+    "id": 404,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "The car won't start.",
+    "spanish": "El coche no arranca."
+  },
+  {
+    "id": 405,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I have a flat tyre.",
+    "spanish": "Tengo un pinchazo."
+  },
+  {
+    "id": 406,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Can you call roadside assistance?",
+    "spanish": "¿Puedes llamar a la asistencia en carretera?"
+  },
+  {
+    "id": 407,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Drive safely.",
+    "spanish": "Conduce con cuidado."
+  },
+  {
+    "id": 408,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Watch out for traffic.",
+    "spanish": "Cuidado con el tráfico."
+  },
+  {
+    "id": 409,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "There's a traffic jam.",
+    "spanish": "Hay un atasco."
+  },
+  {
+    "id": 410,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I took the wrong exit.",
+    "spanish": "Tomé la salida equivocada."
+  },
+  {
+    "id": 411,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I need to park.",
+    "spanish": "Necesito aparcar."
+  },
+  {
+    "id": 412,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Is parking free?",
+    "spanish": "¿El aparcamiento es gratis?"
+  },
+  {
+    "id": 413,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I need to pay for parking.",
+    "spanish": "Necesito pagar el aparcamiento."
+  },
+  {
+    "id": 414,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Where is the car park?",
+    "spanish": "¿Dónde está el aparcamiento?"
+  },
+  {
+    "id": 415,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I'm out of fuel.",
+    "spanish": "Me he quedado sin gasolina."
+  },
+  {
+    "id": 416,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "The GPS isn't working.",
+    "spanish": "El GPS no funciona."
+  },
+  {
+    "id": 417,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Turn on the headlights.",
+    "spanish": "Enciende las luces."
+  },
+  {
+    "id": 418,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Turn off the headlights.",
+    "spanish": "Apaga las luces."
+  },
+  {
+    "id": 419,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I'm driving.",
+    "spanish": "Estoy conduciendo."
+  },
+  {
+    "id": 420,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I'll give you a ride.",
+    "spanish": "Te doy una vuelta / Te llevo."
+  },
+  {
+    "id": 421,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Can you drop me off here?",
+    "spanish": "¿Puedes dejarme aquí?"
+  },
+  {
+    "id": 422,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I'll pick you up later.",
+    "spanish": "Te recojo más tarde."
+  },
+  {
+    "id": 423,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "I'm stuck in traffic.",
+    "spanish": "Estoy atrapado en el tráfico."
+  },
+  {
+    "id": 424,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "The road is closed.",
+    "spanish": "La carretera está cerrada."
+  },
+  {
+    "id": 425,
+    "category": "401-425: Transporte y conducción (nivel ampliado)",
+    "english": "Take the next turn.",
+    "spanish": "Toma el siguiente giro."
+  },
+  {
+    "id": 426,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's set some goals.",
+    "spanish": "Establezcamos algunos objetivos."
+  },
+  {
+    "id": 427,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to stay on track.",
+    "spanish": "Necesitamos mantenernos en el rumbo."
+  },
+  {
+    "id": 428,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's analyse the data.",
+    "spanish": "Analicemos los datos."
+  },
+  {
+    "id": 429,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to reduce costs.",
+    "spanish": "Necesitamos reducir costes."
+  },
+  {
+    "id": 430,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to increase productivity.",
+    "spanish": "Necesitamos aumentar la productividad."
+  },
+  {
+    "id": 431,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's evaluate the results.",
+    "spanish": "Evaluemos los resultados."
+  },
+  {
+    "id": 432,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "This is a highpriority task.",
+    "spanish": "Esta es una tarea de alta prioridad."
+  },
+  {
+    "id": 433,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "This is low priority.",
+    "spanish": "Esto es de baja prioridad."
+  },
+  {
+    "id": 434,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's delegate this.",
+    "spanish": "Deleguemos esto."
+  },
+  {
+    "id": 435,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need a backup plan.",
+    "spanish": "Necesitamos un plan alternativo."
+  },
+  {
+    "id": 436,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's clarify the objectives.",
+    "spanish": "Aclaramos los objetivos."
+  },
+  {
+    "id": 437,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to follow up.",
+    "spanish": "Necesitamos hacer seguimiento."
+  },
+  {
+    "id": 438,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's wrap this up.",
+    "spanish": "Terminemos esto."
+  },
+  {
+    "id": 439,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "I'll handle the paperwork.",
+    "spanish": "Me encargaré del papeleo."
+  },
+  {
+    "id": 440,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to improve communication.",
+    "spanish": "Necesitamos mejorar la comunicación."
+  },
+  {
+    "id": 441,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's organise a workshop.",
+    "spanish": "Organicemos un taller."
+  },
+  {
+    "id": 442,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to train the team.",
+    "spanish": "Necesitamos formar al equipo."
+  },
+  {
+    "id": 443,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's review the budget.",
+    "spanish": "Revisemos el presupuesto."
+  },
+  {
+    "id": 444,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We're over budget.",
+    "spanish": "Estamos por encima del presupuesto."
+  },
+  {
+    "id": 445,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We're under budget.",
+    "spanish": "Estamos por debajo del presupuesto."
+  },
+  {
+    "id": 446,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's optimise the process.",
+    "spanish": "Optimicemos el proceso."
+  },
+  {
+    "id": 447,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to meet the standards.",
+    "spanish": "Necesitamos cumplir los estándares."
+  },
+  {
+    "id": 448,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's improve customer service.",
+    "spanish": "Mejoremos la atención al cliente."
+  },
+  {
+    "id": 449,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "We need to update the system.",
+    "spanish": "Necesitamos actualizar el sistema."
+  },
+  {
+    "id": 450,
+    "category": "426-450: Vida profesional (expresiones avanzadas)",
+    "english": "Let's schedule a presentation.",
+    "spanish": "Programemos una presentación."
+  },
+  {
+    "id": 451,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I didn't expect that at all.",
+    "spanish": "No esperaba eso para nada."
+  },
+  {
+    "id": 452,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "That's not what I meant.",
+    "spanish": "No es lo que quise decir."
+  },
+  {
+    "id": 453,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let me be honest with you.",
+    "spanish": "Déjame ser sincero contigo."
+  },
+  {
+    "id": 454,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "To be fair…",
+    "spanish": "Siendo justos…"
+  },
+  {
+    "id": 455,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "At the end of the day…",
+    "spanish": "Al final del día…"
+  },
+  {
+    "id": 456,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "It's not a big deal.",
+    "spanish": "No es gran cosa."
+  },
+  {
+    "id": 457,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "It's a huge deal.",
+    "spanish": "Es algo muy importante."
+  },
+  {
+    "id": 458,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I'm not in the mood for that.",
+    "spanish": "No estoy de humor para eso."
+  },
+  {
+    "id": 459,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let's keep it simple.",
+    "spanish": "Mantengámoslo simple."
+  },
+  {
+    "id": 460,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let's not complicate things.",
+    "spanish": "No compliquemos las cosas."
+  },
+  {
+    "id": 461,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I didn't see that coming.",
+    "spanish": "No vi eso venir."
+  },
+  {
+    "id": 462,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "That's not my problem.",
+    "spanish": "No es mi problema."
+  },
+  {
+    "id": 463,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "That's your call.",
+    "spanish": "Tú decides."
+  },
+  {
+    "id": 464,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I'll think it over.",
+    "spanish": "Lo pensaré bien."
+  },
+  {
+    "id": 465,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let's be realistic.",
+    "spanish": "Seamos realistas."
+  },
+  {
+    "id": 466,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I'm not convinced yet.",
+    "spanish": "Todavía no estoy convencido."
+  },
+  {
+    "id": 467,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I'm totally convinced.",
+    "spanish": "Estoy totalmente convencido."
+  },
+  {
+    "id": 468,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "That's not acceptable.",
+    "spanish": "Eso no es aceptable."
+  },
+  {
+    "id": 469,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "That's perfectly acceptable.",
+    "spanish": "Eso es perfectamente aceptable."
+  },
+  {
+    "id": 470,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let's change the subject.",
+    "spanish": "Cambiemos de tema."
+  },
+  {
+    "id": 471,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I don't want to argue.",
+    "spanish": "No quiero discutir."
+  },
+  {
+    "id": 472,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let's agree to disagree.",
+    "spanish": "Acordemos en no estar de acuerdo."
+  },
+  {
+    "id": 473,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I'm not comfortable with that.",
+    "spanish": "No estoy cómodo con eso."
+  },
+  {
+    "id": 474,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "I'm comfortable with that.",
+    "spanish": "Estoy cómodo con eso."
+  },
+  {
+    "id": 475,
+    "category": "451-475: Conversación natural (más expresiones reales)",
+    "english": "Let's give it a try.",
+    "spanish": "Probémoslo."
+  },
+  {
+    "id": 476,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I need to get some rest.",
+    "spanish": "Necesito descansar."
+  },
+  {
+    "id": 477,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I overslept.",
+    "spanish": "Me quedé dormido."
+  },
+  {
+    "id": 478,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I woke up early.",
+    "spanish": "Me desperté temprano."
+  },
+  {
+    "id": 479,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I woke up late.",
+    "spanish": "Me desperté tarde."
+  },
+  {
+    "id": 480,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm getting ready.",
+    "spanish": "Me estoy preparando."
+  },
+  {
+    "id": 481,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm running errands.",
+    "spanish": "Estoy haciendo recados."
+  },
+  {
+    "id": 482,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm going grocery shopping.",
+    "spanish": "Voy a comprar comida."
+  },
+  {
+    "id": 483,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm going for a walk.",
+    "spanish": "Voy a dar un paseo."
+  },
+  {
+    "id": 484,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm going for a run.",
+    "spanish": "Voy a correr."
+  },
+  {
+    "id": 485,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm going to the gym.",
+    "spanish": "Voy al gimnasio."
+  },
+  {
+    "id": 486,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm taking a shower.",
+    "spanish": "Me estoy duchando."
+  },
+  {
+    "id": 487,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm brushing my teeth.",
+    "spanish": "Me estoy cepillando los dientes."
+  },
+  {
+    "id": 488,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm getting dressed.",
+    "spanish": "Me estoy vistiendo."
+  },
+  {
+    "id": 489,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm leaving now.",
+    "spanish": "Me voy ahora."
+  },
+  {
+    "id": 490,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm staying home today.",
+    "spanish": "Me quedo en casa hoy."
+  },
+  {
+    "id": 491,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm going out tonight.",
+    "spanish": "Salgo esta noche."
+  },
+  {
+    "id": 492,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm cooking dinner.",
+    "spanish": "Estoy preparando la cena."
+  },
+  {
+    "id": 493,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm making breakfast.",
+    "spanish": "Estoy haciendo el desayuno."
+  },
+  {
+    "id": 494,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm making lunch.",
+    "spanish": "Estoy preparando el almuerzo."
+  },
+  {
+    "id": 495,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm taking a break.",
+    "spanish": "Estoy tomando un descanso."
+  },
+  {
+    "id": 496,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm relaxing.",
+    "spanish": "Estoy relajándome."
+  },
+  {
+    "id": 497,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm watching TV.",
+    "spanish": "Estoy viendo la tele."
+  },
+  {
+    "id": 498,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm reading a book.",
+    "spanish": "Estoy leyendo un libro."
+  },
+  {
+    "id": 499,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm listening to music.",
+    "spanish": "Estoy escuchando música."
+  },
+  {
+    "id": 500,
+    "category": "476-500: Vida diaria ampliada",
+    "english": "I'm going to bed.",
+    "spanish": "Me voy a dormir."
+  },
+  {
+    "id": 501,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Break a leg.",
+    "spanish": "Mucha suerte."
+  },
+  {
+    "id": 502,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Hit the nail on the head.",
+    "spanish": "Dar en el clavo."
+  },
+  {
+    "id": 503,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Let's call it a day.",
+    "spanish": "Demos por terminado por hoy."
+  },
+  {
+    "id": 504,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's not rocket science.",
+    "spanish": "No es tan complicado."
+  },
+  {
+    "id": 505,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "I'm all ears.",
+    "spanish": "Soy todo oídos."
+  },
+  {
+    "id": 506,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Better late than never.",
+    "spanish": "Mejor tarde que nunca."
+  },
+  {
+    "id": 507,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "The ball is in your court.",
+    "spanish": "La decisión está en tus manos."
+  },
+  {
+    "id": 508,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's a piece of cake.",
+    "spanish": "Es pan comido."
+  },
+  {
+    "id": 509,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "I'm feeling under the weather.",
+    "spanish": "Me siento indispuesto."
+  },
+  {
+    "id": 510,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Let's play it by ear.",
+    "spanish": "Improvisemos."
+  },
+  {
+    "id": 511,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's not my cup of tea.",
+    "spanish": "No es lo mío."
+  },
+  {
+    "id": 512,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "That rings a bell.",
+    "spanish": "Eso me suena."
+  },
+  {
+    "id": 513,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "I'm in the same boat.",
+    "spanish": "Estoy en la misma situación."
+  },
+  {
+    "id": 514,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's a long shot.",
+    "spanish": "Es poco probable."
+  },
+  {
+    "id": 515,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Let's get the ball rolling.",
+    "spanish": "Empecemos."
+  },
+  {
+    "id": 516,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's a winwin situation.",
+    "spanish": "Es una situación en la que todos ganan."
+  },
+  {
+    "id": 517,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "I'm on the fence.",
+    "spanish": "Estoy indeciso."
+  },
+  {
+    "id": 518,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "That's the last straw.",
+    "spanish": "Es la gota que colma el vaso."
+  },
+  {
+    "id": 519,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's not worth it.",
+    "spanish": "No vale la pena."
+  },
+  {
+    "id": 520,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Let's take it step by step.",
+    "spanish": "Hagámoslo paso a paso."
+  },
+  {
+    "id": 521,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "I'm keeping my fingers crossed.",
+    "spanish": "Cruzo los dedos."
+  },
+  {
+    "id": 522,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's up in the air.",
+    "spanish": "Está en el aire / sin decidir."
+  },
+  {
+    "id": 523,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "I'm in over my head.",
+    "spanish": "Estoy sobrepasado."
+  },
+  {
+    "id": 524,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "Let's get to the point.",
+    "spanish": "Vamos al grano."
+  },
+  {
+    "id": 525,
+    "category": "501-525: Expresiones idiomáticas muy usadas",
+    "english": "It's out of my hands.",
+    "spanish": "Está fuera de mi control."
+  },
+  {
+    "id": 526,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I didn't mean to interrupt.",
+    "spanish": "No quería interrumpir."
+  },
+  {
+    "id": 527,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's stay in touch.",
+    "spanish": "Mantengamos el contacto."
+  },
+  {
+    "id": 528,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I appreciate your honesty.",
+    "spanish": "Aprecio tu sinceridad."
+  },
+  {
+    "id": 529,
+    "category": "526-550: Conversación social avanzada",
+    "english": "That wasn't my intention.",
+    "spanish": "No era mi intención."
+  },
+  {
+    "id": 530,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's keep this between us.",
+    "spanish": "Mantengamos esto entre nosotros."
+  },
+  {
+    "id": 531,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I didn't catch your name.",
+    "spanish": "No escuché tu nombre."
+  },
+  {
+    "id": 532,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's meet halfway.",
+    "spanish": "Lleguemos a un punto medio."
+  },
+  {
+    "id": 533,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I'm glad you came.",
+    "spanish": "Me alegra que hayas venido."
+  },
+  {
+    "id": 534,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I didn't expect to see you here.",
+    "spanish": "No esperaba verte aquí."
+  },
+  {
+    "id": 535,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's make a plan.",
+    "spanish": "Hagamos un plan."
+  },
+  {
+    "id": 536,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I'm counting on you.",
+    "spanish": "Cuento contigo."
+  },
+  {
+    "id": 537,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I owe you one.",
+    "spanish": "Te debo una."
+  },
+  {
+    "id": 538,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's keep things simple.",
+    "spanish": "Mantengamos las cosas simples."
+  },
+  {
+    "id": 539,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I didn't mean to offend you.",
+    "spanish": "No quería ofenderte."
+  },
+  {
+    "id": 540,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's talk later.",
+    "spanish": "Hablamos luego."
+  },
+  {
+    "id": 541,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I'm glad we talked.",
+    "spanish": "Me alegra que hayamos hablado."
+  },
+  {
+    "id": 542,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's stay positive.",
+    "spanish": "Mantengamos una actitud positiva."
+  },
+  {
+    "id": 543,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I'm here for you.",
+    "spanish": "Estoy aquí para ti."
+  },
+  {
+    "id": 544,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's take a moment.",
+    "spanish": "Tomemos un momento."
+  },
+  {
+    "id": 545,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I appreciate your help.",
+    "spanish": "Aprecio tu ayuda."
+  },
+  {
+    "id": 546,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's keep moving.",
+    "spanish": "Sigamos adelante."
+  },
+  {
+    "id": 547,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I didn't mean it that way.",
+    "spanish": "No lo dije en ese sentido."
+  },
+  {
+    "id": 548,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's clear things up.",
+    "spanish": "Aclarémoslo."
+  },
+  {
+    "id": 549,
+    "category": "526-550: Conversación social avanzada",
+    "english": "I'm glad you understand.",
+    "spanish": "Me alegra que lo entiendas."
+  },
+  {
+    "id": 550,
+    "category": "526-550: Conversación social avanzada",
+    "english": "Let's stay focused.",
+    "spanish": "Mantengámonos concentrados."
+  },
+  {
+    "id": 551,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going hiking.",
+    "spanish": "Voy de senderismo."
+  },
+  {
+    "id": 552,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going swimming.",
+    "spanish": "Voy a nadar."
+  },
+  {
+    "id": 553,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going cycling.",
+    "spanish": "Voy en bicicleta."
+  },
+  {
+    "id": 554,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going fishing.",
+    "spanish": "Voy a pescar."
+  },
+  {
+    "id": 555,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going camping.",
+    "spanish": "Voy de acampada."
+  },
+  {
+    "id": 556,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going sightseeing.",
+    "spanish": "Voy a hacer turismo."
+  },
+  {
+    "id": 557,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going shopping.",
+    "spanish": "Voy de compras."
+  },
+  {
+    "id": 558,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going dancing.",
+    "spanish": "Voy a bailar."
+  },
+  {
+    "id": 559,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to the cinema.",
+    "spanish": "Voy al cine."
+  },
+  {
+    "id": 560,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to the theatre.",
+    "spanish": "Voy al teatro."
+  },
+  {
+    "id": 561,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to a concert.",
+    "spanish": "Voy a un concierto."
+  },
+  {
+    "id": 562,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to a festival.",
+    "spanish": "Voy a un festival."
+  },
+  {
+    "id": 563,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to the beach.",
+    "spanish": "Voy a la playa."
+  },
+  {
+    "id": 564,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to the mountains.",
+    "spanish": "Voy a la montaña."
+  },
+  {
+    "id": 565,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to the countryside.",
+    "spanish": "Voy al campo."
+  },
+  {
+    "id": 566,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to the city centre.",
+    "spanish": "Voy al centro de la ciudad."
+  },
+  {
+    "id": 567,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to a friend's house.",
+    "spanish": "Voy a casa de un amigo."
+  },
+  {
+    "id": 568,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to a meeting.",
+    "spanish": "Voy a una reunión."
+  },
+  {
+    "id": 569,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to an event.",
+    "spanish": "Voy a un evento."
+  },
+  {
+    "id": 570,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm going to a workshop.",
+    "spanish": "Voy a un taller."
+  },
+  {
+    "id": 571,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm joining a class.",
+    "spanish": "Me uno a una clase."
+  },
+  {
+    "id": 572,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm taking lessons.",
+    "spanish": "Estoy tomando lecciones."
+  },
+  {
+    "id": 573,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm practising a hobby.",
+    "spanish": "Practico un hobby."
+  },
+  {
+    "id": 574,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm learning a new skill.",
+    "spanish": "Estoy aprendiendo una nueva habilidad."
+  },
+  {
+    "id": 575,
+    "category": "551-575: Actividades y ocio",
+    "english": "I'm trying something new.",
+    "spanish": "Estoy probando algo nuevo."
+  },
+  {
+    "id": 576,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm organising my room.",
+    "spanish": "Estoy organizando mi habitación."
+  },
+  {
+    "id": 577,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm rearranging the furniture.",
+    "spanish": "Estoy moviendo los muebles."
+  },
+  {
+    "id": 578,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm fixing the lights.",
+    "spanish": "Estoy arreglando las luces."
+  },
+  {
+    "id": 579,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm checking the appliances.",
+    "spanish": "Estoy revisando los electrodomésticos."
+  },
+  {
+    "id": 580,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm updating my phone.",
+    "spanish": "Estoy actualizando mi móvil."
+  },
+  {
+    "id": 581,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm backing up my files.",
+    "spanish": "Estoy haciendo copia de seguridad de mis archivos."
+  },
+  {
+    "id": 582,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm deleting old photos.",
+    "spanish": "Estoy borrando fotos antiguas."
+  },
+  {
+    "id": 583,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm organising my emails.",
+    "spanish": "Estoy organizando mis correos."
+  },
+  {
+    "id": 584,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm cleaning my desk.",
+    "spanish": "Estoy limpiando mi escritorio."
+  },
+  {
+    "id": 585,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm sorting my documents.",
+    "spanish": "Estoy ordenando mis documentos."
+  },
+  {
+    "id": 586,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm checking my schedule.",
+    "spanish": "Estoy revisando mi agenda."
+  },
+  {
+    "id": 587,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm planning my week.",
+    "spanish": "Estoy planificando mi semana."
+  },
+  {
+    "id": 588,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm updating my calendar.",
+    "spanish": "Estoy actualizando mi calendario."
+  },
+  {
+    "id": 589,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm charging my devices.",
+    "spanish": "Estoy cargando mis dispositivos."
+  },
+  {
+    "id": 590,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm installing an app.",
+    "spanish": "Estoy instalando una aplicación."
+  },
+  {
+    "id": 591,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm uninstalling an app.",
+    "spanish": "Estoy desinstalando una aplicación."
+  },
+  {
+    "id": 592,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm organising my files.",
+    "spanish": "Estoy organizando mis archivos."
+  },
+  {
+    "id": 593,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm checking my notifications.",
+    "spanish": "Estoy revisando mis notificaciones."
+  },
+  {
+    "id": 594,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm turning off my phone.",
+    "spanish": "Estoy apagando mi móvil."
+  },
+  {
+    "id": 595,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm turning it on again.",
+    "spanish": "Lo estoy encendiendo de nuevo."
+  },
+  {
+    "id": 596,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm updating my software.",
+    "spanish": "Estoy actualizando mi software."
+  },
+  {
+    "id": 597,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm checking my internet connection.",
+    "spanish": "Estoy revisando mi conexión a internet."
+  },
+  {
+    "id": 598,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm resetting the router.",
+    "spanish": "Estoy reiniciando el router."
+  },
+  {
+    "id": 599,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm testing the microphone.",
+    "spanish": "Estoy probando el micrófono."
+  },
+  {
+    "id": 600,
+    "category": "576-600: Hogar, vida diaria y tecnología avanzada",
+    "english": "I'm testing the camera.",
+    "spanish": "Estoy probando la cámara."
+  },
+  {
+    "id": 601,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I didn't see that coming at all.",
+    "spanish": "No vi eso venir para nada."
+  },
+  {
+    "id": 602,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's take a closer look.",
+    "spanish": "Veamos esto más de cerca."
+  },
+  {
+    "id": 603,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm not following you.",
+    "spanish": "No te estoy siguiendo."
+  },
+  {
+    "id": 604,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let me get this straight.",
+    "spanish": "Déjame ver si lo entiendo bien."
+  },
+  {
+    "id": 605,
+    "category": "601-625: Conversación natural y matices",
+    "english": "That's not what I heard.",
+    "spanish": "Eso no es lo que escuché."
+  },
+  {
+    "id": 606,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's keep things calm.",
+    "spanish": "Mantengamos la calma."
+  },
+  {
+    "id": 607,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm trying to understand your point.",
+    "spanish": "Estoy intentando entender tu punto."
+  },
+  {
+    "id": 608,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's not jump to conclusions.",
+    "spanish": "No saquemos conclusiones precipitadas."
+  },
+  {
+    "id": 609,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm open to suggestions.",
+    "spanish": "Estoy abierto a sugerencias."
+  },
+  {
+    "id": 610,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's take a different approach.",
+    "spanish": "Tomemos un enfoque diferente."
+  },
+  {
+    "id": 611,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I didn't think of that.",
+    "spanish": "No pensé en eso."
+  },
+  {
+    "id": 612,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's look at the big picture.",
+    "spanish": "Veamos el panorama general."
+  },
+  {
+    "id": 613,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm not comfortable discussing that.",
+    "spanish": "No me siento cómodo hablando de eso."
+  },
+  {
+    "id": 614,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's keep this professional.",
+    "spanish": "Mantengamos esto profesional."
+  },
+  {
+    "id": 615,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm trying my best.",
+    "spanish": "Estoy haciendo lo mejor que puedo."
+  },
+  {
+    "id": 616,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's stay on topic.",
+    "spanish": "Mantengámonos en el tema."
+  },
+  {
+    "id": 617,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm not sure how to respond.",
+    "spanish": "No sé cómo responder."
+  },
+  {
+    "id": 618,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's take a moment to think.",
+    "spanish": "Tomemos un momento para pensar."
+  },
+  {
+    "id": 619,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm willing to try.",
+    "spanish": "Estoy dispuesto a intentarlo."
+  },
+  {
+    "id": 620,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's not rush things.",
+    "spanish": "No apresuremos las cosas."
+  },
+  {
+    "id": 621,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm trying to stay positive.",
+    "spanish": "Estoy intentando mantenerme positivo."
+  },
+  {
+    "id": 622,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's keep our expectations realistic.",
+    "spanish": "Mantengamos expectativas realistas."
+  },
+  {
+    "id": 623,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm not judging you.",
+    "spanish": "No te estoy juzgando."
+  },
+  {
+    "id": 624,
+    "category": "601-625: Conversación natural y matices",
+    "english": "Let's move past this.",
+    "spanish": "Superemos esto."
+  },
+  {
+    "id": 625,
+    "category": "601-625: Conversación natural y matices",
+    "english": "I'm trying to stay focused.",
+    "spanish": "Estoy intentando mantenerme concentrado."
+  },
+  {
+    "id": 626,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's outline the main points.",
+    "spanish": "Esbocemos los puntos principales."
+  },
+  {
+    "id": 627,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to define the strategy.",
+    "spanish": "Necesitamos definir la estrategia."
+  },
+  {
+    "id": 628,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's identify the risks.",
+    "spanish": "Identifiquemos los riesgos."
+  },
+  {
+    "id": 629,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to gather more information.",
+    "spanish": "Necesitamos recopilar más información."
+  },
+  {
+    "id": 630,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's prepare a summary.",
+    "spanish": "Preparemos un resumen."
+  },
+  {
+    "id": 631,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to validate the data.",
+    "spanish": "Necesitamos validar los datos."
+  },
+  {
+    "id": 632,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's coordinate with the team.",
+    "spanish": "Coordinemos con el equipo."
+  },
+  {
+    "id": 633,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to align our goals.",
+    "spanish": "Necesitamos alinear nuestros objetivos."
+  },
+  {
+    "id": 634,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's review the timeline.",
+    "spanish": "Revisemos el cronograma."
+  },
+  {
+    "id": 635,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to adjust the plan.",
+    "spanish": "Necesitamos ajustar el plan."
+  },
+  {
+    "id": 636,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's analyse the feedback.",
+    "spanish": "Analicemos el feedback."
+  },
+  {
+    "id": 637,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to improve our workflow.",
+    "spanish": "Necesitamos mejorar nuestro flujo de trabajo."
+  },
+  {
+    "id": 638,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's prepare the presentation.",
+    "spanish": "Preparemos la presentación."
+  },
+  {
+    "id": 639,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to clarify the requirements.",
+    "spanish": "Necesitamos aclarar los requisitos."
+  },
+  {
+    "id": 640,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's organise the tasks.",
+    "spanish": "Organicemos las tareas."
+  },
+  {
+    "id": 641,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to monitor progress.",
+    "spanish": "Necesitamos monitorear el progreso."
+  },
+  {
+    "id": 642,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's evaluate the performance.",
+    "spanish": "Evaluemos el rendimiento."
+  },
+  {
+    "id": 643,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to update the documentation.",
+    "spanish": "Necesitamos actualizar la documentación."
+  },
+  {
+    "id": 644,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's schedule a followup meeting.",
+    "spanish": "Programemos una reunión de seguimiento."
+  },
+  {
+    "id": 645,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to improve our communication channels.",
+    "spanish": "Necesitamos mejorar nuestros canales de comunicación."
+  },
+  {
+    "id": 646,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's share the results.",
+    "spanish": "Compartamos los resultados."
+  },
+  {
+    "id": 647,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to reduce delays.",
+    "spanish": "Necesitamos reducir retrasos."
+  },
+  {
+    "id": 648,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's check the progress report.",
+    "spanish": "Revisemos el informe de progreso."
+  },
+  {
+    "id": 649,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "We need to reorganise the priorities.",
+    "spanish": "Necesitamos reorganizar las prioridades."
+  },
+  {
+    "id": 650,
+    "category": "626-650: Trabajo avanzado y situaciones profesionales",
+    "english": "Let's finalise the details.",
+    "spanish": "Finalicemos los detalles."
+  },
+  {
+    "id": 651,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm heading out now.",
+    "spanish": "Estoy saliendo ahora."
+  },
+  {
+    "id": 652,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm staying in tonight.",
+    "spanish": "Me quedo en casa esta noche."
+  },
+  {
+    "id": 653,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's grab something to eat.",
+    "spanish": "Tomemos algo de comer."
+  },
+  {
+    "id": 654,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm meeting someone later.",
+    "spanish": "Me reuniré con alguien más tarde."
+  },
+  {
+    "id": 655,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's take a walk.",
+    "spanish": "Demos un paseo."
+  },
+  {
+    "id": 656,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm taking a day off.",
+    "spanish": "Me tomo un día libre."
+  },
+  {
+    "id": 657,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's plan something fun.",
+    "spanish": "Planifiquemos algo divertido."
+  },
+  {
+    "id": 658,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm running late again.",
+    "spanish": "Voy tarde otra vez."
+  },
+  {
+    "id": 659,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's take the shortcut.",
+    "spanish": "Tomemos el atajo."
+  },
+  {
+    "id": 660,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm heading to the shop.",
+    "spanish": "Voy a la tienda."
+  },
+  {
+    "id": 661,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's get some fresh air.",
+    "spanish": "Tomemos aire fresco."
+  },
+  {
+    "id": 662,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm waiting for someone.",
+    "spanish": "Estoy esperando a alguien."
+  },
+  {
+    "id": 663,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's check the schedule.",
+    "spanish": "Revisemos el horario."
+  },
+  {
+    "id": 664,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm saving money.",
+    "spanish": "Estoy ahorrando dinero."
+  },
+  {
+    "id": 665,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's split the bill.",
+    "spanish": "Dividamos la cuenta."
+  },
+  {
+    "id": 666,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm looking for a quiet place.",
+    "spanish": "Busco un lugar tranquilo."
+  },
+  {
+    "id": 667,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's take a break outside.",
+    "spanish": "Tomemos un descanso afuera."
+  },
+  {
+    "id": 668,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm heading to the station.",
+    "spanish": "Voy a la estación."
+  },
+  {
+    "id": 669,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's get going.",
+    "spanish": "Vámonos."
+  },
+  {
+    "id": 670,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm waiting for my turn.",
+    "spanish": "Espero mi turno."
+  },
+  {
+    "id": 671,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's check the opening hours.",
+    "spanish": "Revisemos el horario de apertura."
+  },
+  {
+    "id": 672,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm looking for a good restaurant.",
+    "spanish": "Busco un buen restaurante."
+  },
+  {
+    "id": 673,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's try something different.",
+    "spanish": "Probemos algo diferente."
+  },
+  {
+    "id": 674,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "I'm heading to the office.",
+    "spanish": "Voy a la oficina."
+  },
+  {
+    "id": 675,
+    "category": "651-675: Vida social y situaciones cotidianas",
+    "english": "Let's make a reservation.",
+    "spanish": "Hagamos una reserva."
+  },
+  {
+    "id": 676,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm updating my settings.",
+    "spanish": "Estoy actualizando mis ajustes."
+  },
+  {
+    "id": 677,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the battery level.",
+    "spanish": "Revisemos el nivel de batería."
+  },
+  {
+    "id": 678,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm testing the speakers.",
+    "spanish": "Estoy probando los altavoces."
+  },
+  {
+    "id": 679,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the storage space.",
+    "spanish": "Revisemos el espacio de almacenamiento."
+  },
+  {
+    "id": 680,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm syncing my devices.",
+    "spanish": "Estoy sincronizando mis dispositivos."
+  },
+  {
+    "id": 681,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the travel options.",
+    "spanish": "Revisemos las opciones de viaje."
+  },
+  {
+    "id": 682,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm booking a ticket.",
+    "spanish": "Estoy reservando un billete."
+  },
+  {
+    "id": 683,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the departure time.",
+    "spanish": "Revisemos la hora de salida."
+  },
+  {
+    "id": 684,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the map.",
+    "spanish": "Estoy revisando el mapa."
+  },
+  {
+    "id": 685,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the route.",
+    "spanish": "Revisemos la ruta."
+  },
+  {
+    "id": 686,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the weather forecast.",
+    "spanish": "Estoy revisando el pronóstico del tiempo."
+  },
+  {
+    "id": 687,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the luggage weight.",
+    "spanish": "Revisemos el peso del equipaje."
+  },
+  {
+    "id": 688,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the flight status.",
+    "spanish": "Estoy revisando el estado del vuelo."
+  },
+  {
+    "id": 689,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the platform number.",
+    "spanish": "Revisemos el número de andén."
+  },
+  {
+    "id": 690,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the hotel options.",
+    "spanish": "Estoy revisando las opciones de hotel."
+  },
+  {
+    "id": 691,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the reviews.",
+    "spanish": "Revisemos las reseñas."
+  },
+  {
+    "id": 692,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the reservation details.",
+    "spanish": "Estoy revisando los detalles de la reserva."
+  },
+  {
+    "id": 693,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the checkin time.",
+    "spanish": "Revisemos la hora de checkin."
+  },
+  {
+    "id": 694,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the checkout time.",
+    "spanish": "Estoy revisando la hora de checkout."
+  },
+  {
+    "id": 695,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the local transport.",
+    "spanish": "Revisemos el transporte local."
+  },
+  {
+    "id": 696,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the travel documents.",
+    "spanish": "Estoy revisando los documentos de viaje."
+  },
+  {
+    "id": 697,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the currency exchange.",
+    "spanish": "Revisemos el cambio de divisa."
+  },
+  {
+    "id": 698,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the WiFi connection.",
+    "spanish": "Estoy revisando la conexión WiFi."
+  },
+  {
+    "id": 699,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "Let's check the signal strength.",
+    "spanish": "Revisemos la intensidad de la señal."
+  },
+  {
+    "id": 700,
+    "category": "676-700: Tecnología, viajes y comunicación avanzada",
+    "english": "I'm checking the security settings.",
+    "spanish": "Estoy revisando los ajustes de seguridad."
+  },
+  {
+    "id": 701,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I didn't mean to sound rude.",
+    "spanish": "No quise sonar grosero."
+  },
+  {
+    "id": 702,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's keep this conversation open.",
+    "spanish": "Mantengamos esta conversación abierta."
+  },
+  {
+    "id": 703,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to see your perspective.",
+    "spanish": "Intento ver tu perspectiva."
+  },
+  {
+    "id": 704,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's take a moment to breathe.",
+    "spanish": "Tomemos un momento para respirar."
+  },
+  {
+    "id": 705,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm not trying to argue.",
+    "spanish": "No estoy intentando discutir."
+  },
+  {
+    "id": 706,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's stay calm and think clearly.",
+    "spanish": "Mantengamos la calma y pensemos con claridad."
+  },
+  {
+    "id": 707,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to find the right words.",
+    "spanish": "Intento encontrar las palabras adecuadas."
+  },
+  {
+    "id": 708,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's avoid misunderstandings.",
+    "spanish": "Evitemos malentendidos."
+  },
+  {
+    "id": 709,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm not taking sides.",
+    "spanish": "No estoy tomando partido."
+  },
+  {
+    "id": 710,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's keep things respectful.",
+    "spanish": "Mantengamos las cosas respetuosas."
+  },
+  {
+    "id": 711,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to be patient.",
+    "spanish": "Estoy intentando ser paciente."
+  },
+  {
+    "id": 712,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's look at this objectively.",
+    "spanish": "Veamos esto objetivamente."
+  },
+  {
+    "id": 713,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm not trying to pressure you.",
+    "spanish": "No intento presionarte."
+  },
+  {
+    "id": 714,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's take this seriously.",
+    "spanish": "Tomemos esto en serio."
+  },
+  {
+    "id": 715,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to stay neutral.",
+    "spanish": "Intento mantenerme neutral."
+  },
+  {
+    "id": 716,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's avoid jumping to conclusions.",
+    "spanish": "Evitemos sacar conclusiones precipitadas."
+  },
+  {
+    "id": 717,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to stay openminded.",
+    "spanish": "Intento mantener la mente abierta."
+  },
+  {
+    "id": 718,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's keep communication clear.",
+    "spanish": "Mantengamos la comunicación clara."
+  },
+  {
+    "id": 719,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm not trying to complicate things.",
+    "spanish": "No intento complicar las cosas."
+  },
+  {
+    "id": 720,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's focus on the solution.",
+    "spanish": "Centrémonos en la solución."
+  },
+  {
+    "id": 721,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to understand the situation.",
+    "spanish": "Intento entender la situación."
+  },
+  {
+    "id": 722,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's keep things moving forward.",
+    "spanish": "Sigamos avanzando."
+  },
+  {
+    "id": 723,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm not trying to blame anyone.",
+    "spanish": "No intento culpar a nadie."
+  },
+  {
+    "id": 724,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "Let's stay on the same page.",
+    "spanish": "Mantengámonos en la misma línea."
+  },
+  {
+    "id": 725,
+    "category": "701-725: Conversación natural avanzada",
+    "english": "I'm trying to be reasonable.",
+    "spanish": "Intento ser razonable."
+  },
+  {
+    "id": 726,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's break this into smaller tasks.",
+    "spanish": "Dividamos esto en tareas más pequeñas."
+  },
+  {
+    "id": 727,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to streamline the process.",
+    "spanish": "Necesitamos simplificar el proceso."
+  },
+  {
+    "id": 728,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's set clear expectations.",
+    "spanish": "Establezcamos expectativas claras."
+  },
+  {
+    "id": 729,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to improve our planning.",
+    "spanish": "Necesitamos mejorar nuestra planificación."
+  },
+  {
+    "id": 730,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's create a checklist.",
+    "spanish": "Hagamos una lista de verificación."
+  },
+  {
+    "id": 731,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to track our progress.",
+    "spanish": "Necesitamos seguir nuestro progreso."
+  },
+  {
+    "id": 732,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's organise the workflow.",
+    "spanish": "Organicemos el flujo de trabajo."
+  },
+  {
+    "id": 733,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to reduce errors.",
+    "spanish": "Necesitamos reducir errores."
+  },
+  {
+    "id": 734,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's prepare a detailed report.",
+    "spanish": "Preparemos un informe detallado."
+  },
+  {
+    "id": 735,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to update our tools.",
+    "spanish": "Necesitamos actualizar nuestras herramientas."
+  },
+  {
+    "id": 736,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's improve our coordination.",
+    "spanish": "Mejoremos nuestra coordinación."
+  },
+  {
+    "id": 737,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to set priorities.",
+    "spanish": "Necesitamos establecer prioridades."
+  },
+  {
+    "id": 738,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's create a timeline.",
+    "spanish": "Hagamos un cronograma."
+  },
+  {
+    "id": 739,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to gather feedback.",
+    "spanish": "Necesitamos recopilar comentarios."
+  },
+  {
+    "id": 740,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's organise a team meeting.",
+    "spanish": "Organicemos una reunión de equipo."
+  },
+  {
+    "id": 741,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to clarify the next steps.",
+    "spanish": "Necesitamos aclarar los próximos pasos."
+  },
+  {
+    "id": 742,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's prepare the agenda.",
+    "spanish": "Preparemos la agenda."
+  },
+  {
+    "id": 743,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to improve our efficiency.",
+    "spanish": "Necesitamos mejorar nuestra eficiencia."
+  },
+  {
+    "id": 744,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's review the guidelines.",
+    "spanish": "Revisemos las directrices."
+  },
+  {
+    "id": 745,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to update the project status.",
+    "spanish": "Necesitamos actualizar el estado del proyecto."
+  },
+  {
+    "id": 746,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's check the requirements.",
+    "spanish": "Revisemos los requisitos."
+  },
+  {
+    "id": 747,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to adjust our strategy.",
+    "spanish": "Necesitamos ajustar nuestra estrategia."
+  },
+  {
+    "id": 748,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's prepare the final version.",
+    "spanish": "Preparemos la versión final."
+  },
+  {
+    "id": 749,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "We need to avoid delays.",
+    "spanish": "Necesitamos evitar retrasos."
+  },
+  {
+    "id": 750,
+    "category": "726-750: Trabajo, productividad y organización",
+    "english": "Let's confirm the details.",
+    "spanish": "Confirmemos los detalles."
+  },
+  {
+    "id": 751,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm heading out for a walk.",
+    "spanish": "Salgo a dar un paseo."
+  },
+  {
+    "id": 752,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's grab a drink.",
+    "spanish": "Tomemos algo."
+  },
+  {
+    "id": 753,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm meeting friends later.",
+    "spanish": "Me reuniré con amigos más tarde."
+  },
+  {
+    "id": 754,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's try a new place.",
+    "spanish": "Probemos un sitio nuevo."
+  },
+  {
+    "id": 755,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm taking a break outside.",
+    "spanish": "Estoy tomando un descanso afuera."
+  },
+  {
+    "id": 756,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's go somewhere quiet.",
+    "spanish": "Vayamos a un lugar tranquilo."
+  },
+  {
+    "id": 757,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm planning a weekend trip.",
+    "spanish": "Estoy planeando un viaje de fin de semana."
+  },
+  {
+    "id": 758,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's check what's happening in town.",
+    "spanish": "Veamos qué pasa en la ciudad."
+  },
+  {
+    "id": 759,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm joining a group activity.",
+    "spanish": "Me uno a una actividad grupal."
+  },
+  {
+    "id": 760,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's explore the neighbourhood.",
+    "spanish": "Exploremos el vecindario."
+  },
+  {
+    "id": 761,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm trying a new hobby.",
+    "spanish": "Estoy probando un nuevo hobby."
+  },
+  {
+    "id": 762,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's go for a bike ride.",
+    "spanish": "Demos un paseo en bici."
+  },
+  {
+    "id": 763,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm heading to the park.",
+    "spanish": "Voy al parque."
+  },
+  {
+    "id": 764,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's plan something outdoors.",
+    "spanish": "Planifiquemos algo al aire libre."
+  },
+  {
+    "id": 765,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm taking a short break.",
+    "spanish": "Tomo un descanso corto."
+  },
+  {
+    "id": 766,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's enjoy the weather.",
+    "spanish": "Disfrutemos del clima."
+  },
+  {
+    "id": 767,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm heading to a café.",
+    "spanish": "Voy a una cafetería."
+  },
+  {
+    "id": 768,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's check out that new restaurant.",
+    "spanish": "Probemos ese nuevo restaurante."
+  },
+  {
+    "id": 769,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm going to a local event.",
+    "spanish": "Voy a un evento local."
+  },
+  {
+    "id": 770,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's go for a drive.",
+    "spanish": "Demos una vuelta en coche."
+  },
+  {
+    "id": 771,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm planning a movie night.",
+    "spanish": "Estoy planeando una noche de cine."
+  },
+  {
+    "id": 772,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's organise a small gathering.",
+    "spanish": "Organicemos una reunión pequeña."
+  },
+  {
+    "id": 773,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm heading to the mall.",
+    "spanish": "Voy al centro comercial."
+  },
+  {
+    "id": 774,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "Let's take a day trip.",
+    "spanish": "Hagamos una excursión de un día."
+  },
+  {
+    "id": 775,
+    "category": "751-775: Vida social, ocio y actividades",
+    "english": "I'm planning a quiet evening.",
+    "spanish": "Planeo una noche tranquila."
+  },
+  {
+    "id": 776,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm organising my wardrobe.",
+    "spanish": "Estoy organizando mi armario."
+  },
+  {
+    "id": 777,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's clean the living room.",
+    "spanish": "Limpiemos el salón."
+  },
+  {
+    "id": 778,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the heating system.",
+    "spanish": "Estoy revisando la calefacción."
+  },
+  {
+    "id": 779,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's tidy up the kitchen.",
+    "spanish": "Ordenemos la cocina."
+  },
+  {
+    "id": 780,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the water pressure.",
+    "spanish": "Estoy revisando la presión del agua."
+  },
+  {
+    "id": 781,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the electricity bill.",
+    "spanish": "Revisemos la factura de electricidad."
+  },
+  {
+    "id": 782,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm updating my laptop.",
+    "spanish": "Estoy actualizando mi portátil."
+  },
+  {
+    "id": 783,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the storage settings.",
+    "spanish": "Revisemos los ajustes de almacenamiento."
+  },
+  {
+    "id": 784,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm testing the keyboard.",
+    "spanish": "Estoy probando el teclado."
+  },
+  {
+    "id": 785,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the screen brightness.",
+    "spanish": "Revisemos el brillo de la pantalla."
+  },
+  {
+    "id": 786,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the travel itinerary.",
+    "spanish": "Estoy revisando el itinerario de viaje."
+  },
+  {
+    "id": 787,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the boarding gate.",
+    "spanish": "Revisemos la puerta de embarque."
+  },
+  {
+    "id": 788,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the train schedule.",
+    "spanish": "Estoy revisando el horario del tren."
+  },
+  {
+    "id": 789,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the bus timetable.",
+    "spanish": "Revisemos el horario del autobús."
+  },
+  {
+    "id": 790,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the taxi availability.",
+    "spanish": "Estoy revisando la disponibilidad de taxis."
+  },
+  {
+    "id": 791,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the travel insurance.",
+    "spanish": "Revisemos el seguro de viaje."
+  },
+  {
+    "id": 792,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the passport validity.",
+    "spanish": "Estoy revisando la validez del pasaporte."
+  },
+  {
+    "id": 793,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the visa requirements.",
+    "spanish": "Revisemos los requisitos de visado."
+  },
+  {
+    "id": 794,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the hotel checkin process.",
+    "spanish": "Estoy revisando el proceso de checkin del hotel."
+  },
+  {
+    "id": 795,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the room facilities.",
+    "spanish": "Revisemos las instalaciones de la habitación."
+  },
+  {
+    "id": 796,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the local attractions.",
+    "spanish": "Estoy revisando las atracciones locales."
+  },
+  {
+    "id": 797,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the restaurant options.",
+    "spanish": "Revisemos las opciones de restaurantes."
+  },
+  {
+    "id": 798,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the travel budget.",
+    "spanish": "Estoy revisando el presupuesto de viaje."
+  },
+  {
+    "id": 799,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "Let's check the return time.",
+    "spanish": "Revisemos la hora de regreso."
+  },
+  {
+    "id": 800,
+    "category": "776-800: Hogar, tecnología y viajes",
+    "english": "I'm checking the travel route.",
+    "spanish": "Estoy revisando la ruta de viaje."
+  },
+  {
+    "id": 801,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I didn't mean to cause confusion.",
+    "spanish": "No quise causar confusión."
+  },
+  {
+    "id": 802,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's keep things in perspective.",
+    "spanish": "Mantengamos las cosas en perspectiva."
+  },
+  {
+    "id": 803,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to stay objective.",
+    "spanish": "Intento mantenerme objetivo."
+  },
+  {
+    "id": 804,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's avoid unnecessary drama.",
+    "spanish": "Evitemos el drama innecesario."
+  },
+  {
+    "id": 805,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm not trying to be difficult.",
+    "spanish": "No intento ser difícil."
+  },
+  {
+    "id": 806,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's take a moment to reflect.",
+    "spanish": "Tomemos un momento para reflexionar."
+  },
+  {
+    "id": 807,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to stay calm.",
+    "spanish": "Intento mantener la calma."
+  },
+  {
+    "id": 808,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's avoid repeating mistakes.",
+    "spanish": "Evitemos repetir errores."
+  },
+  {
+    "id": 809,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm not trying to rush you.",
+    "spanish": "No intento apresurarte."
+  },
+  {
+    "id": 810,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's keep things organised.",
+    "spanish": "Mantengamos las cosas organizadas."
+  },
+  {
+    "id": 811,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to understand your feelings.",
+    "spanish": "Intento entender tus sentimientos."
+  },
+  {
+    "id": 812,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's avoid misunderstandings from now on.",
+    "spanish": "Evitemos malentendidos a partir de ahora."
+  },
+  {
+    "id": 813,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm not trying to change your mind.",
+    "spanish": "No intento cambiar tu opinión."
+  },
+  {
+    "id": 814,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's stay consistent.",
+    "spanish": "Mantengámonos consistentes."
+  },
+  {
+    "id": 815,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to be supportive.",
+    "spanish": "Intento ser comprensivo."
+  },
+  {
+    "id": 816,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's avoid unnecessary stress.",
+    "spanish": "Evitemos el estrés innecesario."
+  },
+  {
+    "id": 817,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm not trying to judge the situation.",
+    "spanish": "No intento juzgar la situación."
+  },
+  {
+    "id": 818,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's keep communication open.",
+    "spanish": "Mantengamos la comunicación abierta."
+  },
+  {
+    "id": 819,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to stay balanced.",
+    "spanish": "Intento mantenerme equilibrado."
+  },
+  {
+    "id": 820,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's avoid overthinking.",
+    "spanish": "Evitemos pensar demasiado."
+  },
+  {
+    "id": 821,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm not trying to ignore you.",
+    "spanish": "No intento ignorarte."
+  },
+  {
+    "id": 822,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's stay flexible.",
+    "spanish": "Mantengámonos flexibles."
+  },
+  {
+    "id": 823,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to be clear.",
+    "spanish": "Intento ser claro."
+  },
+  {
+    "id": 824,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "Let's avoid confusion.",
+    "spanish": "Evitemos la confusión."
+  },
+  {
+    "id": 825,
+    "category": "801-825: Conversación natural y matices avanzados",
+    "english": "I'm trying to stay focused on the goal.",
+    "spanish": "Intento mantenerme centrado en el objetivo."
+  },
+  {
+    "id": 826,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's define the key milestones.",
+    "spanish": "Definamos los hitos clave."
+  },
+  {
+    "id": 827,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to refine the strategy.",
+    "spanish": "Necesitamos refinar la estrategia."
+  },
+  {
+    "id": 828,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's identify the main challenges.",
+    "spanish": "Identifiquemos los principales desafíos."
+  },
+  {
+    "id": 829,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to gather additional data.",
+    "spanish": "Necesitamos recopilar datos adicionales."
+  },
+  {
+    "id": 830,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare a draft version.",
+    "spanish": "Preparemos una versión preliminar."
+  },
+  {
+    "id": 831,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to verify the information.",
+    "spanish": "Necesitamos verificar la información."
+  },
+  {
+    "id": 832,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's coordinate the next steps.",
+    "spanish": "Coordinemos los próximos pasos."
+  },
+  {
+    "id": 833,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to align our priorities.",
+    "spanish": "Necesitamos alinear nuestras prioridades."
+  },
+  {
+    "id": 834,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's review the project timeline.",
+    "spanish": "Revisemos el cronograma del proyecto."
+  },
+  {
+    "id": 835,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the workflow.",
+    "spanish": "Necesitamos ajustar el flujo de trabajo."
+  },
+  {
+    "id": 836,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's analyse the recent feedback.",
+    "spanish": "Analicemos el feedback reciente."
+  },
+  {
+    "id": 837,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our collaboration.",
+    "spanish": "Necesitamos mejorar nuestra colaboración."
+  },
+  {
+    "id": 838,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the documentation.",
+    "spanish": "Preparemos la documentación."
+  },
+  {
+    "id": 839,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to clarify the objectives.",
+    "spanish": "Necesitamos aclarar los objetivos."
+  },
+  {
+    "id": 840,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's organise the resources.",
+    "spanish": "Organicemos los recursos."
+  },
+  {
+    "id": 841,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to monitor the deadlines.",
+    "spanish": "Necesitamos monitorear las fechas límite."
+  },
+  {
+    "id": 842,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's evaluate the risks.",
+    "spanish": "Evaluemos los riesgos."
+  },
+  {
+    "id": 843,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to update the guidelines.",
+    "spanish": "Necesitamos actualizar las directrices."
+  },
+  {
+    "id": 844,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's schedule a review meeting.",
+    "spanish": "Programemos una reunión de revisión."
+  },
+  {
+    "id": 845,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our reporting.",
+    "spanish": "Necesitamos mejorar nuestros informes."
+  },
+  {
+    "id": 846,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's check the project requirements.",
+    "spanish": "Revisemos los requisitos del proyecto."
+  },
+  {
+    "id": 847,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the budget.",
+    "spanish": "Necesitamos ajustar el presupuesto."
+  },
+  {
+    "id": 848,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the final report.",
+    "spanish": "Preparemos el informe final."
+  },
+  {
+    "id": 849,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "We need to avoid bottlenecks.",
+    "spanish": "Necesitamos evitar cuellos de botella."
+  },
+  {
+    "id": 850,
+    "category": "826-850: Trabajo, productividad y organización avanzada",
+    "english": "Let's confirm the next actions.",
+    "spanish": "Confirmemos las próximas acciones."
+  },
+  {
+    "id": 851,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading out for a coffee.",
+    "spanish": "Salgo a tomar un café."
+  },
+  {
+    "id": 852,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out that new café.",
+    "spanish": "Probemos esa nueva cafetería."
+  },
+  {
+    "id": 853,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm meeting someone for lunch.",
+    "spanish": "Me reuniré con alguien para almorzar."
+  },
+  {
+    "id": 854,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's try a different route.",
+    "spanish": "Probemos una ruta diferente."
+  },
+  {
+    "id": 855,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a short walk.",
+    "spanish": "Estoy dando un paseo corto."
+  },
+  {
+    "id": 856,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go somewhere cosy.",
+    "spanish": "Vayamos a un lugar acogedor."
+  },
+  {
+    "id": 857,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a quiet afternoon.",
+    "spanish": "Planeo una tarde tranquila."
+  },
+  {
+    "id": 858,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's see what's open today.",
+    "spanish": "Veamos qué está abierto hoy."
+  },
+  {
+    "id": 859,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm joining a weekend activity.",
+    "spanish": "Me uno a una actividad de fin de semana."
+  },
+  {
+    "id": 860,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's explore a new area.",
+    "spanish": "Exploremos una zona nueva."
+  },
+  {
+    "id": 861,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm trying a new restaurant.",
+    "spanish": "Estoy probando un nuevo restaurante."
+  },
+  {
+    "id": 862,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a long walk.",
+    "spanish": "Demos un paseo largo."
+  },
+  {
+    "id": 863,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a bookstore.",
+    "spanish": "Voy a una librería."
+  },
+  {
+    "id": 864,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's plan something relaxing.",
+    "spanish": "Planifiquemos algo relajante."
+  },
+  {
+    "id": 865,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a break from everything.",
+    "spanish": "Estoy tomando un descanso de todo."
+  },
+  {
+    "id": 866,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's enjoy a quiet moment.",
+    "spanish": "Disfrutemos un momento tranquilo."
+  },
+  {
+    "id": 867,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a local market.",
+    "spanish": "Voy a un mercado local."
+  },
+  {
+    "id": 868,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the shops.",
+    "spanish": "Veamos las tiendas."
+  },
+  {
+    "id": 869,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a social evening.",
+    "spanish": "Planeo una noche social."
+  },
+  {
+    "id": 870,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's organise a casual meetup.",
+    "spanish": "Organicemos una quedada informal."
+  },
+  {
+    "id": 871,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a music event.",
+    "spanish": "Voy a un evento musical."
+  },
+  {
+    "id": 872,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a scenic walk.",
+    "spanish": "Demos un paseo con buenas vistas."
+  },
+  {
+    "id": 873,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a relaxing night.",
+    "spanish": "Planeo una noche relajante."
+  },
+  {
+    "id": 874,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the nightlife.",
+    "spanish": "Veamos la vida nocturna."
+  },
+  {
+    "id": 875,
+    "category": "851-875: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet spot.",
+    "spanish": "Voy a un lugar tranquilo."
+  },
+  {
+    "id": 876,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm organising my digital files.",
+    "spanish": "Estoy organizando mis archivos digitales."
+  },
+  {
+    "id": 877,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's clean the workspace.",
+    "spanish": "Limpiemos el espacio de trabajo."
+  },
+  {
+    "id": 878,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the ventilation.",
+    "spanish": "Estoy revisando la ventilación."
+  },
+  {
+    "id": 879,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's tidy up the bedroom.",
+    "spanish": "Ordenemos el dormitorio."
+  },
+  {
+    "id": 880,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the plumbing.",
+    "spanish": "Estoy revisando la fontanería."
+  },
+  {
+    "id": 881,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the gas meter.",
+    "spanish": "Revisemos el medidor de gas."
+  },
+  {
+    "id": 882,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm updating my tablet.",
+    "spanish": "Estoy actualizando mi tablet."
+  },
+  {
+    "id": 883,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the device settings.",
+    "spanish": "Revisemos los ajustes del dispositivo."
+  },
+  {
+    "id": 884,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm testing the mouse.",
+    "spanish": "Estoy probando el ratón."
+  },
+  {
+    "id": 885,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the volume settings.",
+    "spanish": "Revisemos los ajustes de volumen."
+  },
+  {
+    "id": 886,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel checklist.",
+    "spanish": "Estoy revisando la lista de viaje."
+  },
+  {
+    "id": 887,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the train platform.",
+    "spanish": "Revisemos el andén del tren."
+  },
+  {
+    "id": 888,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the bus route.",
+    "spanish": "Estoy revisando la ruta del autobús."
+  },
+  {
+    "id": 889,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the taxi fare.",
+    "spanish": "Revisemos la tarifa del taxi."
+  },
+  {
+    "id": 890,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel schedule.",
+    "spanish": "Estoy revisando el horario de viaje."
+  },
+  {
+    "id": 891,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the travel restrictions.",
+    "spanish": "Revisemos las restricciones de viaje."
+  },
+  {
+    "id": 892,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the passport photo.",
+    "spanish": "Estoy revisando la foto del pasaporte."
+  },
+  {
+    "id": 893,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the luggage allowance.",
+    "spanish": "Revisemos la franquicia de equipaje."
+  },
+  {
+    "id": 894,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the hotel location.",
+    "spanish": "Estoy revisando la ubicación del hotel."
+  },
+  {
+    "id": 895,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the room availability.",
+    "spanish": "Revisemos la disponibilidad de habitaciones."
+  },
+  {
+    "id": 896,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the local events.",
+    "spanish": "Estoy revisando los eventos locales."
+  },
+  {
+    "id": 897,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the museum hours.",
+    "spanish": "Revisemos el horario del museo."
+  },
+  {
+    "id": 898,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel expenses.",
+    "spanish": "Estoy revisando los gastos de viaje."
+  },
+  {
+    "id": 899,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the return schedule.",
+    "spanish": "Revisemos el horario de regreso."
+  },
+  {
+    "id": 900,
+    "category": "876-900: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel options again.",
+    "spanish": "Estoy revisando las opciones de viaje otra vez."
+  },
+  {
+    "id": 901,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I didn't mean to make things complicated.",
+    "spanish": "No quise complicar las cosas."
+  },
+  {
+    "id": 902,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's keep things simple and clear.",
+    "spanish": "Mantengamos las cosas simples y claras."
+  },
+  {
+    "id": 903,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to stay calm about this.",
+    "spanish": "Intento mantener la calma sobre esto."
+  },
+  {
+    "id": 904,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary arguments.",
+    "spanish": "Evitemos discusiones innecesarias."
+  },
+  {
+    "id": 905,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm not trying to be dramatic.",
+    "spanish": "No intento ser dramático."
+  },
+  {
+    "id": 906,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's take a moment to reset.",
+    "spanish": "Tomemos un momento para reiniciar."
+  },
+  {
+    "id": 907,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to understand what happened.",
+    "spanish": "Intento entender lo que pasó."
+  },
+  {
+    "id": 908,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's avoid repeating ourselves.",
+    "spanish": "Evitemos repetirnos."
+  },
+  {
+    "id": 909,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm not trying to be negative.",
+    "spanish": "No intento ser negativo."
+  },
+  {
+    "id": 910,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's keep things constructive.",
+    "spanish": "Mantengamos las cosas constructivas."
+  },
+  {
+    "id": 911,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to find a better approach.",
+    "spanish": "Intento encontrar un mejor enfoque."
+  },
+  {
+    "id": 912,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's avoid making assumptions.",
+    "spanish": "Evitemos hacer suposiciones."
+  },
+  {
+    "id": 913,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm not trying to push you.",
+    "spanish": "No intento presionarte."
+  },
+  {
+    "id": 914,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's stay focused on the facts.",
+    "spanish": "Mantengámonos centrados en los hechos."
+  },
+  {
+    "id": 915,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to be as clear as possible.",
+    "spanish": "Intento ser lo más claro posible."
+  },
+  {
+    "id": 916,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's avoid confusion from now on.",
+    "spanish": "Evitemos la confusión a partir de ahora."
+  },
+  {
+    "id": 917,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm not trying to minimise your feelings.",
+    "spanish": "No intento minimizar tus sentimientos."
+  },
+  {
+    "id": 918,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's keep the conversation flowing.",
+    "spanish": "Mantengamos la conversación fluida."
+  },
+  {
+    "id": 919,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to stay patient with this.",
+    "spanish": "Intento ser paciente con esto."
+  },
+  {
+    "id": 920,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary tension.",
+    "spanish": "Evitemos tensión innecesaria."
+  },
+  {
+    "id": 921,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm not trying to change the subject.",
+    "spanish": "No intento cambiar de tema."
+  },
+  {
+    "id": 922,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's stay aligned.",
+    "spanish": "Mantengámonos alineados."
+  },
+  {
+    "id": 923,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to be fair.",
+    "spanish": "Intento ser justo."
+  },
+  {
+    "id": 924,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "Let's avoid complicating the situation.",
+    "spanish": "Evitemos complicar la situación."
+  },
+  {
+    "id": 925,
+    "category": "901-925: Conversación natural avanzada",
+    "english": "I'm trying to stay focused on what matters.",
+    "spanish": "Intento centrarme en lo que importa."
+  },
+  {
+    "id": 926,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's define the main deliverables.",
+    "spanish": "Definamos los entregables principales."
+  },
+  {
+    "id": 927,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to refine the workflow.",
+    "spanish": "Necesitamos refinar el flujo de trabajo."
+  },
+  {
+    "id": 928,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's identify potential obstacles.",
+    "spanish": "Identifiquemos posibles obstáculos."
+  },
+  {
+    "id": 929,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to gather more insights.",
+    "spanish": "Necesitamos recopilar más información."
+  },
+  {
+    "id": 930,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare a preliminary outline.",
+    "spanish": "Preparemos un esquema preliminar."
+  },
+  {
+    "id": 931,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to verify the sources.",
+    "spanish": "Necesitamos verificar las fuentes."
+  },
+  {
+    "id": 932,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's coordinate the tasks.",
+    "spanish": "Coordinemos las tareas."
+  },
+  {
+    "id": 933,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to align our timelines.",
+    "spanish": "Necesitamos alinear nuestros tiempos."
+  },
+  {
+    "id": 934,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's review the latest updates.",
+    "spanish": "Revisemos las últimas actualizaciones."
+  },
+  {
+    "id": 935,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the deadlines.",
+    "spanish": "Necesitamos ajustar las fechas límite."
+  },
+  {
+    "id": 936,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's analyse the new data.",
+    "spanish": "Analicemos los nuevos datos."
+  },
+  {
+    "id": 937,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our planning tools.",
+    "spanish": "Necesitamos mejorar nuestras herramientas de planificación."
+  },
+  {
+    "id": 938,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the next draft.",
+    "spanish": "Preparemos el siguiente borrador."
+  },
+  {
+    "id": 939,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to clarify the expectations.",
+    "spanish": "Necesitamos aclarar las expectativas."
+  },
+  {
+    "id": 940,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's organise the meeting notes.",
+    "spanish": "Organicemos las notas de la reunión."
+  },
+  {
+    "id": 941,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to monitor the workflow closely.",
+    "spanish": "Necesitamos monitorear el flujo de trabajo de cerca."
+  },
+  {
+    "id": 942,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's evaluate the new proposal.",
+    "spanish": "Evaluemos la nueva propuesta."
+  },
+  {
+    "id": 943,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to update the project roadmap.",
+    "spanish": "Necesitamos actualizar la hoja de ruta del proyecto."
+  },
+  {
+    "id": 944,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's schedule a strategy session.",
+    "spanish": "Programemos una sesión de estrategia."
+  },
+  {
+    "id": 945,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our documentation process.",
+    "spanish": "Necesitamos mejorar nuestro proceso de documentación."
+  },
+  {
+    "id": 946,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's check the resource allocation.",
+    "spanish": "Revisemos la asignación de recursos."
+  },
+  {
+    "id": 947,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the communication plan.",
+    "spanish": "Necesitamos ajustar el plan de comunicación."
+  },
+  {
+    "id": 948,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the summary report.",
+    "spanish": "Preparemos el informe resumen."
+  },
+  {
+    "id": 949,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "We need to avoid unnecessary revisions.",
+    "spanish": "Necesitamos evitar revisiones innecesarias."
+  },
+  {
+    "id": 950,
+    "category": "926-950: Trabajo, productividad y organización avanzada",
+    "english": "Let's confirm the final timeline.",
+    "spanish": "Confirmemos el cronograma final."
+  },
+  {
+    "id": 951,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading out for a quick errand.",
+    "spanish": "Salgo a hacer un recado rápido."
+  },
+  {
+    "id": 952,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's grab a bite to eat.",
+    "spanish": "Tomemos algo de comer."
+  },
+  {
+    "id": 953,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm meeting someone for coffee.",
+    "spanish": "Me reuniré con alguien para tomar café."
+  },
+  {
+    "id": 954,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's try a new activity.",
+    "spanish": "Probemos una actividad nueva."
+  },
+  {
+    "id": 955,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a moment to relax.",
+    "spanish": "Estoy tomando un momento para relajarme."
+  },
+  {
+    "id": 956,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go somewhere peaceful.",
+    "spanish": "Vayamos a un lugar tranquilo."
+  },
+  {
+    "id": 957,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a slow morning.",
+    "spanish": "Planeo una mañana tranquila."
+  },
+  {
+    "id": 958,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's see what's happening nearby.",
+    "spanish": "Veamos qué pasa cerca."
+  },
+  {
+    "id": 959,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm joining a local group.",
+    "spanish": "Me uno a un grupo local."
+  },
+  {
+    "id": 960,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's explore a different neighbourhood.",
+    "spanish": "Exploremos un barrio diferente."
+  },
+  {
+    "id": 961,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm trying a new café.",
+    "spanish": "Estoy probando una nueva cafetería."
+  },
+  {
+    "id": 962,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a relaxing walk.",
+    "spanish": "Demos un paseo relajante."
+  },
+  {
+    "id": 963,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet café.",
+    "spanish": "Voy a una cafetería tranquila."
+  },
+  {
+    "id": 964,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's plan something simple.",
+    "spanish": "Planifiquemos algo simple."
+  },
+  {
+    "id": 965,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a break from social media.",
+    "spanish": "Estoy tomando un descanso de las redes sociales."
+  },
+  {
+    "id": 966,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's enjoy a slow afternoon.",
+    "spanish": "Disfrutemos una tarde tranquila."
+  },
+  {
+    "id": 967,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a local fair.",
+    "spanish": "Voy a una feria local."
+  },
+  {
+    "id": 968,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the new shops.",
+    "spanish": "Veamos las nuevas tiendas."
+  },
+  {
+    "id": 969,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a cosy evening.",
+    "spanish": "Planeo una noche acogedora."
+  },
+  {
+    "id": 970,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's organise a relaxed meetup.",
+    "spanish": "Organicemos una quedada relajada."
+  },
+  {
+    "id": 971,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a cultural event.",
+    "spanish": "Voy a un evento cultural."
+  },
+  {
+    "id": 972,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a scenic drive.",
+    "spanish": "Demos una vuelta con buenas vistas."
+  },
+  {
+    "id": 973,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a peaceful night.",
+    "spanish": "Planeo una noche tranquila."
+  },
+  {
+    "id": 974,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the local cafés.",
+    "spanish": "Veamos las cafeterías locales."
+  },
+  {
+    "id": 975,
+    "category": "951-975: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet corner.",
+    "spanish": "Voy a un rincón tranquilo."
+  },
+  {
+    "id": 976,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm organising my bookshelf.",
+    "spanish": "Estoy organizando mi estantería."
+  },
+  {
+    "id": 977,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's clean the dining room.",
+    "spanish": "Limpiemos el comedor."
+  },
+  {
+    "id": 978,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the air conditioning.",
+    "spanish": "Estoy revisando el aire acondicionado."
+  },
+  {
+    "id": 979,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's tidy up the hallway.",
+    "spanish": "Ordenemos el pasillo."
+  },
+  {
+    "id": 980,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the lighting system.",
+    "spanish": "Estoy revisando el sistema de iluminación."
+  },
+  {
+    "id": 981,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the water heater.",
+    "spanish": "Revisemos el calentador de agua."
+  },
+  {
+    "id": 982,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm updating my smartwatch.",
+    "spanish": "Estoy actualizando mi reloj inteligente."
+  },
+  {
+    "id": 983,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the Bluetooth settings.",
+    "spanish": "Revisemos los ajustes de Bluetooth."
+  },
+  {
+    "id": 984,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm testing the webcam.",
+    "spanish": "Estoy probando la cámara web."
+  },
+  {
+    "id": 985,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the display settings.",
+    "spanish": "Revisemos los ajustes de pantalla."
+  },
+  {
+    "id": 986,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel documents again.",
+    "spanish": "Estoy revisando los documentos de viaje otra vez."
+  },
+  {
+    "id": 987,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the airport terminal.",
+    "spanish": "Revisemos la terminal del aeropuerto."
+  },
+  {
+    "id": 988,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the metro map.",
+    "spanish": "Estoy revisando el mapa del metro."
+  },
+  {
+    "id": 989,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the ferry schedule.",
+    "spanish": "Revisemos el horario del ferry."
+  },
+  {
+    "id": 990,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel insurance policy.",
+    "spanish": "Estoy revisando la póliza de seguro de viaje."
+  },
+  {
+    "id": 991,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the passport expiry date.",
+    "spanish": "Revisemos la fecha de caducidad del pasaporte."
+  },
+  {
+    "id": 992,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the hotel amenities.",
+    "spanish": "Estoy revisando los servicios del hotel."
+  },
+  {
+    "id": 993,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the local restaurants.",
+    "spanish": "Revisemos los restaurantes locales."
+  },
+  {
+    "id": 994,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel budget again.",
+    "spanish": "Estoy revisando el presupuesto de viaje otra vez."
+  },
+  {
+    "id": 995,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the return flight details.",
+    "spanish": "Revisemos los detalles del vuelo de regreso."
+  },
+  {
+    "id": 996,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the train connections.",
+    "spanish": "Estoy revisando las conexiones del tren."
+  },
+  {
+    "id": 997,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the bus stops.",
+    "spanish": "Revisemos las paradas de autobús."
+  },
+  {
+    "id": 998,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel route again.",
+    "spanish": "Estoy revisando la ruta de viaje otra vez."
+  },
+  {
+    "id": 999,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the luggage tags.",
+    "spanish": "Revisemos las etiquetas del equipaje."
+  },
+  {
+    "id": 1000,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel checklist again.",
+    "spanish": "Estoy revisando la lista de viaje otra vez."
+  },
+  {
+    "id": 1001,
+    "category": "976-1000: Hogar, tecnología y viajes avanzados",
+    "english": "Bloque 11",
+    "spanish": "Frases 1001–1100 (sin duplicados)"
+  },
+  {
+    "id": 1002,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I didn't mean to make you uncomfortable.",
+    "spanish": "No quise incomodarte."
+  },
+  {
+    "id": 1003,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's keep things moving smoothly.",
+    "spanish": "Mantengamos las cosas avanzando con fluidez."
+  },
+  {
+    "id": 1004,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to stay calm about everything.",
+    "spanish": "Intento mantener la calma con todo."
+  },
+  {
+    "id": 1005,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary confusion.",
+    "spanish": "Evitemos confusiones innecesarias."
+  },
+  {
+    "id": 1006,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm not trying to be harsh.",
+    "spanish": "No intento ser duro."
+  },
+  {
+    "id": 1007,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's take a moment to think things through.",
+    "spanish": "Tomemos un momento para pensar bien las cosas."
+  },
+  {
+    "id": 1008,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to understand your point of view.",
+    "spanish": "Intento entender tu punto de vista."
+  },
+  {
+    "id": 1009,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's avoid repeating the same mistakes.",
+    "spanish": "Evitemos repetir los mismos errores."
+  },
+  {
+    "id": 1010,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm not trying to make this harder.",
+    "spanish": "No intento hacer esto más difícil."
+  },
+  {
+    "id": 1011,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's keep the conversation productive.",
+    "spanish": "Mantengamos la conversación productiva."
+  },
+  {
+    "id": 1012,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to find the right approach.",
+    "spanish": "Intento encontrar el enfoque adecuado."
+  },
+  {
+    "id": 1013,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary pressure.",
+    "spanish": "Evitemos la presión innecesaria."
+  },
+  {
+    "id": 1014,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm not trying to dismiss your opinion.",
+    "spanish": "No intento descartar tu opinión."
+  },
+  {
+    "id": 1015,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's stay focused on the main issue.",
+    "spanish": "Mantengámonos centrados en el tema principal."
+  },
+  {
+    "id": 1016,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to be as honest as possible.",
+    "spanish": "Intento ser lo más honesto posible."
+  },
+  {
+    "id": 1017,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's avoid complicating things further.",
+    "spanish": "Evitemos complicar más las cosas."
+  },
+  {
+    "id": 1018,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm not trying to make assumptions.",
+    "spanish": "No intento hacer suposiciones."
+  },
+  {
+    "id": 1019,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's keep the discussion respectful.",
+    "spanish": "Mantengamos la discusión respetuosa."
+  },
+  {
+    "id": 1020,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to stay positive about this.",
+    "spanish": "Intento mantenerme positivo sobre esto."
+  },
+  {
+    "id": 1021,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary negativity.",
+    "spanish": "Evitemos negatividad innecesaria."
+  },
+  {
+    "id": 1022,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm not trying to ignore the problem.",
+    "spanish": "No intento ignorar el problema."
+  },
+  {
+    "id": 1023,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's stay aligned with our goals.",
+    "spanish": "Mantengámonos alineados con nuestros objetivos."
+  },
+  {
+    "id": 1024,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to be thoughtful.",
+    "spanish": "Intento ser considerado."
+  },
+  {
+    "id": 1025,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "Let's avoid making this more complicated.",
+    "spanish": "Evitemos hacer esto más complicado."
+  },
+  {
+    "id": 1026,
+    "category": "1001-1025: Conversación natural avanzada",
+    "english": "I'm trying to stay focused on the solution.",
+    "spanish": "Intento centrarme en la solución."
+  },
+  {
+    "id": 1027,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's define the core objectives.",
+    "spanish": "Definamos los objetivos principales."
+  },
+  {
+    "id": 1028,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to refine the project scope.",
+    "spanish": "Necesitamos refinar el alcance del proyecto."
+  },
+  {
+    "id": 1029,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's identify the key challenges.",
+    "spanish": "Identifiquemos los desafíos clave."
+  },
+  {
+    "id": 1030,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to gather more evidence.",
+    "spanish": "Necesitamos recopilar más evidencia."
+  },
+  {
+    "id": 1031,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare an initial concept.",
+    "spanish": "Preparemos un concepto inicial."
+  },
+  {
+    "id": 1032,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to verify the accuracy.",
+    "spanish": "Necesitamos verificar la precisión."
+  },
+  {
+    "id": 1033,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's coordinate the upcoming tasks.",
+    "spanish": "Coordinemos las tareas próximas."
+  },
+  {
+    "id": 1034,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to align our expectations.",
+    "spanish": "Necesitamos alinear nuestras expectativas."
+  },
+  {
+    "id": 1035,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's review the latest progress.",
+    "spanish": "Revisemos el progreso más reciente."
+  },
+  {
+    "id": 1036,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the workload.",
+    "spanish": "Necesitamos ajustar la carga de trabajo."
+  },
+  {
+    "id": 1037,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's analyse the updated data.",
+    "spanish": "Analicemos los datos actualizados."
+  },
+  {
+    "id": 1038,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our planning methods.",
+    "spanish": "Necesitamos mejorar nuestros métodos de planificación."
+  },
+  {
+    "id": 1039,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the next steps.",
+    "spanish": "Preparemos los siguientes pasos."
+  },
+  {
+    "id": 1040,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to clarify the deliverables.",
+    "spanish": "Necesitamos aclarar los entregables."
+  },
+  {
+    "id": 1041,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's organise the project files.",
+    "spanish": "Organicemos los archivos del proyecto."
+  },
+  {
+    "id": 1042,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to monitor the deadlines closely.",
+    "spanish": "Necesitamos vigilar las fechas límite de cerca."
+  },
+  {
+    "id": 1043,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's evaluate the new strategy.",
+    "spanish": "Evaluemos la nueva estrategia."
+  },
+  {
+    "id": 1044,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to update the workflow.",
+    "spanish": "Necesitamos actualizar el flujo de trabajo."
+  },
+  {
+    "id": 1045,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's schedule a planning session.",
+    "spanish": "Programemos una sesión de planificación."
+  },
+  {
+    "id": 1046,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our reporting system.",
+    "spanish": "Necesitamos mejorar nuestro sistema de informes."
+  },
+  {
+    "id": 1047,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's check the updated requirements.",
+    "spanish": "Revisemos los requisitos actualizados."
+  },
+  {
+    "id": 1048,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the resource plan.",
+    "spanish": "Necesitamos ajustar el plan de recursos."
+  },
+  {
+    "id": 1049,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the final summary.",
+    "spanish": "Preparemos el resumen final."
+  },
+  {
+    "id": 1050,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "We need to avoid unnecessary delays.",
+    "spanish": "Necesitamos evitar retrasos innecesarios."
+  },
+  {
+    "id": 1051,
+    "category": "1026-1050: Trabajo, productividad y organización avanzada",
+    "english": "Let's confirm the updated timeline.",
+    "spanish": "Confirmemos el cronograma actualizado."
+  },
+  {
+    "id": 1052,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading out for a quick walk.",
+    "spanish": "Salgo a dar un paseo rápido."
+  },
+  {
+    "id": 1053,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's grab something light to eat.",
+    "spanish": "Tomemos algo ligero."
+  },
+  {
+    "id": 1054,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm meeting someone for dinner.",
+    "spanish": "Me reuniré con alguien para cenar."
+  },
+  {
+    "id": 1055,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's try a new spot.",
+    "spanish": "Probemos un sitio nuevo."
+  },
+  {
+    "id": 1056,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a moment to unwind.",
+    "spanish": "Estoy tomando un momento para desconectar."
+  },
+  {
+    "id": 1057,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go somewhere comfortable.",
+    "spanish": "Vayamos a un lugar cómodo."
+  },
+  {
+    "id": 1058,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a slow evening.",
+    "spanish": "Planeo una noche tranquila."
+  },
+  {
+    "id": 1059,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's see what's happening around.",
+    "spanish": "Veamos qué pasa por aquí."
+  },
+  {
+    "id": 1060,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm joining a community event.",
+    "spanish": "Me uno a un evento comunitario."
+  },
+  {
+    "id": 1061,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's explore a nearby area.",
+    "spanish": "Exploremos una zona cercana."
+  },
+  {
+    "id": 1062,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm trying a new bakery.",
+    "spanish": "Estoy probando una nueva panadería."
+  },
+  {
+    "id": 1063,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a peaceful walk.",
+    "spanish": "Demos un paseo tranquilo."
+  },
+  {
+    "id": 1064,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet library.",
+    "spanish": "Voy a una biblioteca tranquila."
+  },
+  {
+    "id": 1065,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's plan something easy.",
+    "spanish": "Planifiquemos algo sencillo."
+  },
+  {
+    "id": 1066,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a break from everything today.",
+    "spanish": "Hoy tomo un descanso de todo."
+  },
+  {
+    "id": 1067,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's enjoy a calm afternoon.",
+    "spanish": "Disfrutemos una tarde calmada."
+  },
+  {
+    "id": 1068,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a local exhibition.",
+    "spanish": "Voy a una exposición local."
+  },
+  {
+    "id": 1069,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the new venues.",
+    "spanish": "Veamos los nuevos locales."
+  },
+  {
+    "id": 1070,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a cosy morning.",
+    "spanish": "Planeo una mañana acogedora."
+  },
+  {
+    "id": 1071,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's organise a friendly meetup.",
+    "spanish": "Organicemos una quedada amistosa."
+  },
+  {
+    "id": 1072,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a cultural fair.",
+    "spanish": "Voy a una feria cultural."
+  },
+  {
+    "id": 1073,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a scenic route.",
+    "spanish": "Tomemos una ruta con buenas vistas."
+  },
+  {
+    "id": 1074,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a peaceful afternoon.",
+    "spanish": "Planeo una tarde tranquila."
+  },
+  {
+    "id": 1075,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the local bookstores.",
+    "spanish": "Veamos las librerías locales."
+  },
+  {
+    "id": 1076,
+    "category": "1051-1075: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet café corner.",
+    "spanish": "Voy a un rincón tranquilo de una cafetería."
+  },
+  {
+    "id": 1077,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm organising my digital workspace.",
+    "spanish": "Estoy organizando mi espacio digital."
+  },
+  {
+    "id": 1078,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's clean the study room.",
+    "spanish": "Limpiemos el estudio."
+  },
+  {
+    "id": 1079,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the thermostat settings.",
+    "spanish": "Estoy revisando los ajustes del termostato."
+  },
+  {
+    "id": 1080,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's tidy up the storage room.",
+    "spanish": "Ordenemos el trastero."
+  },
+  {
+    "id": 1081,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the electrical outlets.",
+    "spanish": "Estoy revisando los enchufes."
+  },
+  {
+    "id": 1082,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the heating bill.",
+    "spanish": "Revisemos la factura de calefacción."
+  },
+  {
+    "id": 1083,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm updating my operating system.",
+    "spanish": "Estoy actualizando mi sistema operativo."
+  },
+  {
+    "id": 1084,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the WiFi password.",
+    "spanish": "Revisemos la contraseña del WiFi."
+  },
+  {
+    "id": 1085,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm testing the external monitor.",
+    "spanish": "Estoy probando el monitor externo."
+  },
+  {
+    "id": 1086,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the audio output.",
+    "spanish": "Revisemos la salida de audio."
+  },
+  {
+    "id": 1087,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel reservations.",
+    "spanish": "Estoy revisando las reservas de viaje."
+  },
+  {
+    "id": 1088,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the airport shuttle schedule.",
+    "spanish": "Revisemos el horario del autobús al aeropuerto."
+  },
+  {
+    "id": 1089,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the tram route.",
+    "spanish": "Estoy revisando la ruta del tranvía."
+  },
+  {
+    "id": 1090,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the taxi pickup point.",
+    "spanish": "Revisemos el punto de recogida del taxi."
+  },
+  {
+    "id": 1091,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel insurance details.",
+    "spanish": "Estoy revisando los detalles del seguro de viaje."
+  },
+  {
+    "id": 1092,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the passport control area.",
+    "spanish": "Revisemos el área de control de pasaportes."
+  },
+  {
+    "id": 1093,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the hotel checkout process.",
+    "spanish": "Estoy revisando el proceso de checkout del hotel."
+  },
+  {
+    "id": 1094,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the local transport passes.",
+    "spanish": "Revisemos los abonos de transporte local."
+  },
+  {
+    "id": 1095,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel expenses again.",
+    "spanish": "Estoy revisando los gastos de viaje otra vez."
+  },
+  {
+    "id": 1096,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the return train details.",
+    "spanish": "Revisemos los detalles del tren de regreso."
+  },
+  {
+    "id": 1097,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the bus connections.",
+    "spanish": "Estoy revisando las conexiones del autobús."
+  },
+  {
+    "id": 1098,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the luggage storage options.",
+    "spanish": "Revisemos las opciones de almacenamiento de equipaje."
+  },
+  {
+    "id": 1099,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel route once more.",
+    "spanish": "Estoy revisando la ruta de viaje una vez más."
+  },
+  {
+    "id": 1100,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the boarding time.",
+    "spanish": "Revisemos la hora de embarque."
+  },
+  {
+    "id": 1101,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel checklist once more.",
+    "spanish": "Estoy revisando la lista de viaje una vez más."
+  },
+  {
+    "id": 1102,
+    "category": "1076-1100: Hogar, tecnología y viajes avanzados",
+    "english": "🇬🇧🇺🇸 Bloque 12",
+    "spanish": "Frases 1101–1200 (sin duplicados)"
+  },
+  {
+    "id": 1103,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I didn't mean to make things awkward.",
+    "spanish": "No quise que las cosas fueran incómodas."
+  },
+  {
+    "id": 1104,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's keep things moving in the right direction.",
+    "spanish": "Mantengamos las cosas avanzando en la dirección correcta."
+  },
+  {
+    "id": 1105,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to stay calm about the situation.",
+    "spanish": "Intento mantener la calma respecto a la situación."
+  },
+  {
+    "id": 1106,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary misunderstandings.",
+    "spanish": "Evitemos malentendidos innecesarios."
+  },
+  {
+    "id": 1107,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm not trying to be confrontational.",
+    "spanish": "No intento ser confrontativo."
+  },
+  {
+    "id": 1108,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's take a moment to gather our thoughts.",
+    "spanish": "Tomemos un momento para ordenar nuestras ideas."
+  },
+  {
+    "id": 1109,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to understand what you're feeling.",
+    "spanish": "Intento entender lo que sientes."
+  },
+  {
+    "id": 1110,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's avoid repeating old patterns.",
+    "spanish": "Evitemos repetir viejos patrones."
+  },
+  {
+    "id": 1111,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm not trying to complicate the discussion.",
+    "spanish": "No intento complicar la discusión."
+  },
+  {
+    "id": 1112,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's keep the conversation balanced.",
+    "spanish": "Mantengamos la conversación equilibrada."
+  },
+  {
+    "id": 1113,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to find a better way to explain it.",
+    "spanish": "Intento encontrar una mejor forma de explicarlo."
+  },
+  {
+    "id": 1114,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary tension between us.",
+    "spanish": "Evitemos tensión innecesaria entre nosotros."
+  },
+  {
+    "id": 1115,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm not trying to dismiss your concerns.",
+    "spanish": "No intento descartar tus preocupaciones."
+  },
+  {
+    "id": 1116,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's stay focused on what's important.",
+    "spanish": "Mantengámonos centrados en lo importante."
+  },
+  {
+    "id": 1117,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to be as respectful as possible.",
+    "spanish": "Intento ser lo más respetuoso posible."
+  },
+  {
+    "id": 1118,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's avoid complicating the conversation.",
+    "spanish": "Evitemos complicar la conversación."
+  },
+  {
+    "id": 1119,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm not trying to make things worse.",
+    "spanish": "No intento empeorar las cosas."
+  },
+  {
+    "id": 1120,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's keep communication smooth.",
+    "spanish": "Mantengamos la comunicación fluida."
+  },
+  {
+    "id": 1121,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to stay positive despite everything.",
+    "spanish": "Intento mantenerme positivo a pesar de todo."
+  },
+  {
+    "id": 1122,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary frustration.",
+    "spanish": "Evitemos frustración innecesaria."
+  },
+  {
+    "id": 1123,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm not trying to ignore your perspective.",
+    "spanish": "No intento ignorar tu perspectiva."
+  },
+  {
+    "id": 1124,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's stay aligned with the conversation.",
+    "spanish": "Mantengámonos alineados con la conversación."
+  },
+  {
+    "id": 1125,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to be thoughtful with my words.",
+    "spanish": "Intento ser cuidadoso con mis palabras."
+  },
+  {
+    "id": 1126,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "Let's avoid making this more stressful.",
+    "spanish": "Evitemos hacer esto más estresante."
+  },
+  {
+    "id": 1127,
+    "category": "1101-1125: Conversación natural avanzada",
+    "english": "I'm trying to stay focused on the main point.",
+    "spanish": "Intento mantenerme centrado en el punto principal."
+  },
+  {
+    "id": 1128,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's define the essential tasks.",
+    "spanish": "Definamos las tareas esenciales."
+  },
+  {
+    "id": 1129,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to refine the planning process.",
+    "spanish": "Necesitamos refinar el proceso de planificación."
+  },
+  {
+    "id": 1130,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's identify the critical issues.",
+    "spanish": "Identifiquemos los problemas críticos."
+  },
+  {
+    "id": 1131,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to gather more relevant data.",
+    "spanish": "Necesitamos recopilar más datos relevantes."
+  },
+  {
+    "id": 1132,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare an initial framework.",
+    "spanish": "Preparemos un marco inicial."
+  },
+  {
+    "id": 1133,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to verify the project details.",
+    "spanish": "Necesitamos verificar los detalles del proyecto."
+  },
+  {
+    "id": 1134,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's coordinate the upcoming deadlines.",
+    "spanish": "Coordinemos las próximas fechas límite."
+  },
+  {
+    "id": 1135,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to align our workflow.",
+    "spanish": "Necesitamos alinear nuestro flujo de trabajo."
+  },
+  {
+    "id": 1136,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's review the current progress.",
+    "spanish": "Revisemos el progreso actual."
+  },
+  {
+    "id": 1137,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the project scope.",
+    "spanish": "Necesitamos ajustar el alcance del proyecto."
+  },
+  {
+    "id": 1138,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's analyse the new information.",
+    "spanish": "Analicemos la nueva información."
+  },
+  {
+    "id": 1139,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our organisational methods.",
+    "spanish": "Necesitamos mejorar nuestros métodos organizativos."
+  },
+  {
+    "id": 1140,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the next action plan.",
+    "spanish": "Preparemos el próximo plan de acción."
+  },
+  {
+    "id": 1141,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to clarify the main priorities.",
+    "spanish": "Necesitamos aclarar las prioridades principales."
+  },
+  {
+    "id": 1142,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's organise the shared documents.",
+    "spanish": "Organicemos los documentos compartidos."
+  },
+  {
+    "id": 1143,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to monitor the workflow carefully.",
+    "spanish": "Necesitamos monitorear el flujo de trabajo cuidadosamente."
+  },
+  {
+    "id": 1144,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's evaluate the updated proposal.",
+    "spanish": "Evaluemos la propuesta actualizada."
+  },
+  {
+    "id": 1145,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to update the planning tools.",
+    "spanish": "Necesitamos actualizar las herramientas de planificación."
+  },
+  {
+    "id": 1146,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's schedule a coordination meeting.",
+    "spanish": "Programemos una reunión de coordinación."
+  },
+  {
+    "id": 1147,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our communication strategy.",
+    "spanish": "Necesitamos mejorar nuestra estrategia de comunicación."
+  },
+  {
+    "id": 1148,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's check the updated project plan.",
+    "spanish": "Revisemos el plan de proyecto actualizado."
+  },
+  {
+    "id": 1149,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the resource distribution.",
+    "spanish": "Necesitamos ajustar la distribución de recursos."
+  },
+  {
+    "id": 1150,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the final documentation.",
+    "spanish": "Preparemos la documentación final."
+  },
+  {
+    "id": 1151,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "We need to avoid unnecessary revisions.",
+    "spanish": "Necesitamos evitar revisiones innecesarias."
+  },
+  {
+    "id": 1152,
+    "category": "1126-1150: Trabajo, productividad y organización avanzada",
+    "english": "Let's confirm the updated project goals.",
+    "spanish": "Confirmemos los objetivos actualizados del proyecto."
+  },
+  {
+    "id": 1153,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading out for a quick coffee break.",
+    "spanish": "Salgo a tomar un café rápido."
+  },
+  {
+    "id": 1154,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's grab something warm to drink.",
+    "spanish": "Tomemos algo caliente."
+  },
+  {
+    "id": 1155,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm meeting someone for a chat.",
+    "spanish": "Me reuniré con alguien para charlar."
+  },
+  {
+    "id": 1156,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's try a new outdoor activity.",
+    "spanish": "Probemos una nueva actividad al aire libre."
+  },
+  {
+    "id": 1157,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a moment to recharge.",
+    "spanish": "Estoy tomando un momento para recargar energías."
+  },
+  {
+    "id": 1158,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go somewhere with a nice view.",
+    "spanish": "Vayamos a un lugar con buenas vistas."
+  },
+  {
+    "id": 1159,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a slow start to the day.",
+    "spanish": "Planeo empezar el día despacio."
+  },
+  {
+    "id": 1160,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's see what events are happening today.",
+    "spanish": "Veamos qué eventos hay hoy."
+  },
+  {
+    "id": 1161,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm joining a weekend workshop.",
+    "spanish": "Me uno a un taller de fin de semana."
+  },
+  {
+    "id": 1162,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's explore a different part of the city.",
+    "spanish": "Exploremos otra parte de la ciudad."
+  },
+  {
+    "id": 1163,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm trying a new tea place.",
+    "spanish": "Estoy probando un nuevo sitio de té."
+  },
+  {
+    "id": 1164,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a refreshing walk.",
+    "spanish": "Demos un paseo refrescante."
+  },
+  {
+    "id": 1165,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet reading spot.",
+    "spanish": "Voy a un lugar tranquilo para leer."
+  },
+  {
+    "id": 1166,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's plan something relaxing for tonight.",
+    "spanish": "Planifiquemos algo relajante para esta noche."
+  },
+  {
+    "id": 1167,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a break from my routine.",
+    "spanish": "Estoy tomando un descanso de mi rutina."
+  },
+  {
+    "id": 1168,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's enjoy a peaceful moment together.",
+    "spanish": "Disfrutemos un momento tranquilo juntos."
+  },
+  {
+    "id": 1169,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a local craft fair.",
+    "spanish": "Voy a una feria de artesanía local."
+  },
+  {
+    "id": 1170,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the new boutiques.",
+    "spanish": "Veamos las nuevas boutiques."
+  },
+  {
+    "id": 1171,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a cosy afternoon.",
+    "spanish": "Planeo una tarde acogedora."
+  },
+  {
+    "id": 1172,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's organise a relaxed gettogether.",
+    "spanish": "Organicemos una reunión relajada."
+  },
+  {
+    "id": 1173,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a cultural workshop.",
+    "spanish": "Voy a un taller cultural."
+  },
+  {
+    "id": 1174,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a scenic bike ride.",
+    "spanish": "Demos un paseo en bici con buenas vistas."
+  },
+  {
+    "id": 1175,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a peaceful morning.",
+    "spanish": "Planeo una mañana tranquila."
+  },
+  {
+    "id": 1176,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the local galleries.",
+    "spanish": "Veamos las galerías locales."
+  },
+  {
+    "id": 1177,
+    "category": "1151-1175: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet corner of the park.",
+    "spanish": "Voy a un rincón tranquilo del parque."
+  },
+  {
+    "id": 1178,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm organising my home office.",
+    "spanish": "Estoy organizando mi oficina en casa."
+  },
+  {
+    "id": 1179,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's clean the guest room.",
+    "spanish": "Limpiemos la habitación de invitados."
+  },
+  {
+    "id": 1180,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the ventilation system.",
+    "spanish": "Estoy revisando el sistema de ventilación."
+  },
+  {
+    "id": 1181,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's tidy up the laundry area.",
+    "spanish": "Ordenemos la zona de lavandería."
+  },
+  {
+    "id": 1182,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the fuse box.",
+    "spanish": "Estoy revisando la caja de fusibles."
+  },
+  {
+    "id": 1183,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the water filter.",
+    "spanish": "Revisemos el filtro de agua."
+  },
+  {
+    "id": 1184,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm updating my security software.",
+    "spanish": "Estoy actualizando mi software de seguridad."
+  },
+  {
+    "id": 1185,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the router settings.",
+    "spanish": "Revisemos los ajustes del router."
+  },
+  {
+    "id": 1186,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm testing the microphone settings.",
+    "spanish": "Estoy probando los ajustes del micrófono."
+  },
+  {
+    "id": 1187,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the brightness calibration.",
+    "spanish": "Revisemos la calibración del brillo."
+  },
+  {
+    "id": 1188,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel confirmations.",
+    "spanish": "Estoy revisando las confirmaciones de viaje."
+  },
+  {
+    "id": 1189,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the airport map.",
+    "spanish": "Revisemos el mapa del aeropuerto."
+  },
+  {
+    "id": 1190,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the subway timetable.",
+    "spanish": "Estoy revisando el horario del metro."
+  },
+  {
+    "id": 1191,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the shuttle service.",
+    "spanish": "Revisemos el servicio de transporte."
+  },
+  {
+    "id": 1192,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel insurance coverage.",
+    "spanish": "Estoy revisando la cobertura del seguro de viaje."
+  },
+  {
+    "id": 1193,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the passport queue.",
+    "spanish": "Revisemos la cola de pasaportes."
+  },
+  {
+    "id": 1194,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the hotel reservation again.",
+    "spanish": "Estoy revisando la reserva del hotel otra vez."
+  },
+  {
+    "id": 1195,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the local transport options.",
+    "spanish": "Revisemos las opciones de transporte local."
+  },
+  {
+    "id": 1196,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel expenses once more.",
+    "spanish": "Estoy revisando los gastos de viaje una vez más."
+  },
+  {
+    "id": 1197,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the return bus schedule.",
+    "spanish": "Revisemos el horario del autobús de regreso."
+  },
+  {
+    "id": 1198,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the train seat assignment.",
+    "spanish": "Estoy revisando la asignación de asiento del tren."
+  },
+  {
+    "id": 1199,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the luggage dropoff point.",
+    "spanish": "Revisemos el punto de entrega de equipaje."
+  },
+  {
+    "id": 1200,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel route again for accuracy.",
+    "spanish": "Estoy revisando la ruta de viaje otra vez para asegurarme."
+  },
+  {
+    "id": 1201,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the boarding instructions.",
+    "spanish": "Revisemos las instrucciones de embarque."
+  },
+  {
+    "id": 1202,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel checklist one last time.",
+    "spanish": "Estoy revisando la lista de viaje por última vez."
+  },
+  {
+    "id": 1203,
+    "category": "1176-1200: Hogar, tecnología y viajes avanzados",
+    "english": "🇬🇧🇺🇸 Bloque 13",
+    "spanish": "Frases 1201–1300 (sin duplicados)"
+  },
+  {
+    "id": 1204,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I didn't mean to make things uncomfortable for you.",
+    "spanish": "No quise hacerte sentir incómodo."
+  },
+  {
+    "id": 1205,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's keep this conversation going smoothly.",
+    "spanish": "Mantengamos esta conversación fluida."
+  },
+  {
+    "id": 1206,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to stay calm while we talk.",
+    "spanish": "Intento mantener la calma mientras hablamos."
+  },
+  {
+    "id": 1207,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary misunderstandings from here on.",
+    "spanish": "Evitemos malentendidos innecesarios desde ahora."
+  },
+  {
+    "id": 1208,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm not trying to be defensive.",
+    "spanish": "No intento ponerme a la defensiva."
+  },
+  {
+    "id": 1209,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's take a moment to reset our thoughts.",
+    "spanish": "Tomemos un momento para reorganizar nuestras ideas."
+  },
+  {
+    "id": 1210,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to understand your reasoning.",
+    "spanish": "Intento entender tu razonamiento."
+  },
+  {
+    "id": 1211,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's avoid repeating the same issues.",
+    "spanish": "Evitemos repetir los mismos problemas."
+  },
+  {
+    "id": 1212,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm not trying to complicate the situation.",
+    "spanish": "No intento complicar la situación."
+  },
+  {
+    "id": 1213,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's keep the tone friendly.",
+    "spanish": "Mantengamos un tono amistoso."
+  },
+  {
+    "id": 1214,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to find the best way to explain myself.",
+    "spanish": "Intento encontrar la mejor forma de explicarme."
+  },
+  {
+    "id": 1215,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary tension between us.",
+    "spanish": "Evitemos tensión innecesaria entre nosotros."
+  },
+  {
+    "id": 1216,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm not trying to dismiss what you're saying.",
+    "spanish": "No intento descartar lo que dices."
+  },
+  {
+    "id": 1217,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's stay focused on the main idea.",
+    "spanish": "Mantengámonos centrados en la idea principal."
+  },
+  {
+    "id": 1218,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to be as clear as I can.",
+    "spanish": "Intento ser lo más claro posible."
+  },
+  {
+    "id": 1219,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's avoid complicating the discussion.",
+    "spanish": "Evitemos complicar la discusión."
+  },
+  {
+    "id": 1220,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm not trying to make things worse for you.",
+    "spanish": "No intento empeorar las cosas para ti."
+  },
+  {
+    "id": 1221,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's keep communication open and honest.",
+    "spanish": "Mantengamos la comunicación abierta y honesta."
+  },
+  {
+    "id": 1222,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to stay positive despite the situation.",
+    "spanish": "Intento mantenerme positivo a pesar de la situación."
+  },
+  {
+    "id": 1223,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary frustration on both sides.",
+    "spanish": "Evitemos frustración innecesaria por ambas partes."
+  },
+  {
+    "id": 1224,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm not trying to ignore your feelings.",
+    "spanish": "No intento ignorar tus sentimientos."
+  },
+  {
+    "id": 1225,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's stay aligned with what we're discussing.",
+    "spanish": "Mantengámonos alineados con lo que estamos hablando."
+  },
+  {
+    "id": 1226,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to choose my words carefully.",
+    "spanish": "Intento elegir mis palabras con cuidado."
+  },
+  {
+    "id": 1227,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "Let's avoid making this more stressful than it needs to be.",
+    "spanish": "Evitemos hacer esto más estresante de lo necesario."
+  },
+  {
+    "id": 1228,
+    "category": "1201-1225: Conversación natural avanzada",
+    "english": "I'm trying to stay focused on what really matters.",
+    "spanish": "Intento centrarme en lo que realmente importa."
+  },
+  {
+    "id": 1229,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's define the main action points.",
+    "spanish": "Definamos los puntos de acción principales."
+  },
+  {
+    "id": 1230,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to refine the execution plan.",
+    "spanish": "Necesitamos refinar el plan de ejecución."
+  },
+  {
+    "id": 1231,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's identify the core challenges.",
+    "spanish": "Identifiquemos los desafíos principales."
+  },
+  {
+    "id": 1232,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to gather more detailed information.",
+    "spanish": "Necesitamos recopilar información más detallada."
+  },
+  {
+    "id": 1233,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare an initial roadmap.",
+    "spanish": "Preparemos una hoja de ruta inicial."
+  },
+  {
+    "id": 1234,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to verify the project assumptions.",
+    "spanish": "Necesitamos verificar las suposiciones del proyecto."
+  },
+  {
+    "id": 1235,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's coordinate the next milestones.",
+    "spanish": "Coordinemos los próximos hitos."
+  },
+  {
+    "id": 1236,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to align our strategies.",
+    "spanish": "Necesitamos alinear nuestras estrategias."
+  },
+  {
+    "id": 1237,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's review the updated progress.",
+    "spanish": "Revisemos el progreso actualizado."
+  },
+  {
+    "id": 1238,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the team workload.",
+    "spanish": "Necesitamos ajustar la carga de trabajo del equipo."
+  },
+  {
+    "id": 1239,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's analyse the latest insights.",
+    "spanish": "Analicemos las últimas conclusiones."
+  },
+  {
+    "id": 1240,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our organisational structure.",
+    "spanish": "Necesitamos mejorar nuestra estructura organizativa."
+  },
+  {
+    "id": 1241,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the next project phase.",
+    "spanish": "Preparemos la siguiente fase del proyecto."
+  },
+  {
+    "id": 1242,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to clarify the expected outcomes.",
+    "spanish": "Necesitamos aclarar los resultados esperados."
+  },
+  {
+    "id": 1243,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's organise the shared resources.",
+    "spanish": "Organicemos los recursos compartidos."
+  },
+  {
+    "id": 1244,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to monitor the project timeline carefully.",
+    "spanish": "Necesitamos vigilar el cronograma del proyecto cuidadosamente."
+  },
+  {
+    "id": 1245,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's evaluate the revised proposal.",
+    "spanish": "Evaluemos la propuesta revisada."
+  },
+  {
+    "id": 1246,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to update the planning framework.",
+    "spanish": "Necesitamos actualizar el marco de planificación."
+  },
+  {
+    "id": 1247,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's schedule a followup session.",
+    "spanish": "Programemos una sesión de seguimiento."
+  },
+  {
+    "id": 1248,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to improve our internal communication.",
+    "spanish": "Necesitamos mejorar nuestra comunicación interna."
+  },
+  {
+    "id": 1249,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's check the updated documentation.",
+    "spanish": "Revisemos la documentación actualizada."
+  },
+  {
+    "id": 1250,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to adjust the resource allocation plan.",
+    "spanish": "Necesitamos ajustar el plan de asignación de recursos."
+  },
+  {
+    "id": 1251,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's prepare the final deliverables.",
+    "spanish": "Preparemos los entregables finales."
+  },
+  {
+    "id": 1252,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "We need to avoid unnecessary bottlenecks.",
+    "spanish": "Necesitamos evitar cuellos de botella innecesarios."
+  },
+  {
+    "id": 1253,
+    "category": "1226-1250: Trabajo, productividad y organización avanzada",
+    "english": "Let's confirm the revised project timeline.",
+    "spanish": "Confirmemos el cronograma revisado del proyecto."
+  },
+  {
+    "id": 1254,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading out for a short break.",
+    "spanish": "Salgo a tomar un descanso corto."
+  },
+  {
+    "id": 1255,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's grab something sweet to eat.",
+    "spanish": "Tomemos algo dulce."
+  },
+  {
+    "id": 1256,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm meeting someone for a quick chat.",
+    "spanish": "Me reuniré con alguien para una charla rápida."
+  },
+  {
+    "id": 1257,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's try a new weekend activity.",
+    "spanish": "Probemos una nueva actividad de fin de semana."
+  },
+  {
+    "id": 1258,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a moment to clear my mind.",
+    "spanish": "Estoy tomando un momento para despejar mi mente."
+  },
+  {
+    "id": 1259,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go somewhere with a calm atmosphere.",
+    "spanish": "Vayamos a un lugar con un ambiente tranquilo."
+  },
+  {
+    "id": 1260,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a slow afternoon.",
+    "spanish": "Planeo una tarde tranquila."
+  },
+  {
+    "id": 1261,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's see what's happening in the neighbourhood.",
+    "spanish": "Veamos qué pasa en el vecindario."
+  },
+  {
+    "id": 1262,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm joining a local meetup.",
+    "spanish": "Me uno a una quedada local."
+  },
+  {
+    "id": 1263,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's explore a new district.",
+    "spanish": "Exploremos un nuevo distrito."
+  },
+  {
+    "id": 1264,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm trying a new pastry shop.",
+    "spanish": "Estoy probando una nueva pastelería."
+  },
+  {
+    "id": 1265,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a gentle walk.",
+    "spanish": "Demos un paseo suave."
+  },
+  {
+    "id": 1266,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet study spot.",
+    "spanish": "Voy a un lugar tranquilo para estudiar."
+  },
+  {
+    "id": 1267,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's plan something relaxing for the weekend.",
+    "spanish": "Planifiquemos algo relajante para el fin de semana."
+  },
+  {
+    "id": 1268,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a break from my usual routine.",
+    "spanish": "Estoy tomando un descanso de mi rutina habitual."
+  },
+  {
+    "id": 1269,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's enjoy a peaceful moment outdoors.",
+    "spanish": "Disfrutemos un momento tranquilo al aire libre."
+  },
+  {
+    "id": 1270,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a local artisan market.",
+    "spanish": "Voy a un mercado de artesanos local."
+  },
+  {
+    "id": 1271,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the new cafés in town.",
+    "spanish": "Veamos las nuevas cafeterías de la ciudad."
+  },
+  {
+    "id": 1272,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a cosy evening at home.",
+    "spanish": "Planeo una noche acogedora en casa."
+  },
+  {
+    "id": 1273,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's organise a casual gettogether.",
+    "spanish": "Organicemos una reunión informal."
+  },
+  {
+    "id": 1274,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a cultural performance.",
+    "spanish": "Voy a una actuación cultural."
+  },
+  {
+    "id": 1275,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a scenic evening walk.",
+    "spanish": "Demos un paseo con buenas vistas por la tarde."
+  },
+  {
+    "id": 1276,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a peaceful start to the day.",
+    "spanish": "Planeo un comienzo de día tranquilo."
+  },
+  {
+    "id": 1277,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the local craft shops.",
+    "spanish": "Veamos las tiendas de artesanía locales."
+  },
+  {
+    "id": 1278,
+    "category": "1251-1275: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet corner of the museum.",
+    "spanish": "Voy a un rincón tranquilo del museo."
+  },
+  {
+    "id": 1279,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm organising my storage cabinets.",
+    "spanish": "Estoy organizando mis armarios de almacenamiento."
+  },
+  {
+    "id": 1280,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's clean the hallway closet.",
+    "spanish": "Limpiemos el armario del pasillo."
+  },
+  {
+    "id": 1281,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the air filter system.",
+    "spanish": "Estoy revisando el sistema de filtros de aire."
+  },
+  {
+    "id": 1282,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's tidy up the utility room.",
+    "spanish": "Ordenemos la sala de servicios."
+  },
+  {
+    "id": 1283,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the electrical panel.",
+    "spanish": "Estoy revisando el panel eléctrico."
+  },
+  {
+    "id": 1284,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the water pressure regulator.",
+    "spanish": "Revisemos el regulador de presión del agua."
+  },
+  {
+    "id": 1285,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm updating my device firmware.",
+    "spanish": "Estoy actualizando el firmware de mi dispositivo."
+  },
+  {
+    "id": 1286,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the network configuration.",
+    "spanish": "Revisemos la configuración de red."
+  },
+  {
+    "id": 1287,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm testing the speaker settings.",
+    "spanish": "Estoy probando los ajustes de los altavoces."
+  },
+  {
+    "id": 1288,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the colour calibration.",
+    "spanish": "Revisemos la calibración del color."
+  },
+  {
+    "id": 1289,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel itinerary updates.",
+    "spanish": "Estoy revisando las actualizaciones del itinerario de viaje."
+  },
+  {
+    "id": 1290,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the airport transport options.",
+    "spanish": "Revisemos las opciones de transporte al aeropuerto."
+  },
+  {
+    "id": 1291,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the regional train schedule.",
+    "spanish": "Estoy revisando el horario del tren regional."
+  },
+  {
+    "id": 1292,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the taxi booking details.",
+    "spanish": "Revisemos los detalles de la reserva del taxi."
+  },
+  {
+    "id": 1293,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel insurance terms.",
+    "spanish": "Estoy revisando los términos del seguro de viaje."
+  },
+  {
+    "id": 1294,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the passport renewal requirements.",
+    "spanish": "Revisemos los requisitos para renovar el pasaporte."
+  },
+  {
+    "id": 1295,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the hotel room features.",
+    "spanish": "Estoy revisando las características de la habitación del hotel."
+  },
+  {
+    "id": 1296,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the local transport passes again.",
+    "spanish": "Revisemos otra vez los abonos de transporte local."
+  },
+  {
+    "id": 1297,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel expenses again for accuracy.",
+    "spanish": "Estoy revisando los gastos de viaje otra vez para asegurarme."
+  },
+  {
+    "id": 1298,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the return flight schedule.",
+    "spanish": "Revisemos el horario del vuelo de regreso."
+  },
+  {
+    "id": 1299,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the train platform assignment.",
+    "spanish": "Estoy revisando la asignación de andén del tren."
+  },
+  {
+    "id": 1300,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the luggage pickup area.",
+    "spanish": "Revisemos el área de recogida de equipaje."
+  },
+  {
+    "id": 1301,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel route one more time.",
+    "spanish": "Estoy revisando la ruta de viaje una vez más."
+  },
+  {
+    "id": 1302,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the boarding gate instructions.",
+    "spanish": "Revisemos las instrucciones de la puerta de embarque."
+  },
+  {
+    "id": 1303,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel checklist again before leaving.",
+    "spanish": "Estoy revisando la lista de viaje otra vez antes de salir."
+  },
+  {
+    "id": 1304,
+    "category": "1276-1300: Hogar, tecnología y viajes avanzados",
+    "english": "🇬🇧🇺🇸 Bloque 14",
+    "spanish": "Frases 1301–1400 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1305,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I didn't mean to make the situation confusing.",
+    "spanish": "No quise hacer la situación confusa."
+  },
+  {
+    "id": 1306,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's keep the conversation clear and direct.",
+    "spanish": "Mantengamos la conversación clara y directa."
+  },
+  {
+    "id": 1307,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to stay calm while we sort this out.",
+    "spanish": "Intento mantener la calma mientras resolvemos esto."
+  },
+  {
+    "id": 1308,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary backandforth.",
+    "spanish": "Evitemos idas y venidas innecesarias."
+  },
+  {
+    "id": 1309,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm not trying to sound impatient.",
+    "spanish": "No intento sonar impaciente."
+  },
+  {
+    "id": 1310,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's take a moment to think before responding.",
+    "spanish": "Tomemos un momento para pensar antes de responder."
+  },
+  {
+    "id": 1311,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to understand your logic.",
+    "spanish": "Intento entender tu lógica."
+  },
+  {
+    "id": 1312,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's avoid repeating the same points.",
+    "spanish": "Evitemos repetir los mismos puntos."
+  },
+  {
+    "id": 1313,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm not trying to complicate the conversation.",
+    "spanish": "No intento complicar la conversación."
+  },
+  {
+    "id": 1314,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's keep the tone neutral.",
+    "spanish": "Mantengamos un tono neutral."
+  },
+  {
+    "id": 1315,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to express myself clearly.",
+    "spanish": "Intento expresarme claramente."
+  },
+  {
+    "id": 1316,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary tension in the discussion.",
+    "spanish": "Evitemos tensión innecesaria en la discusión."
+  },
+  {
+    "id": 1317,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm not trying to overlook your opinion.",
+    "spanish": "No intento pasar por alto tu opinión."
+  },
+  {
+    "id": 1318,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's stay focused on the main topic.",
+    "spanish": "Mantengámonos centrados en el tema principal."
+  },
+  {
+    "id": 1319,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to be as precise as possible.",
+    "spanish": "Intento ser lo más preciso posible."
+  },
+  {
+    "id": 1320,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's avoid complicating the explanation.",
+    "spanish": "Evitemos complicar la explicación."
+  },
+  {
+    "id": 1321,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm not trying to make things harder for you.",
+    "spanish": "No intento ponerte las cosas más difíciles."
+  },
+  {
+    "id": 1322,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's keep communication transparent.",
+    "spanish": "Mantengamos la comunicación transparente."
+  },
+  {
+    "id": 1323,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to stay positive about the outcome.",
+    "spanish": "Intento mantenerme positivo respecto al resultado."
+  },
+  {
+    "id": 1324,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's avoid unnecessary frustration during the process.",
+    "spanish": "Evitemos frustración innecesaria durante el proceso."
+  },
+  {
+    "id": 1325,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm not trying to ignore your point.",
+    "spanish": "No intento ignorar tu punto."
+  },
+  {
+    "id": 1326,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's stay aligned with what we agreed.",
+    "spanish": "Mantengámonos alineados con lo que acordamos."
+  },
+  {
+    "id": 1327,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to choose my words carefully here.",
+    "spanish": "Intento elegir mis palabras con cuidado aquí."
+  },
+  {
+    "id": 1328,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "Let's avoid making this more stressful than needed.",
+    "spanish": "Evitemos hacer esto más estresante de lo necesario."
+  },
+  {
+    "id": 1329,
+    "category": "1301-1325: Conversación natural avanzada",
+    "english": "I'm trying to stay focused on the essential parts.",
+    "spanish": "Intento centrarme en las partes esenciales."
+  },
+  {
+    "id": 1330,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm reviewing the API endpoints before deployment.",
+    "spanish": "Estoy revisando los endpoints de la API antes del despliegue."
+  },
+  {
+    "id": 1331,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's refactor the code to improve readability.",
+    "spanish": "Refactoricemos el código para mejorar la legibilidad."
+  },
+  {
+    "id": 1332,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm testing the backend logic with AIgenerated unit tests.",
+    "spanish": "Estoy probando la lógica del backend con tests unitarios generados por IA."
+  },
+  {
+    "id": 1333,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's validate the database schema before pushing changes.",
+    "spanish": "Validemos el esquema de la base de datos antes de subir cambios."
+  },
+  {
+    "id": 1334,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm generating boilerplate code using an AI assistant.",
+    "spanish": "Estoy generando código base usando un asistente de IA."
+  },
+  {
+    "id": 1335,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's optimise the query performance.",
+    "spanish": "Optimicemos el rendimiento de las consultas."
+  },
+  {
+    "id": 1336,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm reviewing the pull request with AI suggestions enabled.",
+    "spanish": "Estoy revisando el pull request con sugerencias de IA activadas."
+  },
+  {
+    "id": 1337,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's check the CI/CD pipeline logs.",
+    "spanish": "Revisemos los logs del pipeline CI/CD."
+  },
+  {
+    "id": 1338,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm integrating the frontend components with the new API.",
+    "spanish": "Estoy integrando los componentes del frontend con la nueva API."
+  },
+  {
+    "id": 1339,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's generate documentation automatically using AI.",
+    "spanish": "Generemos documentación automáticamente usando IA."
+  },
+  {
+    "id": 1340,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm debugging the server response using AIassisted tracing.",
+    "spanish": "Estoy depurando la respuesta del servidor con trazado asistido por IA."
+  },
+  {
+    "id": 1341,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's review the architecture diagram before scaling.",
+    "spanish": "Revisemos el diagrama de arquitectura antes de escalar."
+  },
+  {
+    "id": 1342,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm training a small model to classify user actions.",
+    "spanish": "Estoy entrenando un modelo pequeño para clasificar acciones de usuario."
+  },
+  {
+    "id": 1343,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's check the environment variables before building.",
+    "spanish": "Revisemos las variables de entorno antes de compilar."
+  },
+  {
+    "id": 1344,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm generating test data using synthetic AI samples.",
+    "spanish": "Estoy generando datos de prueba con muestras sintéticas de IA."
+  },
+  {
+    "id": 1345,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's analyse the logs with an AI anomaly detector.",
+    "spanish": "Analicemos los logs con un detector de anomalías basado en IA."
+  },
+  {
+    "id": 1346,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm reviewing the codebase for potential refactors.",
+    "spanish": "Estoy revisando la base de código para posibles refactors."
+  },
+  {
+    "id": 1347,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's run the automated tests before merging.",
+    "spanish": "Ejecutemos los tests automáticos antes de hacer merge."
+  },
+  {
+    "id": 1348,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm checking the API rate limits for the new feature.",
+    "spanish": "Estoy revisando los límites de la API para la nueva funcionalidad."
+  },
+  {
+    "id": 1349,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's generate a performance report using AI analytics.",
+    "spanish": "Generemos un informe de rendimiento usando analítica de IA."
+  },
+  {
+    "id": 1350,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm updating the dependencies to the latest stable versions.",
+    "spanish": "Estoy actualizando las dependencias a las últimas versiones estables."
+  },
+  {
+    "id": 1351,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's validate the JSON structure with an AI parser.",
+    "spanish": "Validemos la estructura JSON con un parser de IA."
+  },
+  {
+    "id": 1352,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm reviewing the UI flow to improve user experience.",
+    "spanish": "Estoy revisando el flujo de UI para mejorar la experiencia de usuario."
+  },
+  {
+    "id": 1353,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "Let's automate the deployment process further.",
+    "spanish": "Automatizemos aún más el proceso de despliegue."
+  },
+  {
+    "id": 1354,
+    "category": "1326-1350: Trabajo tecnológico, desarrollo FullStack e IA",
+    "english": "I'm generating code snippets to speed up development.",
+    "spanish": "Estoy generando fragmentos de código para acelerar el desarrollo."
+  },
+  {
+    "id": 1355,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading out for a quick stretch.",
+    "spanish": "Salgo a estirarme un momento."
+  },
+  {
+    "id": 1356,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's grab something fresh to drink.",
+    "spanish": "Tomemos algo fresco."
+  },
+  {
+    "id": 1357,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm meeting someone for a short catchup.",
+    "spanish": "Me reuniré con alguien para ponernos al día."
+  },
+  {
+    "id": 1358,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's try a new weekend plan.",
+    "spanish": "Probemos un nuevo plan de fin de semana."
+  },
+  {
+    "id": 1359,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a moment to reset mentally.",
+    "spanish": "Estoy tomando un momento para reiniciar mentalmente."
+  },
+  {
+    "id": 1360,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go somewhere with a relaxing vibe.",
+    "spanish": "Vayamos a un lugar con ambiente relajante."
+  },
+  {
+    "id": 1361,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a slow evening at home.",
+    "spanish": "Planeo una noche tranquila en casa."
+  },
+  {
+    "id": 1362,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's see what's happening around the city.",
+    "spanish": "Veamos qué pasa por la ciudad."
+  },
+  {
+    "id": 1363,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm joining a small community meetup.",
+    "spanish": "Me uno a una pequeña quedada comunitaria."
+  },
+  {
+    "id": 1364,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's explore a new part of town.",
+    "spanish": "Exploremos una nueva zona de la ciudad."
+  },
+  {
+    "id": 1365,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm trying a new brunch place.",
+    "spanish": "Estoy probando un nuevo sitio de brunch."
+  },
+  {
+    "id": 1366,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a relaxing evening walk.",
+    "spanish": "Demos un paseo relajante por la tarde."
+  },
+  {
+    "id": 1367,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet coworking space.",
+    "spanish": "Voy a un coworking tranquilo."
+  },
+  {
+    "id": 1368,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's plan something simple for tomorrow.",
+    "spanish": "Planifiquemos algo sencillo para mañana."
+  },
+  {
+    "id": 1369,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm taking a break from notifications.",
+    "spanish": "Estoy tomando un descanso de las notificaciones."
+  },
+  {
+    "id": 1370,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's enjoy a peaceful moment indoors.",
+    "spanish": "Disfrutemos un momento tranquilo dentro."
+  },
+  {
+    "id": 1371,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a local tech meetup.",
+    "spanish": "Voy a una quedada tecnológica local."
+  },
+  {
+    "id": 1372,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the new coffee shops.",
+    "spanish": "Veamos las nuevas cafeterías."
+  },
+  {
+    "id": 1373,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a cosy night with music.",
+    "spanish": "Planeo una noche acogedora con música."
+  },
+  {
+    "id": 1374,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's organise a casual coding hangout.",
+    "spanish": "Organicemos una quedada informal de programación."
+  },
+  {
+    "id": 1375,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a small workshop downtown.",
+    "spanish": "Voy a un pequeño taller en el centro."
+  },
+  {
+    "id": 1376,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's go for a scenic morning walk.",
+    "spanish": "Demos un paseo con buenas vistas por la mañana."
+  },
+  {
+    "id": 1377,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm planning a peaceful start to the weekend.",
+    "spanish": "Planeo un comienzo de fin de semana tranquilo."
+  },
+  {
+    "id": 1378,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "Let's check out the local tech stores.",
+    "spanish": "Veamos las tiendas tecnológicas locales."
+  },
+  {
+    "id": 1379,
+    "category": "1351-1375: Vida social, ocio y actividades avanzadas",
+    "english": "I'm heading to a quiet spot to read.",
+    "spanish": "Voy a un lugar tranquilo para leer."
+  },
+  {
+    "id": 1380,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm organising my development workspace.",
+    "spanish": "Estoy organizando mi espacio de desarrollo."
+  },
+  {
+    "id": 1381,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's clean the office desk.",
+    "spanish": "Limpiemos el escritorio de la oficina."
+  },
+  {
+    "id": 1382,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the cooling system on my PC.",
+    "spanish": "Estoy revisando el sistema de refrigeración de mi PC."
+  },
+  {
+    "id": 1383,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's tidy up the cable management.",
+    "spanish": "Ordenemos la gestión de cables."
+  },
+  {
+    "id": 1384,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the power supply connections.",
+    "spanish": "Estoy revisando las conexiones de la fuente de alimentación."
+  },
+  {
+    "id": 1385,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the water quality filter.",
+    "spanish": "Revisemos el filtro de calidad del agua."
+  },
+  {
+    "id": 1386,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm updating my development environment.",
+    "spanish": "Estoy actualizando mi entorno de desarrollo."
+  },
+  {
+    "id": 1387,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the network latency.",
+    "spanish": "Revisemos la latencia de red."
+  },
+  {
+    "id": 1388,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm testing the new monitor setup.",
+    "spanish": "Estoy probando la nueva configuración de monitores."
+  },
+  {
+    "id": 1389,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the audio latency.",
+    "spanish": "Revisemos la latencia de audio."
+  },
+  {
+    "id": 1390,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel itinerary for changes.",
+    "spanish": "Estoy revisando el itinerario de viaje por si hay cambios."
+  },
+  {
+    "id": 1391,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the airport security wait times.",
+    "spanish": "Revisemos los tiempos de espera en seguridad del aeropuerto."
+  },
+  {
+    "id": 1392,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the regional bus timetable.",
+    "spanish": "Estoy revisando el horario del autobús regional."
+  },
+  {
+    "id": 1393,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the taxi arrival estimates.",
+    "spanish": "Revisemos las estimaciones de llegada del taxi."
+  },
+  {
+    "id": 1394,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel insurance validity.",
+    "spanish": "Estoy revisando la validez del seguro de viaje."
+  },
+  {
+    "id": 1395,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the passport scanning instructions.",
+    "spanish": "Revisemos las instrucciones de escaneo del pasaporte."
+  },
+  {
+    "id": 1396,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the hotel room layout.",
+    "spanish": "Estoy revisando la distribución de la habitación del hotel."
+  },
+  {
+    "id": 1397,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the local transport card options.",
+    "spanish": "Revisemos las opciones de tarjetas de transporte local."
+  },
+  {
+    "id": 1398,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel expenses for accuracy.",
+    "spanish": "Estoy revisando los gastos de viaje para asegurarme."
+  },
+  {
+    "id": 1399,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the return flight boarding gate.",
+    "spanish": "Revisemos la puerta de embarque del vuelo de regreso."
+  },
+  {
+    "id": 1400,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the train seat reservation.",
+    "spanish": "Estoy revisando la reserva de asiento del tren."
+  },
+  {
+    "id": 1401,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the luggage storage lockers.",
+    "spanish": "Revisemos las taquillas de almacenamiento de equipaje."
+  },
+  {
+    "id": 1402,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel route again to confirm.",
+    "spanish": "Estoy revisando la ruta de viaje otra vez para confirmar."
+  },
+  {
+    "id": 1403,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "Let's check the boarding group assignment.",
+    "spanish": "Revisemos la asignación de grupo de embarque."
+  },
+  {
+    "id": 1404,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "I'm checking the travel checklist before packing.",
+    "spanish": "Estoy revisando la lista de viaje antes de hacer la maleta."
+  },
+  {
+    "id": 1405,
+    "category": "1376-1400: Hogar, tecnología y viajes avanzados",
+    "english": "🇬🇧🇺🇸 Bloque 15",
+    "spanish": "Frases 1401–1500 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1406,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's align our expectations before we start coding.",
+    "spanish": "Alineemos nuestras expectativas antes de empezar a programar."
+  },
+  {
+    "id": 1407,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the technical requirements to avoid surprises later.",
+    "spanish": "Estoy revisando los requisitos técnicos para evitar sorpresas después."
+  },
+  {
+    "id": 1408,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's clarify the scope so we don't overengineer the solution.",
+    "spanish": "Aclaramos el alcance para no sobreingenierizar la solución."
+  },
+  {
+    "id": 1409,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the backlog to see what's blocking progress.",
+    "spanish": "Estoy revisando el backlog para ver qué está bloqueando el progreso."
+  },
+  {
+    "id": 1410,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's sync up with the team before making major changes.",
+    "spanish": "Sincronizémonos con el equipo antes de hacer cambios importantes."
+  },
+  {
+    "id": 1411,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a summary of the technical decisions we made.",
+    "spanish": "Estoy preparando un resumen de las decisiones técnicas que tomamos."
+  },
+  {
+    "id": 1412,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep communication open during the sprint.",
+    "spanish": "Mantengamos la comunicación abierta durante el sprint."
+  },
+  {
+    "id": 1413,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the sprint goals to ensure we're aligned.",
+    "spanish": "Estoy revisando los objetivos del sprint para asegurar que estamos alineados."
+  },
+  {
+    "id": 1414,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid lastminute changes unless absolutely necessary.",
+    "spanish": "Evitemos cambios de última hora salvo que sean necesarios."
+  },
+  {
+    "id": 1415,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's feedback before finalising the feature.",
+    "spanish": "Estoy revisando el feedback del equipo antes de finalizar la funcionalidad."
+  },
+  {
+    "id": 1416,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's document the decisions so future developers understand the context.",
+    "spanish": "Documentemos las decisiones para que futuros desarrolladores entiendan el contexto."
+  },
+  {
+    "id": 1417,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the acceptance criteria to ensure full coverage.",
+    "spanish": "Estoy revisando los criterios de aceptación para asegurar cobertura completa."
+  },
+  {
+    "id": 1418,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the discussion technical and avoid assumptions.",
+    "spanish": "Mantengamos la discusión técnica y evitemos suposiciones."
+  },
+  {
+    "id": 1419,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the roadmap to anticipate upcoming dependencies.",
+    "spanish": "Estoy revisando la hoja de ruta para anticipar dependencias futuras."
+  },
+  {
+    "id": 1420,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the priorities before starting the next sprint.",
+    "spanish": "Confirmemos las prioridades antes de comenzar el próximo sprint."
+  },
+  {
+    "id": 1421,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a quick overview for the product team.",
+    "spanish": "Estoy preparando un resumen rápido para el equipo de producto."
+  },
+  {
+    "id": 1422,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's ensure everyone understands the impact of this change.",
+    "spanish": "Asegurémonos de que todos entienden el impacto de este cambio."
+  },
+  {
+    "id": 1423,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the design specs to avoid inconsistencies.",
+    "spanish": "Estoy revisando las especificaciones de diseño para evitar inconsistencias."
+  },
+  {
+    "id": 1424,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the feedback loop short to speed up development.",
+    "spanish": "Mantengamos el ciclo de feedback corto para acelerar el desarrollo."
+  },
+  {
+    "id": 1425,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the user stories to ensure they're actionable.",
+    "spanish": "Estoy revisando las user stories para asegurar que son accionables."
+  },
+  {
+    "id": 1426,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid scope creep by defining boundaries clearly.",
+    "spanish": "Evitemos el scope creep definiendo límites claramente."
+  },
+  {
+    "id": 1427,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's availability before scheduling the review.",
+    "spanish": "Estoy revisando la disponibilidad del equipo antes de programar la revisión."
+  },
+  {
+    "id": 1428,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the meeting short and focused.",
+    "spanish": "Mantengamos la reunión corta y enfocada."
+  },
+  {
+    "id": 1429,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical summary for the stakeholders.",
+    "spanish": "Estoy preparando un resumen técnico para los stakeholders."
+  },
+  {
+    "id": 1430,
+    "category": "1401-1425: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the integration plan before merging the branch.",
+    "spanish": "Confirmemos el plan de integración antes de hacer merge de la rama."
+  },
+  {
+    "id": 1431,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the microservices architecture for potential improvements.",
+    "spanish": "Estoy revisando la arquitectura de microservicios para posibles mejoras."
+  },
+  {
+    "id": 1432,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API contracts to ensure compatibility.",
+    "spanish": "Revisemos los contratos de la API para asegurar compatibilidad."
+  },
+  {
+    "id": 1433,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the authentication flow with the new provider.",
+    "spanish": "Estoy validando el flujo de autenticación con el nuevo proveedor."
+  },
+  {
+    "id": 1434,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the caching strategy to reduce load times.",
+    "spanish": "Optimicemos la estrategia de caché para reducir tiempos de carga."
+  },
+  {
+    "id": 1435,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the database indexes to improve query speed.",
+    "spanish": "Estoy revisando los índices de la base de datos para mejorar la velocidad de las consultas."
+  },
+  {
+    "id": 1436,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the errorhandling logic across all services.",
+    "spanish": "Revisemos la lógica de manejo de errores en todos los servicios."
+  },
+  {
+    "id": 1437,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the frontend components to match the new design system.",
+    "spanish": "Estoy actualizando los componentes del frontend para que coincidan con el nuevo sistema de diseño."
+  },
+  {
+    "id": 1438,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the state management flow before adding new features.",
+    "spanish": "Validemos el flujo de gestión de estado antes de añadir nuevas funcionalidades."
+  },
+  {
+    "id": 1439,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the server configuration to improve scalability.",
+    "spanish": "Estoy revisando la configuración del servidor para mejorar la escalabilidad."
+  },
+  {
+    "id": 1440,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the deployment environment variables carefully.",
+    "spanish": "Revisemos cuidadosamente las variables de entorno del despliegue."
+  },
+  {
+    "id": 1441,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the routing logic to support dynamic paths.",
+    "spanish": "Estoy actualizando la lógica de rutas para soportar rutas dinámicas."
+  },
+  {
+    "id": 1442,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's analyse the loadbalancing metrics.",
+    "spanish": "Analicemos las métricas de balanceo de carga."
+  },
+  {
+    "id": 1443,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the CI pipeline to reduce build times.",
+    "spanish": "Estoy revisando el pipeline de CI para reducir los tiempos de build."
+  },
+  {
+    "id": 1444,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the versioning strategy for the API.",
+    "spanish": "Revisemos la estrategia de versionado de la API."
+  },
+  {
+    "id": 1445,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the SSR configuration for better SEO.",
+    "spanish": "Estoy validando la configuración de SSR para mejorar el SEO."
+  },
+  {
+    "id": 1446,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the bundle size to improve performance.",
+    "spanish": "Optimicemos el tamaño del bundle para mejorar el rendimiento."
+  },
+  {
+    "id": 1447,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the logging strategy to improve observability.",
+    "spanish": "Estoy revisando la estrategia de logging para mejorar la observabilidad."
+  },
+  {
+    "id": 1448,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the retry logic for external services.",
+    "spanish": "Revisemos la lógica de reintentos para servicios externos."
+  },
+  {
+    "id": 1449,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the CI rules to enforce code quality.",
+    "spanish": "Estoy actualizando las reglas de CI para reforzar la calidad del código."
+  },
+  {
+    "id": 1450,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the database migrations before running them.",
+    "spanish": "Validemos las migraciones de base de datos antes de ejecutarlas."
+  },
+  {
+    "id": 1451,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the API throttling configuration.",
+    "spanish": "Estoy revisando la configuración de limitación de la API."
+  },
+  {
+    "id": 1452,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the session management strategy.",
+    "spanish": "Revisemos la estrategia de gestión de sesiones."
+  },
+  {
+    "id": 1453,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the dependency graph to detect conflicts.",
+    "spanish": "Estoy actualizando el grafo de dependencias para detectar conflictos."
+  },
+  {
+    "id": 1454,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the WebSocket connection stability.",
+    "spanish": "Validemos la estabilidad de la conexión WebSocket."
+  },
+  {
+    "id": 1455,
+    "category": "1426-1450: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the build artifacts before publishing.",
+    "spanish": "Estoy revisando los artefactos de build antes de publicar."
+  },
+  {
+    "id": 1456,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating test cases using an AIpowered assistant.",
+    "spanish": "Estoy generando casos de prueba con un asistente de IA."
+  },
+  {
+    "id": 1457,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's analyse the codebase with an AI refactoring tool.",
+    "spanish": "Analicemos la base de código con una herramienta de refactorización basada en IA."
+  },
+  {
+    "id": 1458,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm using AI to detect potential security vulnerabilities.",
+    "spanish": "Estoy usando IA para detectar vulnerabilidades de seguridad."
+  },
+  {
+    "id": 1459,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's generate documentation automatically from the code comments.",
+    "spanish": "Generemos documentación automáticamente a partir de los comentarios del código."
+  },
+  {
+    "id": 1460,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated suggestions for optimisation.",
+    "spanish": "Estoy revisando las sugerencias generadas por IA para optimización."
+  },
+  {
+    "id": 1461,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to simulate user behaviour in the app.",
+    "spanish": "Usemos IA para simular el comportamiento del usuario en la app."
+  },
+  {
+    "id": 1462,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm training a small model to predict API usage patterns.",
+    "spanish": "Estoy entrenando un modelo pequeño para predecir patrones de uso de la API."
+  },
+  {
+    "id": 1463,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to classify error logs automatically.",
+    "spanish": "Usemos IA para clasificar logs de errores automáticamente."
+  },
+  {
+    "id": 1464,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating mock data using an AI data synthesizer.",
+    "spanish": "Estoy generando datos simulados con un sintetizador de datos basado en IA."
+  },
+  {
+    "id": 1465,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect performance bottlenecks.",
+    "spanish": "Usemos IA para detectar cuellos de botella de rendimiento."
+  },
+  {
+    "id": 1466,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated architecture recommendations.",
+    "spanish": "Estoy revisando las recomendaciones de arquitectura generadas por IA."
+  },
+  {
+    "id": 1467,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the autocomplete suggestions in the UI.",
+    "spanish": "Usemos IA para mejorar las sugerencias de autocompletado en la UI."
+  },
+  {
+    "id": 1468,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AI model outputs before integrating them.",
+    "spanish": "Estoy validando las salidas del modelo de IA antes de integrarlas."
+  },
+  {
+    "id": 1469,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to optimise the database queries.",
+    "spanish": "Usemos IA para optimizar las consultas de la base de datos."
+  },
+  {
+    "id": 1470,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated code snippets for accuracy.",
+    "spanish": "Estoy revisando los fragmentos de código generados por IA para asegurar su precisión."
+  },
+  {
+    "id": 1471,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to automate repetitive development tasks.",
+    "spanish": "Usemos IA para automatizar tareas repetitivas de desarrollo."
+  },
+  {
+    "id": 1472,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI model logs to detect anomalies.",
+    "spanish": "Estoy revisando los logs del modelo de IA para detectar anomalías."
+  },
+  {
+    "id": 1473,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the recommendation engine.",
+    "spanish": "Usemos IA para mejorar el motor de recomendaciones."
+  },
+  {
+    "id": 1474,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the training dataset for consistency.",
+    "spanish": "Estoy validando el dataset de entrenamiento para asegurar consistencia."
+  },
+  {
+    "id": 1475,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to generate alternative solutions for the feature.",
+    "spanish": "Usemos IA para generar soluciones alternativas para la funcionalidad."
+  },
+  {
+    "id": 1476,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated test coverage report.",
+    "spanish": "Estoy revisando el informe de cobertura de tests generado por IA."
+  },
+  {
+    "id": 1477,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect unused code automatically.",
+    "spanish": "Usemos IA para detectar código no utilizado automáticamente."
+  },
+  {
+    "id": 1478,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI inference latency in production.",
+    "spanish": "Estoy revisando la latencia de inferencia de IA en producción."
+  },
+  {
+    "id": 1479,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the errorhandling strategy.",
+    "spanish": "Usemos IA para mejorar la estrategia de manejo de errores."
+  },
+  {
+    "id": 1480,
+    "category": "1451-1475: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AIgenerated migration scripts.",
+    "spanish": "Estoy validando los scripts de migración generados por IA."
+  },
+  {
+    "id": 1481,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment logs to ensure everything went smoothly.",
+    "spanish": "Estoy revisando los logs de despliegue para asegurar que todo fue bien."
+  },
+  {
+    "id": 1482,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the container health metrics.",
+    "spanish": "Revisemos las métricas de salud de los contenedores."
+  },
+  {
+    "id": 1483,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the Docker images to reduce build size.",
+    "spanish": "Estoy actualizando las imágenes de Docker para reducir el tamaño del build."
+  },
+  {
+    "id": 1484,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the Kubernetes configuration before scaling.",
+    "spanish": "Validemos la configuración de Kubernetes antes de escalar."
+  },
+  {
+    "id": 1485,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the monitoring dashboard for anomalies.",
+    "spanish": "Estoy revisando el panel de monitorización para detectar anomalías."
+  },
+  {
+    "id": 1486,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the rollback plan in case something fails.",
+    "spanish": "Revisemos el plan de rollback por si algo falla."
+  },
+  {
+    "id": 1487,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the CI triggers to improve automation.",
+    "spanish": "Estoy actualizando los triggers de CI para mejorar la automatización."
+  },
+  {
+    "id": 1488,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the SSL certificates before renewing them.",
+    "spanish": "Validemos los certificados SSL antes de renovarlos."
+  },
+  {
+    "id": 1489,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the infrastructure as code scripts.",
+    "spanish": "Estoy revisando los scripts de infraestructura como código."
+  },
+  {
+    "id": 1490,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the server load distribution.",
+    "spanish": "Revisemos la distribución de carga del servidor."
+  },
+  {
+    "id": 1491,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the environment configuration for staging.",
+    "spanish": "Estoy actualizando la configuración del entorno de staging."
+  },
+  {
+    "id": 1492,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the backup strategy for critical data.",
+    "spanish": "Validemos la estrategia de backup para datos críticos."
+  },
+  {
+    "id": 1493,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment pipeline to remove bottlenecks.",
+    "spanish": "Estoy revisando el pipeline de despliegue para eliminar cuellos de botella."
+  },
+  {
+    "id": 1494,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the autoscaling rules.",
+    "spanish": "Revisemos las reglas de autoescalado."
+  },
+  {
+    "id": 1495,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the logging format for better analysis.",
+    "spanish": "Estoy actualizando el formato de logs para mejorar el análisis."
+  },
+  {
+    "id": 1496,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the loadtesting results.",
+    "spanish": "Validemos los resultados de las pruebas de carga."
+  },
+  {
+    "id": 1497,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the cloud resource usage to reduce costs.",
+    "spanish": "Estoy revisando el uso de recursos en la nube para reducir costes."
+  },
+  {
+    "id": 1498,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the network security rules.",
+    "spanish": "Revisemos las reglas de seguridad de red."
+  },
+  {
+    "id": 1499,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the deployment scripts for consistency.",
+    "spanish": "Estoy actualizando los scripts de despliegue para asegurar consistencia."
+  },
+  {
+    "id": 1500,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the failover configuration.",
+    "spanish": "Validemos la configuración de failover."
+  },
+  {
+    "id": 1501,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the CI/CD notifications to reduce noise.",
+    "spanish": "Estoy revisando las notificaciones de CI/CD para reducir ruido."
+  },
+  {
+    "id": 1502,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the infrastructure logs for unusual activity.",
+    "spanish": "Revisemos los logs de infraestructura para detectar actividad inusual."
+  },
+  {
+    "id": 1503,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the cloud permissions to tighten security.",
+    "spanish": "Estoy actualizando los permisos en la nube para reforzar la seguridad."
+  },
+  {
+    "id": 1504,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the deployment schedule with the team.",
+    "spanish": "Validemos el calendario de despliegue con el equipo."
+  },
+  {
+    "id": 1505,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the DevOps checklist before releasing.",
+    "spanish": "Estoy revisando la checklist de DevOps antes de lanzar."
+  },
+  {
+    "id": 1506,
+    "category": "1476-1500: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "🇬🇧🇺🇸 Bloque 16",
+    "spanish": "Frases 1501–1600 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1507,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's align the technical expectations before we start planning.",
+    "spanish": "Alineemos las expectativas técnicas antes de empezar a planificar."
+  },
+  {
+    "id": 1508,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the feature requirements to avoid misinterpretations.",
+    "spanish": "Estoy revisando los requisitos de la funcionalidad para evitar malinterpretaciones."
+  },
+  {
+    "id": 1509,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's clarify the constraints so we don't overcomplicate the solution.",
+    "spanish": "Aclaramos las limitaciones para no complicar demasiado la solución."
+  },
+  {
+    "id": 1510,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the sprint board to identify potential blockers.",
+    "spanish": "Estoy revisando el tablero del sprint para identificar posibles bloqueos."
+  },
+  {
+    "id": 1511,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's sync with the team before updating the roadmap.",
+    "spanish": "Sincronizémonos con el equipo antes de actualizar la hoja de ruta."
+  },
+  {
+    "id": 1512,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a concise summary of the architectural changes.",
+    "spanish": "Estoy preparando un resumen conciso de los cambios de arquitectura."
+  },
+  {
+    "id": 1513,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep communication fluid during the development cycle.",
+    "spanish": "Mantengamos la comunicación fluida durante el ciclo de desarrollo."
+  },
+  {
+    "id": 1514,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the sprint metrics to ensure we're on track.",
+    "spanish": "Estoy revisando las métricas del sprint para asegurar que vamos bien."
+  },
+  {
+    "id": 1515,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid lastminute adjustments unless they're critical.",
+    "spanish": "Evitemos ajustes de última hora salvo que sean críticos."
+  },
+  {
+    "id": 1516,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's comments before closing the task.",
+    "spanish": "Estoy revisando los comentarios del equipo antes de cerrar la tarea."
+  },
+  {
+    "id": 1517,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's document the reasoning behind each technical decision.",
+    "spanish": "Documentemos el razonamiento detrás de cada decisión técnica."
+  },
+  {
+    "id": 1518,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the acceptance tests to ensure full alignment.",
+    "spanish": "Estoy revisando los tests de aceptación para asegurar alineación total."
+  },
+  {
+    "id": 1519,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the discussion focused on the technical aspects.",
+    "spanish": "Mantengamos la discusión centrada en los aspectos técnicos."
+  },
+  {
+    "id": 1520,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the dependency list to anticipate conflicts.",
+    "spanish": "Estoy revisando la lista de dependencias para anticipar conflictos."
+  },
+  {
+    "id": 1521,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the priorities before planning the next iteration.",
+    "spanish": "Confirmemos las prioridades antes de planificar la siguiente iteración."
+  },
+  {
+    "id": 1522,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical overview for the next demo.",
+    "spanish": "Estoy preparando una visión técnica general para la próxima demo."
+  },
+  {
+    "id": 1523,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's ensure everyone understands the architectural impact.",
+    "spanish": "Asegurémonos de que todos entienden el impacto arquitectónico."
+  },
+  {
+    "id": 1524,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the design guidelines to avoid inconsistencies.",
+    "spanish": "Estoy revisando las guías de diseño para evitar inconsistencias."
+  },
+  {
+    "id": 1525,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the feedback cycle short to accelerate delivery.",
+    "spanish": "Mantengamos el ciclo de feedback corto para acelerar la entrega."
+  },
+  {
+    "id": 1526,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the user stories to ensure they're technically feasible.",
+    "spanish": "Estoy revisando las user stories para asegurar que son técnicamente viables."
+  },
+  {
+    "id": 1527,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid scope drift by defining clear boundaries.",
+    "spanish": "Evitemos desviaciones de alcance definiendo límites claros."
+  },
+  {
+    "id": 1528,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's workload before assigning new tasks.",
+    "spanish": "Estoy revisando la carga del equipo antes de asignar nuevas tareas."
+  },
+  {
+    "id": 1529,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the meeting focused on actionable items.",
+    "spanish": "Mantengamos la reunión enfocada en elementos accionables."
+  },
+  {
+    "id": 1530,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical recap for the engineering team.",
+    "spanish": "Estoy preparando un resumen técnico para el equipo de ingeniería."
+  },
+  {
+    "id": 1531,
+    "category": "1501-1525: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the integration steps before merging the feature branch.",
+    "spanish": "Confirmemos los pasos de integración antes de hacer merge de la rama de la funcionalidad."
+  },
+  {
+    "id": 1532,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the service boundaries to avoid tight coupling.",
+    "spanish": "Estoy revisando los límites de los servicios para evitar acoplamiento excesivo."
+  },
+  {
+    "id": 1533,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API payloads for consistency.",
+    "spanish": "Revisemos los payloads de la API para asegurar consistencia."
+  },
+  {
+    "id": 1534,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the OAuth flow with the new provider.",
+    "spanish": "Estoy validando el flujo OAuth con el nuevo proveedor."
+  },
+  {
+    "id": 1535,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the caching rules to reduce server load.",
+    "spanish": "Optimicemos las reglas de caché para reducir la carga del servidor."
+  },
+  {
+    "id": 1536,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the database relations to improve performance.",
+    "spanish": "Estoy revisando las relaciones de la base de datos para mejorar el rendimiento."
+  },
+  {
+    "id": 1537,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the error boundaries in the frontend.",
+    "spanish": "Revisemos los límites de error en el frontend."
+  },
+  {
+    "id": 1538,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the UI components to support the new theme.",
+    "spanish": "Estoy actualizando los componentes de UI para soportar el nuevo tema."
+  },
+  {
+    "id": 1539,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the state transitions before releasing the feature.",
+    "spanish": "Validemos las transiciones de estado antes de lanzar la funcionalidad."
+  },
+  {
+    "id": 1540,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the server configuration to improve reliability.",
+    "spanish": "Estoy revisando la configuración del servidor para mejorar la fiabilidad."
+  },
+  {
+    "id": 1541,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the environment setup for production.",
+    "spanish": "Revisemos la configuración del entorno para producción."
+  },
+  {
+    "id": 1542,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the routing rules to support nested routes.",
+    "spanish": "Estoy actualizando las reglas de routing para soportar rutas anidadas."
+  },
+  {
+    "id": 1543,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's analyse the load distribution across services.",
+    "spanish": "Analicemos la distribución de carga entre servicios."
+  },
+  {
+    "id": 1544,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the CI pipeline to ensure reproducible builds.",
+    "spanish": "Estoy revisando el pipeline de CI para asegurar builds reproducibles."
+  },
+  {
+    "id": 1545,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API versioning strategy before rollout.",
+    "spanish": "Revisemos la estrategia de versionado de la API antes del despliegue."
+  },
+  {
+    "id": 1546,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the hydration process for SSR pages.",
+    "spanish": "Estoy validando el proceso de hidratación para páginas SSR."
+  },
+  {
+    "id": 1547,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the asset delivery for faster rendering.",
+    "spanish": "Optimicemos la entrega de assets para un renderizado más rápido."
+  },
+  {
+    "id": 1548,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the logging configuration to improve debugging.",
+    "spanish": "Estoy revisando la configuración de logs para mejorar el debugging."
+  },
+  {
+    "id": 1549,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the retry strategy for unstable endpoints.",
+    "spanish": "Revisemos la estrategia de reintentos para endpoints inestables."
+  },
+  {
+    "id": 1550,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the linting rules to enforce best practices.",
+    "spanish": "Estoy actualizando las reglas de linting para reforzar buenas prácticas."
+  },
+  {
+    "id": 1551,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the database migrations in a sandbox environment.",
+    "spanish": "Validemos las migraciones de base de datos en un entorno sandbox."
+  },
+  {
+    "id": 1552,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the API throttling rules for fairness.",
+    "spanish": "Estoy revisando las reglas de throttling de la API para asegurar equidad."
+  },
+  {
+    "id": 1553,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the session persistence strategy.",
+    "spanish": "Revisemos la estrategia de persistencia de sesiones."
+  },
+  {
+    "id": 1554,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the dependency tree to remove deprecated packages.",
+    "spanish": "Estoy actualizando el árbol de dependencias para eliminar paquetes obsoletos."
+  },
+  {
+    "id": 1555,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the WebSocket reconnection logic.",
+    "spanish": "Validemos la lógica de reconexión de WebSocket."
+  },
+  {
+    "id": 1556,
+    "category": "1526-1550: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the build output to ensure minimal footprint.",
+    "spanish": "Estoy revisando el output del build para asegurar un tamaño mínimo."
+  },
+  {
+    "id": 1557,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating integration tests using an AIpowered workflow.",
+    "spanish": "Estoy generando tests de integración con un flujo asistido por IA."
+  },
+  {
+    "id": 1558,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's analyse the codebase using an AI optimisation engine.",
+    "spanish": "Analicemos la base de código usando un motor de optimización basado en IA."
+  },
+  {
+    "id": 1559,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm using AI to detect potential architectural weaknesses.",
+    "spanish": "Estoy usando IA para detectar posibles debilidades arquitectónicas."
+  },
+  {
+    "id": 1560,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's generate API documentation automatically using AI.",
+    "spanish": "Generemos documentación de API automáticamente usando IA."
+  },
+  {
+    "id": 1561,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated performance suggestions.",
+    "spanish": "Estoy revisando las sugerencias de rendimiento generadas por IA."
+  },
+  {
+    "id": 1562,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to simulate hightraffic scenarios.",
+    "spanish": "Usemos IA para simular escenarios de alto tráfico."
+  },
+  {
+    "id": 1563,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm training a lightweight model to predict user flows.",
+    "spanish": "Estoy entrenando un modelo ligero para predecir flujos de usuario."
+  },
+  {
+    "id": 1564,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to classify system warnings automatically.",
+    "spanish": "Usemos IA para clasificar avisos del sistema automáticamente."
+  },
+  {
+    "id": 1565,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating synthetic logs using an AI generator.",
+    "spanish": "Estoy generando logs sintéticos con un generador de IA."
+  },
+  {
+    "id": 1566,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect inefficient code paths.",
+    "spanish": "Usemos IA para detectar rutas de código ineficientes."
+  },
+  {
+    "id": 1567,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated architecture diagrams.",
+    "spanish": "Estoy revisando los diagramas de arquitectura generados por IA."
+  },
+  {
+    "id": 1568,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the search relevance in the app.",
+    "spanish": "Usemos IA para mejorar la relevancia de búsqueda en la app."
+  },
+  {
+    "id": 1569,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AI model predictions before deployment.",
+    "spanish": "Estoy validando las predicciones del modelo de IA antes del despliegue."
+  },
+  {
+    "id": 1570,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to optimise the database indexing strategy.",
+    "spanish": "Usemos IA para optimizar la estrategia de indexación de la base de datos."
+  },
+  {
+    "id": 1571,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated refactor proposals.",
+    "spanish": "Estoy revisando las propuestas de refactor generadas por IA."
+  },
+  {
+    "id": 1572,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to automate repetitive QA tasks.",
+    "spanish": "Usemos IA para automatizar tareas repetitivas de QA."
+  },
+  {
+    "id": 1573,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI model metrics to ensure stability.",
+    "spanish": "Estoy revisando las métricas del modelo de IA para asegurar estabilidad."
+  },
+  {
+    "id": 1574,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to enhance the recommendation logic.",
+    "spanish": "Usemos IA para mejorar la lógica de recomendaciones."
+  },
+  {
+    "id": 1575,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the training dataset to avoid bias.",
+    "spanish": "Estoy validando el dataset de entrenamiento para evitar sesgos."
+  },
+  {
+    "id": 1576,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to generate alternative UI layouts.",
+    "spanish": "Usemos IA para generar diseños alternativos de UI."
+  },
+  {
+    "id": 1577,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated test coverage improvements.",
+    "spanish": "Estoy revisando las mejoras de cobertura de tests generadas por IA."
+  },
+  {
+    "id": 1578,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect unused components automatically.",
+    "spanish": "Usemos IA para detectar componentes no utilizados automáticamente."
+  },
+  {
+    "id": 1579,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI inference performance under load.",
+    "spanish": "Estoy revisando el rendimiento de inferencia de IA bajo carga."
+  },
+  {
+    "id": 1580,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the errorrecovery mechanisms.",
+    "spanish": "Usemos IA para mejorar los mecanismos de recuperación de errores."
+  },
+  {
+    "id": 1581,
+    "category": "1551-1575: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AIgenerated deployment scripts.",
+    "spanish": "Estoy validando los scripts de despliegue generados por IA."
+  },
+  {
+    "id": 1582,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment timeline to avoid conflicts.",
+    "spanish": "Estoy revisando el calendario de despliegue para evitar conflictos."
+  },
+  {
+    "id": 1583,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the container logs for unusual behaviour.",
+    "spanish": "Revisemos los logs de contenedores para detectar comportamientos inusuales."
+  },
+  {
+    "id": 1584,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the Docker configuration to improve caching.",
+    "spanish": "Estoy actualizando la configuración de Docker para mejorar la caché."
+  },
+  {
+    "id": 1585,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the Kubernetes autoscaling triggers.",
+    "spanish": "Validemos los triggers de autoescalado de Kubernetes."
+  },
+  {
+    "id": 1586,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the monitoring alerts to reduce false positives.",
+    "spanish": "Estoy revisando las alertas de monitorización para reducir falsos positivos."
+  },
+  {
+    "id": 1587,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the rollback strategy for critical deployments.",
+    "spanish": "Revisemos la estrategia de rollback para despliegues críticos."
+  },
+  {
+    "id": 1588,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the CI workflows to improve reliability.",
+    "spanish": "Estoy actualizando los workflows de CI para mejorar la fiabilidad."
+  },
+  {
+    "id": 1589,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the certificate rotation process.",
+    "spanish": "Validemos el proceso de rotación de certificados."
+  },
+  {
+    "id": 1590,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the infrastructure scripts for consistency.",
+    "spanish": "Estoy revisando los scripts de infraestructura para asegurar consistencia."
+  },
+  {
+    "id": 1591,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the server load graphs for anomalies.",
+    "spanish": "Revisemos los gráficos de carga del servidor para detectar anomalías."
+  },
+  {
+    "id": 1592,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the staging environment to match production.",
+    "spanish": "Estoy actualizando el entorno de staging para que coincida con producción."
+  },
+  {
+    "id": 1593,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the backup integrity before archiving.",
+    "spanish": "Validemos la integridad del backup antes de archivarlo."
+  },
+  {
+    "id": 1594,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment pipeline to reduce friction.",
+    "spanish": "Estoy revisando el pipeline de despliegue para reducir fricción."
+  },
+  {
+    "id": 1595,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the autoscaling thresholds.",
+    "spanish": "Revisemos los umbrales de autoescalado."
+  },
+  {
+    "id": 1596,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the log format to improve traceability.",
+    "spanish": "Estoy actualizando el formato de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1597,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the loadtesting scenarios.",
+    "spanish": "Validemos los escenarios de pruebas de carga."
+  },
+  {
+    "id": 1598,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the cloud usage metrics to optimise costs.",
+    "spanish": "Estoy revisando las métricas de uso en la nube para optimizar costes."
+  },
+  {
+    "id": 1599,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the firewall rules for inconsistencies.",
+    "spanish": "Revisemos las reglas del firewall para detectar inconsistencias."
+  },
+  {
+    "id": 1600,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the deployment templates for better automation.",
+    "spanish": "Estoy actualizando las plantillas de despliegue para mejorar la automatización."
+  },
+  {
+    "id": 1601,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the failover behaviour under stress.",
+    "spanish": "Validemos el comportamiento de failover bajo estrés."
+  },
+  {
+    "id": 1602,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the CI/CD notifications to reduce noise.",
+    "spanish": "Estoy revisando las notificaciones de CI/CD para reducir ruido."
+  },
+  {
+    "id": 1603,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the infrastructure logs for suspicious activity.",
+    "spanish": "Revisemos los logs de infraestructura para detectar actividad sospechosa."
+  },
+  {
+    "id": 1604,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the cloud IAM roles to improve security.",
+    "spanish": "Estoy actualizando los roles IAM de la nube para mejorar la seguridad."
+  },
+  {
+    "id": 1605,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the deployment window with the team.",
+    "spanish": "Validemos la ventana de despliegue con el equipo."
+  },
+  {
+    "id": 1606,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the DevOps checklist before final approval.",
+    "spanish": "Estoy revisando la checklist de DevOps antes de la aprobación final."
+  },
+  {
+    "id": 1607,
+    "category": "1576-1600: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "🇬🇧🇺🇸 Bloque 17",
+    "spanish": "Frases 1601–1700 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1608,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's align the technical roadmap before we start the next cycle.",
+    "spanish": "Alineemos la hoja de ruta técnica antes de comenzar el siguiente ciclo."
+  },
+  {
+    "id": 1609,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the feature dependencies to avoid unexpected blockers.",
+    "spanish": "Estoy revisando las dependencias de la funcionalidad para evitar bloqueos inesperados."
+  },
+  {
+    "id": 1610,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's clarify the technical limitations so we can plan realistically.",
+    "spanish": "Aclaramos las limitaciones técnicas para poder planificar de forma realista."
+  },
+  {
+    "id": 1611,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the sprint backlog to identify priority shifts.",
+    "spanish": "Estoy revisando el backlog del sprint para identificar cambios de prioridad."
+  },
+  {
+    "id": 1612,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's sync with the engineering team before updating the specs.",
+    "spanish": "Sincronizémonos con el equipo de ingeniería antes de actualizar las especificaciones."
+  },
+  {
+    "id": 1613,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a summary of the architectural tradeoffs.",
+    "spanish": "Estoy preparando un resumen de los compromisos arquitectónicos."
+  },
+  {
+    "id": 1614,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep communication steady throughout the iteration.",
+    "spanish": "Mantengamos la comunicación constante durante la iteración."
+  },
+  {
+    "id": 1615,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the sprint velocity to adjust expectations.",
+    "spanish": "Estoy revisando la velocidad del sprint para ajustar expectativas."
+  },
+  {
+    "id": 1616,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid lastminute scope changes unless critical.",
+    "spanish": "Evitemos cambios de alcance de última hora salvo que sean críticos."
+  },
+  {
+    "id": 1617,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's comments before refining the task.",
+    "spanish": "Estoy revisando los comentarios del equipo antes de refinar la tarea."
+  },
+  {
+    "id": 1618,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's document the reasoning behind each architectural choice.",
+    "spanish": "Documentemos el razonamiento detrás de cada elección arquitectónica."
+  },
+  {
+    "id": 1619,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the acceptance criteria to ensure technical clarity.",
+    "spanish": "Estoy revisando los criterios de aceptación para asegurar claridad técnica."
+  },
+  {
+    "id": 1620,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the discussion focused on actionable engineering items.",
+    "spanish": "Mantengamos la discusión centrada en elementos técnicos accionables."
+  },
+  {
+    "id": 1621,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the dependency graph to anticipate integration issues.",
+    "spanish": "Estoy revisando el grafo de dependencias para anticipar problemas de integración."
+  },
+  {
+    "id": 1622,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the priorities before planning the next release.",
+    "spanish": "Confirmemos las prioridades antes de planificar la siguiente versión."
+  },
+  {
+    "id": 1623,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical briefing for the crossfunctional team.",
+    "spanish": "Estoy preparando un briefing técnico para el equipo multifuncional."
+  },
+  {
+    "id": 1624,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's ensure everyone understands the longterm architectural impact.",
+    "spanish": "Asegurémonos de que todos entienden el impacto arquitectónico a largo plazo."
+  },
+  {
+    "id": 1625,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the design tokens to avoid inconsistencies.",
+    "spanish": "Estoy revisando los design tokens para evitar inconsistencias."
+  },
+  {
+    "id": 1626,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the feedback loop tight to accelerate iteration speed.",
+    "spanish": "Mantengamos el ciclo de feedback ajustado para acelerar la iteración."
+  },
+  {
+    "id": 1627,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the user stories to ensure technical feasibility.",
+    "spanish": "Estoy revisando las user stories para asegurar viabilidad técnica."
+  },
+  {
+    "id": 1628,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid scope drift by defining strict boundaries.",
+    "spanish": "Evitemos desviaciones de alcance definiendo límites estrictos."
+  },
+  {
+    "id": 1629,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's workload before assigning new engineering tasks.",
+    "spanish": "Estoy revisando la carga del equipo antes de asignar nuevas tareas técnicas."
+  },
+  {
+    "id": 1630,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the meeting focused on engineering outcomes.",
+    "spanish": "Mantengamos la reunión enfocada en resultados técnicos."
+  },
+  {
+    "id": 1631,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical recap for the weekly sync.",
+    "spanish": "Estoy preparando un resumen técnico para la sincronización semanal."
+  },
+  {
+    "id": 1632,
+    "category": "1601-1625: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the integration workflow before merging the branch.",
+    "spanish": "Confirmemos el flujo de integración antes de hacer merge de la rama."
+  },
+  {
+    "id": 1633,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the service boundaries to ensure proper decoupling.",
+    "spanish": "Estoy revisando los límites de los servicios para asegurar un desacoplamiento adecuado."
+  },
+  {
+    "id": 1634,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API payload formats for consistency across services.",
+    "spanish": "Revisemos los formatos de payload de la API para asegurar consistencia entre servicios."
+  },
+  {
+    "id": 1635,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the authentication middleware with the new provider.",
+    "spanish": "Estoy validando el middleware de autenticación con el nuevo proveedor."
+  },
+  {
+    "id": 1636,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the caching layers to reduce server overhead.",
+    "spanish": "Optimicemos las capas de caché para reducir la carga del servidor."
+  },
+  {
+    "id": 1637,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the database sharding strategy for scalability.",
+    "spanish": "Estoy revisando la estrategia de sharding de la base de datos para mejorar la escalabilidad."
+  },
+  {
+    "id": 1638,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the error boundaries in the UI components.",
+    "spanish": "Revisemos los límites de error en los componentes de UI."
+  },
+  {
+    "id": 1639,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the frontend components to support the new layout system.",
+    "spanish": "Estoy actualizando los componentes del frontend para soportar el nuevo sistema de layout."
+  },
+  {
+    "id": 1640,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the state management logic before enabling the feature.",
+    "spanish": "Validemos la lógica de gestión de estado antes de habilitar la funcionalidad."
+  },
+  {
+    "id": 1641,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the server configuration to improve fault tolerance.",
+    "spanish": "Estoy revisando la configuración del servidor para mejorar la tolerancia a fallos."
+  },
+  {
+    "id": 1642,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the environment setup for the staging environment.",
+    "spanish": "Revisemos la configuración del entorno de staging."
+  },
+  {
+    "id": 1643,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the routing rules to support dynamic module loading.",
+    "spanish": "Estoy actualizando las reglas de routing para soportar carga dinámica de módulos."
+  },
+  {
+    "id": 1644,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's analyse the load distribution across microservices.",
+    "spanish": "Analicemos la distribución de carga entre microservicios."
+  },
+  {
+    "id": 1645,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the CI pipeline to ensure deterministic builds.",
+    "spanish": "Estoy revisando el pipeline de CI para asegurar builds deterministas."
+  },
+  {
+    "id": 1646,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API versioning strategy before rolling out changes.",
+    "spanish": "Revisemos la estrategia de versionado de la API antes de desplegar cambios."
+  },
+  {
+    "id": 1647,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the hydration logic for serverrendered pages.",
+    "spanish": "Estoy validando la lógica de hidratación para páginas renderizadas en servidor."
+  },
+  {
+    "id": 1648,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the asset pipeline for faster delivery.",
+    "spanish": "Optimicemos el pipeline de assets para una entrega más rápida."
+  },
+  {
+    "id": 1649,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the logging configuration to improve traceability.",
+    "spanish": "Estoy revisando la configuración de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1650,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the retry strategy for unstable integrations.",
+    "spanish": "Revisemos la estrategia de reintentos para integraciones inestables."
+  },
+  {
+    "id": 1651,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the linting configuration to enforce stricter rules.",
+    "spanish": "Estoy actualizando la configuración de linting para aplicar reglas más estrictas."
+  },
+  {
+    "id": 1652,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the database migrations in a sandbox environment.",
+    "spanish": "Validemos las migraciones en un entorno sandbox."
+  },
+  {
+    "id": 1653,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the API throttling rules to ensure fairness.",
+    "spanish": "Estoy revisando las reglas de throttling de la API para asegurar equidad."
+  },
+  {
+    "id": 1654,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the session persistence strategy for multidevice usage.",
+    "spanish": "Revisemos la estrategia de persistencia de sesiones para uso multidispositivo."
+  },
+  {
+    "id": 1655,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the dependency tree to remove outdated packages.",
+    "spanish": "Estoy actualizando el árbol de dependencias para eliminar paquetes obsoletos."
+  },
+  {
+    "id": 1656,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the WebSocket reconnection flow.",
+    "spanish": "Validemos el flujo de reconexión de WebSocket."
+  },
+  {
+    "id": 1657,
+    "category": "1626-1650: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the build output to ensure minimal bundle size.",
+    "spanish": "Estoy revisando el output del build para asegurar un tamaño mínimo."
+  },
+  {
+    "id": 1658,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating integration test suites using AIassisted workflows.",
+    "spanish": "Estoy generando suites de tests de integración con flujos asistidos por IA."
+  },
+  {
+    "id": 1659,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's analyse the codebase using an AIdriven optimisation engine.",
+    "spanish": "Analicemos la base de código usando un motor de optimización basado en IA."
+  },
+  {
+    "id": 1660,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm using AI to detect potential architectural bottlenecks.",
+    "spanish": "Estoy usando IA para detectar posibles cuellos de botella arquitectónicos."
+  },
+  {
+    "id": 1661,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's generate API documentation automatically using AI models.",
+    "spanish": "Generemos documentación de API automáticamente usando modelos de IA."
+  },
+  {
+    "id": 1662,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated performance recommendations.",
+    "spanish": "Estoy revisando las recomendaciones de rendimiento generadas por IA."
+  },
+  {
+    "id": 1663,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to simulate peaktraffic scenarios.",
+    "spanish": "Usemos IA para simular escenarios de tráfico máximo."
+  },
+  {
+    "id": 1664,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm training a lightweight model to predict user navigation patterns.",
+    "spanish": "Estoy entrenando un modelo ligero para predecir patrones de navegación de usuario."
+  },
+  {
+    "id": 1665,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to classify system alerts automatically.",
+    "spanish": "Usemos IA para clasificar alertas del sistema automáticamente."
+  },
+  {
+    "id": 1666,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating synthetic logs using an AIpowered generator.",
+    "spanish": "Estoy generando logs sintéticos con un generador basado en IA."
+  },
+  {
+    "id": 1667,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect inefficient rendering paths.",
+    "spanish": "Usemos IA para detectar rutas de renderizado ineficientes."
+  },
+  {
+    "id": 1668,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated architecture diagrams for accuracy.",
+    "spanish": "Estoy revisando los diagramas de arquitectura generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1669,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve search relevance across the platform.",
+    "spanish": "Usemos IA para mejorar la relevancia de búsqueda en la plataforma."
+  },
+  {
+    "id": 1670,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AI model predictions before production rollout.",
+    "spanish": "Estoy validando las predicciones del modelo de IA antes del despliegue en producción."
+  },
+  {
+    "id": 1671,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to optimise database indexing strategies.",
+    "spanish": "Usemos IA para optimizar estrategias de indexación de bases de datos."
+  },
+  {
+    "id": 1672,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated refactor proposals for feasibility.",
+    "spanish": "Estoy revisando las propuestas de refactor generadas por IA para evaluar su viabilidad."
+  },
+  {
+    "id": 1673,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to automate repetitive QA workflows.",
+    "spanish": "Usemos IA para automatizar flujos repetitivos de QA."
+  },
+  {
+    "id": 1674,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI model metrics to ensure longterm stability.",
+    "spanish": "Estoy revisando las métricas del modelo de IA para asegurar estabilidad a largo plazo."
+  },
+  {
+    "id": 1675,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to enhance the recommendation engine logic.",
+    "spanish": "Usemos IA para mejorar la lógica del motor de recomendaciones."
+  },
+  {
+    "id": 1676,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the training dataset to avoid systemic bias.",
+    "spanish": "Estoy validando el dataset de entrenamiento para evitar sesgos sistémicos."
+  },
+  {
+    "id": 1677,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to generate alternative UI flows.",
+    "spanish": "Usemos IA para generar flujos de UI alternativos."
+  },
+  {
+    "id": 1678,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated test coverage improvements.",
+    "spanish": "Estoy revisando las mejoras de cobertura de tests generadas por IA."
+  },
+  {
+    "id": 1679,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect unused modules automatically.",
+    "spanish": "Usemos IA para detectar módulos no utilizados automáticamente."
+  },
+  {
+    "id": 1680,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI inference performance under heavy load.",
+    "spanish": "Estoy revisando el rendimiento de inferencia de IA bajo carga pesada."
+  },
+  {
+    "id": 1681,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the errorrecovery mechanisms.",
+    "spanish": "Usemos IA para mejorar los mecanismos de recuperación de errores."
+  },
+  {
+    "id": 1682,
+    "category": "1651-1675: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AIgenerated deployment scripts for accuracy.",
+    "spanish": "Estoy validando los scripts de despliegue generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1683,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment timeline to avoid overlapping releases.",
+    "spanish": "Estoy revisando el calendario de despliegue para evitar solapamientos."
+  },
+  {
+    "id": 1684,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the container logs for unexpected behaviour.",
+    "spanish": "Revisemos los logs de contenedores para detectar comportamientos inesperados."
+  },
+  {
+    "id": 1685,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the Docker configuration to improve layer caching.",
+    "spanish": "Estoy actualizando la configuración de Docker para mejorar la caché de capas."
+  },
+  {
+    "id": 1686,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the Kubernetes autoscaling rules.",
+    "spanish": "Validemos las reglas de autoescalado de Kubernetes."
+  },
+  {
+    "id": 1687,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the monitoring alerts to reduce noise.",
+    "spanish": "Estoy revisando las alertas de monitorización para reducir ruido."
+  },
+  {
+    "id": 1688,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the rollback strategy for highrisk deployments.",
+    "spanish": "Revisemos la estrategia de rollback para despliegues de alto riesgo."
+  },
+  {
+    "id": 1689,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the CI workflows to improve pipeline resilience.",
+    "spanish": "Estoy actualizando los workflows de CI para mejorar la resiliencia del pipeline."
+  },
+  {
+    "id": 1690,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the certificate renewal process.",
+    "spanish": "Validemos el proceso de renovación de certificados."
+  },
+  {
+    "id": 1691,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the infrastructure scripts to ensure consistency.",
+    "spanish": "Estoy revisando los scripts de infraestructura para asegurar consistencia."
+  },
+  {
+    "id": 1692,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the server load graphs for anomalies.",
+    "spanish": "Revisemos los gráficos de carga del servidor para detectar anomalías."
+  },
+  {
+    "id": 1693,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the staging environment to mirror production.",
+    "spanish": "Estoy actualizando el entorno de staging para que refleje producción."
+  },
+  {
+    "id": 1694,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the backup integrity before archiving.",
+    "spanish": "Validemos la integridad del backup antes de archivarlo."
+  },
+  {
+    "id": 1695,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment pipeline to reduce friction points.",
+    "spanish": "Estoy revisando el pipeline de despliegue para reducir puntos de fricción."
+  },
+  {
+    "id": 1696,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the autoscaling thresholds for accuracy.",
+    "spanish": "Revisemos los umbrales de autoescalado para asegurar precisión."
+  },
+  {
+    "id": 1697,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the log format to improve traceability.",
+    "spanish": "Estoy actualizando el formato de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1698,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the loadtesting scenarios before release.",
+    "spanish": "Validemos los escenarios de pruebas de carga antes del lanzamiento."
+  },
+  {
+    "id": 1699,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the cloud usage metrics to optimise resource allocation.",
+    "spanish": "Estoy revisando las métricas de uso en la nube para optimizar la asignación de recursos."
+  },
+  {
+    "id": 1700,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the firewall rules for potential misconfigurations.",
+    "spanish": "Revisemos las reglas del firewall para detectar posibles errores de configuración."
+  },
+  {
+    "id": 1701,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the deployment templates to improve automation.",
+    "spanish": "Estoy actualizando las plantillas de despliegue para mejorar la automatización."
+  },
+  {
+    "id": 1702,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the failover behaviour under stress conditions.",
+    "spanish": "Validemos el comportamiento de failover bajo condiciones de estrés."
+  },
+  {
+    "id": 1703,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the CI/CD notifications to reduce alert fatigue.",
+    "spanish": "Estoy revisando las notificaciones de CI/CD para reducir la fatiga de alertas."
+  },
+  {
+    "id": 1704,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the infrastructure logs for suspicious patterns.",
+    "spanish": "Revisemos los logs de infraestructura para detectar patrones sospechosos."
+  },
+  {
+    "id": 1705,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the cloud IAM roles to strengthen security.",
+    "spanish": "Estoy actualizando los roles IAM de la nube para reforzar la seguridad."
+  },
+  {
+    "id": 1706,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the deployment window with all engineering teams.",
+    "spanish": "Validemos la ventana de despliegue con todos los equipos de ingeniería."
+  },
+  {
+    "id": 1707,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the DevOps checklist before final approval.",
+    "spanish": "Estoy revisando la checklist de DevOps antes de la aprobación final."
+  },
+  {
+    "id": 1708,
+    "category": "1676-1700: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "🇬🇧🇺🇸 Bloque 18",
+    "spanish": "Frases 1701–1800 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1709,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's align the technical expectations before we refine the backlog.",
+    "spanish": "Alineemos las expectativas técnicas antes de refinar el backlog."
+  },
+  {
+    "id": 1710,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the feature dependencies to avoid unexpected delays.",
+    "spanish": "Estoy revisando las dependencias de la funcionalidad para evitar retrasos inesperados."
+  },
+  {
+    "id": 1711,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's clarify the architectural constraints so we can plan effectively.",
+    "spanish": "Aclaramos las limitaciones arquitectónicas para poder planificar eficazmente."
+  },
+  {
+    "id": 1712,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the sprint board to identify tasks that need reprioritisation.",
+    "spanish": "Estoy revisando el tablero del sprint para identificar tareas que necesitan repriorización."
+  },
+  {
+    "id": 1713,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's sync with the engineering team before updating the technical roadmap.",
+    "spanish": "Sincronizémonos con el equipo de ingeniería antes de actualizar la hoja de ruta técnica."
+  },
+  {
+    "id": 1714,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a summary of the engineering decisions made this week.",
+    "spanish": "Estoy preparando un resumen de las decisiones de ingeniería tomadas esta semana."
+  },
+  {
+    "id": 1715,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep communication steady throughout the development cycle.",
+    "spanish": "Mantengamos la comunicación constante durante el ciclo de desarrollo."
+  },
+  {
+    "id": 1716,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the sprint metrics to adjust our planning strategy.",
+    "spanish": "Estoy revisando las métricas del sprint para ajustar nuestra estrategia de planificación."
+  },
+  {
+    "id": 1717,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid lastminute requirement changes unless absolutely necessary.",
+    "spanish": "Evitemos cambios de requisitos de última hora salvo que sean absolutamente necesarios."
+  },
+  {
+    "id": 1718,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's feedback before refining the next iteration.",
+    "spanish": "Estoy revisando el feedback del equipo antes de refinar la siguiente iteración."
+  },
+  {
+    "id": 1719,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's document the architectural reasoning behind each major decision.",
+    "spanish": "Documentemos el razonamiento arquitectónico detrás de cada decisión importante."
+  },
+  {
+    "id": 1720,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the acceptance criteria to ensure technical alignment.",
+    "spanish": "Estoy revisando los criterios de aceptación para asegurar alineación técnica."
+  },
+  {
+    "id": 1721,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the discussion focused on engineering outcomes.",
+    "spanish": "Mantengamos la discusión centrada en resultados de ingeniería."
+  },
+  {
+    "id": 1722,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the dependency graph to anticipate integration challenges.",
+    "spanish": "Estoy revisando el grafo de dependencias para anticipar desafíos de integración."
+  },
+  {
+    "id": 1723,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the priorities before planning the next release cycle.",
+    "spanish": "Confirmemos las prioridades antes de planificar el siguiente ciclo de lanzamiento."
+  },
+  {
+    "id": 1724,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical briefing for tomorrow's sync.",
+    "spanish": "Estoy preparando un briefing técnico para la sincronización de mañana."
+  },
+  {
+    "id": 1725,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's ensure everyone understands the longterm technical implications.",
+    "spanish": "Asegurémonos de que todos entienden las implicaciones técnicas a largo plazo."
+  },
+  {
+    "id": 1726,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the design tokens to maintain consistency across components.",
+    "spanish": "Estoy revisando los design tokens para mantener consistencia entre componentes."
+  },
+  {
+    "id": 1727,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the feedback loop tight to accelerate iteration speed.",
+    "spanish": "Mantengamos el ciclo de feedback ajustado para acelerar la velocidad de iteración."
+  },
+  {
+    "id": 1728,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the user stories to ensure they're technically actionable.",
+    "spanish": "Estoy revisando las user stories para asegurar que son técnicamente accionables."
+  },
+  {
+    "id": 1729,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid scope drift by defining strict technical boundaries.",
+    "spanish": "Evitemos desviaciones de alcance definiendo límites técnicos estrictos."
+  },
+  {
+    "id": 1730,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's workload before assigning new engineering tasks.",
+    "spanish": "Estoy revisando la carga del equipo antes de asignar nuevas tareas técnicas."
+  },
+  {
+    "id": 1731,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the meeting focused on concrete engineering deliverables.",
+    "spanish": "Mantengamos la reunión enfocada en entregables técnicos concretos."
+  },
+  {
+    "id": 1732,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical recap for the weekly engineering review.",
+    "spanish": "Estoy preparando un resumen técnico para la revisión semanal de ingeniería."
+  },
+  {
+    "id": 1733,
+    "category": "1701-1725: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the integration workflow before merging the feature branch.",
+    "spanish": "Confirmemos el flujo de integración antes de hacer merge de la rama de la funcionalidad."
+  },
+  {
+    "id": 1734,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the microservice boundaries to ensure proper isolation.",
+    "spanish": "Estoy revisando los límites de los microservicios para asegurar aislamiento adecuado."
+  },
+  {
+    "id": 1735,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API payload formats for crossservice consistency.",
+    "spanish": "Revisemos los formatos de payload de la API para asegurar consistencia entre servicios."
+  },
+  {
+    "id": 1736,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the authentication middleware with the updated provider.",
+    "spanish": "Estoy validando el middleware de autenticación con el proveedor actualizado."
+  },
+  {
+    "id": 1737,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the caching layers to reduce backend latency.",
+    "spanish": "Optimicemos las capas de caché para reducir la latencia del backend."
+  },
+  {
+    "id": 1738,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the database partitioning strategy for scalability.",
+    "spanish": "Estoy revisando la estrategia de particionado de la base de datos para mejorar la escalabilidad."
+  },
+  {
+    "id": 1739,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the error boundaries in the UI to improve resilience.",
+    "spanish": "Revisemos los límites de error en la UI para mejorar la resiliencia."
+  },
+  {
+    "id": 1740,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the frontend components to support the new layout engine.",
+    "spanish": "Estoy actualizando los componentes del frontend para soportar el nuevo motor de layout."
+  },
+  {
+    "id": 1741,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the state management logic before enabling the feature.",
+    "spanish": "Validemos la lógica de gestión de estado antes de habilitar la funcionalidad."
+  },
+  {
+    "id": 1742,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the server configuration to improve fault tolerance.",
+    "spanish": "Estoy revisando la configuración del servidor para mejorar la tolerancia a fallos."
+  },
+  {
+    "id": 1743,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the environment setup for the production cluster.",
+    "spanish": "Revisemos la configuración del entorno para el clúster de producción."
+  },
+  {
+    "id": 1744,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the routing rules to support dynamic module injection.",
+    "spanish": "Estoy actualizando las reglas de routing para soportar inyección dinámica de módulos."
+  },
+  {
+    "id": 1745,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's analyse the load distribution across microservices.",
+    "spanish": "Analicemos la distribución de carga entre microservicios."
+  },
+  {
+    "id": 1746,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the CI pipeline to ensure deterministic builds.",
+    "spanish": "Estoy revisando el pipeline de CI para asegurar builds deterministas."
+  },
+  {
+    "id": 1747,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API versioning strategy before rolling out changes.",
+    "spanish": "Revisemos la estrategia de versionado de la API antes de desplegar cambios."
+  },
+  {
+    "id": 1748,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the hydration logic for serverrendered pages.",
+    "spanish": "Estoy validando la lógica de hidratación para páginas renderizadas en servidor."
+  },
+  {
+    "id": 1749,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the asset pipeline for faster delivery.",
+    "spanish": "Optimicemos el pipeline de assets para una entrega más rápida."
+  },
+  {
+    "id": 1750,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the logging configuration to improve traceability.",
+    "spanish": "Estoy revisando la configuración de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1751,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the retry strategy for unstable integrations.",
+    "spanish": "Revisemos la estrategia de reintentos para integraciones inestables."
+  },
+  {
+    "id": 1752,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the linting configuration to enforce stricter rules.",
+    "spanish": "Estoy actualizando la configuración de linting para aplicar reglas más estrictas."
+  },
+  {
+    "id": 1753,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the database migrations in a sandbox environment.",
+    "spanish": "Validemos las migraciones en un entorno sandbox."
+  },
+  {
+    "id": 1754,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the API throttling rules to ensure fairness.",
+    "spanish": "Estoy revisando las reglas de throttling de la API para asegurar equidad."
+  },
+  {
+    "id": 1755,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the session persistence strategy for multidevice usage.",
+    "spanish": "Revisemos la estrategia de persistencia de sesiones para uso multidispositivo."
+  },
+  {
+    "id": 1756,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the dependency tree to remove outdated packages.",
+    "spanish": "Estoy actualizando el árbol de dependencias para eliminar paquetes obsoletos."
+  },
+  {
+    "id": 1757,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the WebSocket reconnection flow.",
+    "spanish": "Validemos el flujo de reconexión de WebSocket."
+  },
+  {
+    "id": 1758,
+    "category": "1726-1750: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the build output to ensure minimal bundle size.",
+    "spanish": "Estoy revisando el output del build para asegurar un tamaño mínimo."
+  },
+  {
+    "id": 1759,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating integration test suites using AIassisted workflows.",
+    "spanish": "Estoy generando suites de tests de integración con flujos asistidos por IA."
+  },
+  {
+    "id": 1760,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's analyse the codebase using an AIdriven optimisation engine.",
+    "spanish": "Analicemos la base de código usando un motor de optimización basado en IA."
+  },
+  {
+    "id": 1761,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm using AI to detect potential architectural bottlenecks.",
+    "spanish": "Estoy usando IA para detectar posibles cuellos de botella arquitectónicos."
+  },
+  {
+    "id": 1762,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's generate API documentation automatically using AI models.",
+    "spanish": "Generemos documentación de API automáticamente usando modelos de IA."
+  },
+  {
+    "id": 1763,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated performance recommendations.",
+    "spanish": "Estoy revisando las recomendaciones de rendimiento generadas por IA."
+  },
+  {
+    "id": 1764,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to simulate peaktraffic scenarios.",
+    "spanish": "Usemos IA para simular escenarios de tráfico máximo."
+  },
+  {
+    "id": 1765,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm training a lightweight model to predict user navigation patterns.",
+    "spanish": "Estoy entrenando un modelo ligero para predecir patrones de navegación de usuario."
+  },
+  {
+    "id": 1766,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to classify system alerts automatically.",
+    "spanish": "Usemos IA para clasificar alertas del sistema automáticamente."
+  },
+  {
+    "id": 1767,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating synthetic logs using an AIpowered generator.",
+    "spanish": "Estoy generando logs sintéticos con un generador basado en IA."
+  },
+  {
+    "id": 1768,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect inefficient rendering paths.",
+    "spanish": "Usemos IA para detectar rutas de renderizado ineficientes."
+  },
+  {
+    "id": 1769,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated architecture diagrams for accuracy.",
+    "spanish": "Estoy revisando los diagramas de arquitectura generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1770,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve search relevance across the platform.",
+    "spanish": "Usemos IA para mejorar la relevancia de búsqueda en la plataforma."
+  },
+  {
+    "id": 1771,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AI model predictions before production rollout.",
+    "spanish": "Estoy validando las predicciones del modelo de IA antes del despliegue en producción."
+  },
+  {
+    "id": 1772,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to optimise database indexing strategies.",
+    "spanish": "Usemos IA para optimizar estrategias de indexación de bases de datos."
+  },
+  {
+    "id": 1773,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated refactor proposals for feasibility.",
+    "spanish": "Estoy revisando las propuestas de refactor generadas por IA para evaluar su viabilidad."
+  },
+  {
+    "id": 1774,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to automate repetitive QA workflows.",
+    "spanish": "Usemos IA para automatizar flujos repetitivos de QA."
+  },
+  {
+    "id": 1775,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI model metrics to ensure longterm stability.",
+    "spanish": "Estoy revisando las métricas del modelo de IA para asegurar estabilidad a largo plazo."
+  },
+  {
+    "id": 1776,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to enhance the recommendation engine logic.",
+    "spanish": "Usemos IA para mejorar la lógica del motor de recomendaciones."
+  },
+  {
+    "id": 1777,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the training dataset to avoid systemic bias.",
+    "spanish": "Estoy validando el dataset de entrenamiento para evitar sesgos sistémicos."
+  },
+  {
+    "id": 1778,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to generate alternative UI flows.",
+    "spanish": "Usemos IA para generar flujos de UI alternativos."
+  },
+  {
+    "id": 1779,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated test coverage improvements.",
+    "spanish": "Estoy revisando las mejoras de cobertura de tests generadas por IA."
+  },
+  {
+    "id": 1780,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect unused modules automatically.",
+    "spanish": "Usemos IA para detectar módulos no utilizados automáticamente."
+  },
+  {
+    "id": 1781,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI inference performance under heavy load.",
+    "spanish": "Estoy revisando el rendimiento de inferencia de IA bajo carga pesada."
+  },
+  {
+    "id": 1782,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the errorrecovery mechanisms.",
+    "spanish": "Usemos IA para mejorar los mecanismos de recuperación de errores."
+  },
+  {
+    "id": 1783,
+    "category": "1751-1775: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AIgenerated deployment scripts for accuracy.",
+    "spanish": "Estoy validando los scripts de despliegue generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1784,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment timeline to avoid overlapping releases.",
+    "spanish": "Estoy revisando el calendario de despliegue para evitar solapamientos."
+  },
+  {
+    "id": 1785,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the container logs for unexpected behaviour.",
+    "spanish": "Revisemos los logs de contenedores para detectar comportamientos inesperados."
+  },
+  {
+    "id": 1786,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the Docker configuration to improve layer caching.",
+    "spanish": "Estoy actualizando la configuración de Docker para mejorar la caché de capas."
+  },
+  {
+    "id": 1787,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the Kubernetes autoscaling rules.",
+    "spanish": "Validemos las reglas de autoescalado de Kubernetes."
+  },
+  {
+    "id": 1788,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the monitoring alerts to reduce noise.",
+    "spanish": "Estoy revisando las alertas de monitorización para reducir ruido."
+  },
+  {
+    "id": 1789,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the rollback strategy for highrisk deployments.",
+    "spanish": "Revisemos la estrategia de rollback para despliegues de alto riesgo."
+  },
+  {
+    "id": 1790,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the CI workflows to improve pipeline resilience.",
+    "spanish": "Estoy actualizando los workflows de CI para mejorar la resiliencia del pipeline."
+  },
+  {
+    "id": 1791,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the certificate renewal process.",
+    "spanish": "Validemos el proceso de renovación de certificados."
+  },
+  {
+    "id": 1792,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the infrastructure scripts to ensure consistency.",
+    "spanish": "Estoy revisando los scripts de infraestructura para asegurar consistencia."
+  },
+  {
+    "id": 1793,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the server load graphs for anomalies.",
+    "spanish": "Revisemos los gráficos de carga del servidor para detectar anomalías."
+  },
+  {
+    "id": 1794,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the staging environment to mirror production.",
+    "spanish": "Estoy actualizando el entorno de staging para que refleje producción."
+  },
+  {
+    "id": 1795,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the backup integrity before archiving.",
+    "spanish": "Validemos la integridad del backup antes de archivarlo."
+  },
+  {
+    "id": 1796,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment pipeline to reduce friction points.",
+    "spanish": "Estoy revisando el pipeline de despliegue para reducir puntos de fricción."
+  },
+  {
+    "id": 1797,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the autoscaling thresholds for accuracy.",
+    "spanish": "Revisemos los umbrales de autoescalado para asegurar precisión."
+  },
+  {
+    "id": 1798,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the log format to improve traceability.",
+    "spanish": "Estoy actualizando el formato de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1799,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the loadtesting scenarios before release.",
+    "spanish": "Validemos los escenarios de pruebas de carga antes del lanzamiento."
+  },
+  {
+    "id": 1800,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the cloud usage metrics to optimise resource allocation.",
+    "spanish": "Estoy revisando las métricas de uso en la nube para optimizar la asignación de recursos."
+  },
+  {
+    "id": 1801,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the firewall rules for potential misconfigurations.",
+    "spanish": "Revisemos las reglas del firewall para detectar posibles errores de configuración."
+  },
+  {
+    "id": 1802,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the deployment templates to improve automation.",
+    "spanish": "Estoy actualizando las plantillas de despliegue para mejorar la automatización."
+  },
+  {
+    "id": 1803,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the failover behaviour under stress conditions.",
+    "spanish": "Validemos el comportamiento de failover bajo condiciones de estrés."
+  },
+  {
+    "id": 1804,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the CI/CD notifications to reduce alert fatigue.",
+    "spanish": "Estoy revisando las notificaciones de CI/CD para reducir la fatiga de alertas."
+  },
+  {
+    "id": 1805,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the infrastructure logs for suspicious patterns.",
+    "spanish": "Revisemos los logs de infraestructura para detectar patrones sospechosos."
+  },
+  {
+    "id": 1806,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the cloud IAM roles to strengthen security.",
+    "spanish": "Estoy actualizando los roles IAM de la nube para reforzar la seguridad."
+  },
+  {
+    "id": 1807,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the deployment window with all engineering teams.",
+    "spanish": "Validemos la ventana de despliegue con todos los equipos de ingeniería."
+  },
+  {
+    "id": 1808,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the DevOps checklist before final approval.",
+    "spanish": "Estoy revisando la checklist de DevOps antes de la aprobación final."
+  },
+  {
+    "id": 1809,
+    "category": "1776-1800: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "🇬🇧🇺🇸 Bloque 19",
+    "spanish": "Frases 1801–1900 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1810,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's align the engineering expectations before refining the next sprint.",
+    "spanish": "Alineemos las expectativas de ingeniería antes de refinar el próximo sprint."
+  },
+  {
+    "id": 1811,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the technical dependencies to avoid future bottlenecks.",
+    "spanish": "Estoy revisando las dependencias técnicas para evitar cuellos de botella futuros."
+  },
+  {
+    "id": 1812,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's clarify the architectural assumptions so we can plan accurately.",
+    "spanish": "Aclaramos las suposiciones arquitectónicas para poder planificar con precisión."
+  },
+  {
+    "id": 1813,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the sprint board to identify tasks that need reevaluation.",
+    "spanish": "Estoy revisando el tablero del sprint para identificar tareas que necesitan reevaluación."
+  },
+  {
+    "id": 1814,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's sync with the engineering team before adjusting the roadmap.",
+    "spanish": "Sincronizémonos con el equipo de ingeniería antes de ajustar la hoja de ruta."
+  },
+  {
+    "id": 1815,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a summary of the technical discussions from this week.",
+    "spanish": "Estoy preparando un resumen de las discusiones técnicas de esta semana."
+  },
+  {
+    "id": 1816,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep communication consistent throughout the development cycle.",
+    "spanish": "Mantengamos la comunicación consistente durante el ciclo de desarrollo."
+  },
+  {
+    "id": 1817,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the sprint metrics to refine our planning strategy.",
+    "spanish": "Estoy revisando las métricas del sprint para refinar nuestra estrategia de planificación."
+  },
+  {
+    "id": 1818,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid lastminute requirement changes unless they're critical.",
+    "spanish": "Evitemos cambios de requisitos de última hora salvo que sean críticos."
+  },
+  {
+    "id": 1819,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's feedback before adjusting the next iteration.",
+    "spanish": "Estoy revisando el feedback del equipo antes de ajustar la siguiente iteración."
+  },
+  {
+    "id": 1820,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's document the architectural reasoning behind each major update.",
+    "spanish": "Documentemos el razonamiento arquitectónico detrás de cada actualización importante."
+  },
+  {
+    "id": 1821,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the acceptance criteria to ensure technical alignment.",
+    "spanish": "Estoy revisando los criterios de aceptación para asegurar alineación técnica."
+  },
+  {
+    "id": 1822,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the discussion focused on engineering deliverables.",
+    "spanish": "Mantengamos la discusión centrada en entregables de ingeniería."
+  },
+  {
+    "id": 1823,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the dependency graph to anticipate integration risks.",
+    "spanish": "Estoy revisando el grafo de dependencias para anticipar riesgos de integración."
+  },
+  {
+    "id": 1824,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the priorities before planning the next release cycle.",
+    "spanish": "Confirmemos las prioridades antes de planificar el siguiente ciclo de lanzamiento."
+  },
+  {
+    "id": 1825,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical briefing for the upcoming sync.",
+    "spanish": "Estoy preparando un briefing técnico para la próxima sincronización."
+  },
+  {
+    "id": 1826,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's ensure everyone understands the longterm engineering implications.",
+    "spanish": "Asegurémonos de que todos entienden las implicaciones de ingeniería a largo plazo."
+  },
+  {
+    "id": 1827,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the design tokens to maintain UI consistency.",
+    "spanish": "Estoy revisando los design tokens para mantener consistencia en la UI."
+  },
+  {
+    "id": 1828,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the feedback loop tight to accelerate iteration speed.",
+    "spanish": "Mantengamos el ciclo de feedback ajustado para acelerar la iteración."
+  },
+  {
+    "id": 1829,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the user stories to ensure they're technically actionable.",
+    "spanish": "Estoy revisando las user stories para asegurar que son técnicamente accionables."
+  },
+  {
+    "id": 1830,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid scope drift by defining strict engineering boundaries.",
+    "spanish": "Evitemos desviaciones de alcance definiendo límites estrictos de ingeniería."
+  },
+  {
+    "id": 1831,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's workload before assigning new tasks.",
+    "spanish": "Estoy revisando la carga del equipo antes de asignar nuevas tareas."
+  },
+  {
+    "id": 1832,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the meeting focused on concrete technical outcomes.",
+    "spanish": "Mantengamos la reunión enfocada en resultados técnicos concretos."
+  },
+  {
+    "id": 1833,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical recap for the weekly engineering review.",
+    "spanish": "Estoy preparando un resumen técnico para la revisión semanal de ingeniería."
+  },
+  {
+    "id": 1834,
+    "category": "1801-1825: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the integration workflow before merging the feature branch.",
+    "spanish": "Confirmemos el flujo de integración antes de hacer merge de la rama de la funcionalidad."
+  },
+  {
+    "id": 1835,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the microservice boundaries to ensure proper isolation.",
+    "spanish": "Estoy revisando los límites de los microservicios para asegurar aislamiento adecuado."
+  },
+  {
+    "id": 1836,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API payload formats for crossservice consistency.",
+    "spanish": "Revisemos los formatos de payload de la API para asegurar consistencia entre servicios."
+  },
+  {
+    "id": 1837,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the authentication middleware with the updated provider.",
+    "spanish": "Estoy validando el middleware de autenticación con el proveedor actualizado."
+  },
+  {
+    "id": 1838,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the caching layers to reduce backend latency.",
+    "spanish": "Optimicemos las capas de caché para reducir la latencia del backend."
+  },
+  {
+    "id": 1839,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the database partitioning strategy for scalability.",
+    "spanish": "Estoy revisando la estrategia de particionado de la base de datos para mejorar la escalabilidad."
+  },
+  {
+    "id": 1840,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the error boundaries in the UI to improve resilience.",
+    "spanish": "Revisemos los límites de error en la UI para mejorar la resiliencia."
+  },
+  {
+    "id": 1841,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the frontend components to support the new layout engine.",
+    "spanish": "Estoy actualizando los componentes del frontend para soportar el nuevo motor de layout."
+  },
+  {
+    "id": 1842,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the state management logic before enabling the feature.",
+    "spanish": "Validemos la lógica de gestión de estado antes de habilitar la funcionalidad."
+  },
+  {
+    "id": 1843,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the server configuration to improve fault tolerance.",
+    "spanish": "Estoy revisando la configuración del servidor para mejorar la tolerancia a fallos."
+  },
+  {
+    "id": 1844,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the environment setup for the production cluster.",
+    "spanish": "Revisemos la configuración del entorno para el clúster de producción."
+  },
+  {
+    "id": 1845,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the routing rules to support dynamic module injection.",
+    "spanish": "Estoy actualizando las reglas de routing para soportar inyección dinámica de módulos."
+  },
+  {
+    "id": 1846,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's analyse the load distribution across microservices.",
+    "spanish": "Analicemos la distribución de carga entre microservicios."
+  },
+  {
+    "id": 1847,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the CI pipeline to ensure deterministic builds.",
+    "spanish": "Estoy revisando el pipeline de CI para asegurar builds deterministas."
+  },
+  {
+    "id": 1848,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API versioning strategy before rolling out changes.",
+    "spanish": "Revisemos la estrategia de versionado de la API antes de desplegar cambios."
+  },
+  {
+    "id": 1849,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the hydration logic for serverrendered pages.",
+    "spanish": "Estoy validando la lógica de hidratación para páginas renderizadas en servidor."
+  },
+  {
+    "id": 1850,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the asset pipeline for faster delivery.",
+    "spanish": "Optimicemos el pipeline de assets para una entrega más rápida."
+  },
+  {
+    "id": 1851,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the logging configuration to improve traceability.",
+    "spanish": "Estoy revisando la configuración de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1852,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the retry strategy for unstable integrations.",
+    "spanish": "Revisemos la estrategia de reintentos para integraciones inestables."
+  },
+  {
+    "id": 1853,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the linting configuration to enforce stricter rules.",
+    "spanish": "Estoy actualizando la configuración de linting para aplicar reglas más estrictas."
+  },
+  {
+    "id": 1854,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the database migrations in a sandbox environment.",
+    "spanish": "Validemos las migraciones en un entorno sandbox."
+  },
+  {
+    "id": 1855,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the API throttling rules to ensure fairness.",
+    "spanish": "Estoy revisando las reglas de throttling de la API para asegurar equidad."
+  },
+  {
+    "id": 1856,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the session persistence strategy for multidevice usage.",
+    "spanish": "Revisemos la estrategia de persistencia de sesiones para uso multidispositivo."
+  },
+  {
+    "id": 1857,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the dependency tree to remove outdated packages.",
+    "spanish": "Estoy actualizando el árbol de dependencias para eliminar paquetes obsoletos."
+  },
+  {
+    "id": 1858,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the WebSocket reconnection flow.",
+    "spanish": "Validemos el flujo de reconexión de WebSocket."
+  },
+  {
+    "id": 1859,
+    "category": "1826-1850: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the build output to ensure minimal bundle size.",
+    "spanish": "Estoy revisando el output del build para asegurar un tamaño mínimo."
+  },
+  {
+    "id": 1860,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating integration test suites using AIassisted workflows.",
+    "spanish": "Estoy generando suites de tests de integración con flujos asistidos por IA."
+  },
+  {
+    "id": 1861,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's analyse the codebase using an AIdriven optimisation engine.",
+    "spanish": "Analicemos la base de código usando un motor de optimización basado en IA."
+  },
+  {
+    "id": 1862,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm using AI to detect potential architectural bottlenecks.",
+    "spanish": "Estoy usando IA para detectar posibles cuellos de botella arquitectónicos."
+  },
+  {
+    "id": 1863,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's generate API documentation automatically using AI models.",
+    "spanish": "Generemos documentación de API automáticamente usando modelos de IA."
+  },
+  {
+    "id": 1864,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated performance recommendations.",
+    "spanish": "Estoy revisando las recomendaciones de rendimiento generadas por IA."
+  },
+  {
+    "id": 1865,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to simulate peaktraffic scenarios.",
+    "spanish": "Usemos IA para simular escenarios de tráfico máximo."
+  },
+  {
+    "id": 1866,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm training a lightweight model to predict user navigation patterns.",
+    "spanish": "Estoy entrenando un modelo ligero para predecir patrones de navegación de usuario."
+  },
+  {
+    "id": 1867,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to classify system alerts automatically.",
+    "spanish": "Usemos IA para clasificar alertas del sistema automáticamente."
+  },
+  {
+    "id": 1868,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating synthetic logs using an AIpowered generator.",
+    "spanish": "Estoy generando logs sintéticos con un generador basado en IA."
+  },
+  {
+    "id": 1869,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect inefficient rendering paths.",
+    "spanish": "Usemos IA para detectar rutas de renderizado ineficientes."
+  },
+  {
+    "id": 1870,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated architecture diagrams for accuracy.",
+    "spanish": "Estoy revisando los diagramas de arquitectura generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1871,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve search relevance across the platform.",
+    "spanish": "Usemos IA para mejorar la relevancia de búsqueda en la plataforma."
+  },
+  {
+    "id": 1872,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AI model predictions before production rollout.",
+    "spanish": "Estoy validando las predicciones del modelo de IA antes del despliegue en producción."
+  },
+  {
+    "id": 1873,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to optimise database indexing strategies.",
+    "spanish": "Usemos IA para optimizar estrategias de indexación de bases de datos."
+  },
+  {
+    "id": 1874,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated refactor proposals for feasibility.",
+    "spanish": "Estoy revisando las propuestas de refactor generadas por IA para evaluar su viabilidad."
+  },
+  {
+    "id": 1875,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to automate repetitive QA workflows.",
+    "spanish": "Usemos IA para automatizar flujos repetitivos de QA."
+  },
+  {
+    "id": 1876,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI model metrics to ensure longterm stability.",
+    "spanish": "Estoy revisando las métricas del modelo de IA para asegurar estabilidad a largo plazo."
+  },
+  {
+    "id": 1877,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to enhance the recommendation engine logic.",
+    "spanish": "Usemos IA para mejorar la lógica del motor de recomendaciones."
+  },
+  {
+    "id": 1878,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the training dataset to avoid systemic bias.",
+    "spanish": "Estoy validando el dataset de entrenamiento para evitar sesgos sistémicos."
+  },
+  {
+    "id": 1879,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to generate alternative UI flows.",
+    "spanish": "Usemos IA para generar flujos de UI alternativos."
+  },
+  {
+    "id": 1880,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated test coverage improvements.",
+    "spanish": "Estoy revisando las mejoras de cobertura de tests generadas por IA."
+  },
+  {
+    "id": 1881,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect unused modules automatically.",
+    "spanish": "Usemos IA para detectar módulos no utilizados automáticamente."
+  },
+  {
+    "id": 1882,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI inference performance under heavy load.",
+    "spanish": "Estoy revisando el rendimiento de inferencia de IA bajo carga pesada."
+  },
+  {
+    "id": 1883,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the errorrecovery mechanisms.",
+    "spanish": "Usemos IA para mejorar los mecanismos de recuperación de errores."
+  },
+  {
+    "id": 1884,
+    "category": "1851-1875: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AIgenerated deployment scripts for accuracy.",
+    "spanish": "Estoy validando los scripts de despliegue generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1885,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment timeline to avoid overlapping releases.",
+    "spanish": "Estoy revisando el calendario de despliegue para evitar solapamientos."
+  },
+  {
+    "id": 1886,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the container logs for unexpected behaviour.",
+    "spanish": "Revisemos los logs de contenedores para detectar comportamientos inesperados."
+  },
+  {
+    "id": 1887,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the Docker configuration to improve layer caching.",
+    "spanish": "Estoy actualizando la configuración de Docker para mejorar la caché de capas."
+  },
+  {
+    "id": 1888,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the Kubernetes autoscaling rules.",
+    "spanish": "Validemos las reglas de autoescalado de Kubernetes."
+  },
+  {
+    "id": 1889,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the monitoring alerts to reduce noise.",
+    "spanish": "Estoy revisando las alertas de monitorización para reducir ruido."
+  },
+  {
+    "id": 1890,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the rollback strategy for highrisk deployments.",
+    "spanish": "Revisemos la estrategia de rollback para despliegues de alto riesgo."
+  },
+  {
+    "id": 1891,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the CI workflows to improve pipeline resilience.",
+    "spanish": "Estoy actualizando los workflows de CI para mejorar la resiliencia del pipeline."
+  },
+  {
+    "id": 1892,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the certificate renewal process.",
+    "spanish": "Validemos el proceso de renovación de certificados."
+  },
+  {
+    "id": 1893,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the infrastructure scripts to ensure consistency.",
+    "spanish": "Estoy revisando los scripts de infraestructura para asegurar consistencia."
+  },
+  {
+    "id": 1894,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the server load graphs for anomalies.",
+    "spanish": "Revisemos los gráficos de carga del servidor para detectar anomalías."
+  },
+  {
+    "id": 1895,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the staging environment to mirror production.",
+    "spanish": "Estoy actualizando el entorno de staging para que refleje producción."
+  },
+  {
+    "id": 1896,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the backup integrity before archiving.",
+    "spanish": "Validemos la integridad del backup antes de archivarlo."
+  },
+  {
+    "id": 1897,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment pipeline to reduce friction points.",
+    "spanish": "Estoy revisando el pipeline de despliegue para reducir puntos de fricción."
+  },
+  {
+    "id": 1898,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the autoscaling thresholds for accuracy.",
+    "spanish": "Revisemos los umbrales de autoescalado para asegurar precisión."
+  },
+  {
+    "id": 1899,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the log format to improve traceability.",
+    "spanish": "Estoy actualizando el formato de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1900,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the loadtesting scenarios before release.",
+    "spanish": "Validemos los escenarios de pruebas de carga antes del lanzamiento."
+  },
+  {
+    "id": 1901,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the cloud usage metrics to optimise resource allocation.",
+    "spanish": "Estoy revisando las métricas de uso en la nube para optimizar la asignación de recursos."
+  },
+  {
+    "id": 1902,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the firewall rules for potential misconfigurations.",
+    "spanish": "Revisemos las reglas del firewall para detectar posibles errores de configuración."
+  },
+  {
+    "id": 1903,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the deployment templates to improve automation.",
+    "spanish": "Estoy actualizando las plantillas de despliegue para mejorar la automatización."
+  },
+  {
+    "id": 1904,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the failover behaviour under stress conditions.",
+    "spanish": "Validemos el comportamiento de failover bajo condiciones de estrés."
+  },
+  {
+    "id": 1905,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the CI/CD notifications to reduce alert fatigue.",
+    "spanish": "Estoy revisando las notificaciones de CI/CD para reducir la fatiga de alertas."
+  },
+  {
+    "id": 1906,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the infrastructure logs for suspicious patterns.",
+    "spanish": "Revisemos los logs de infraestructura para detectar patrones sospechosos."
+  },
+  {
+    "id": 1907,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the cloud IAM roles to strengthen security.",
+    "spanish": "Estoy actualizando los roles IAM de la nube para reforzar la seguridad."
+  },
+  {
+    "id": 1908,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the deployment window with all engineering teams.",
+    "spanish": "Validemos la ventana de despliegue con todos los equipos de ingeniería."
+  },
+  {
+    "id": 1909,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the DevOps checklist before final approval.",
+    "spanish": "Estoy revisando la checklist de DevOps antes de la aprobación final."
+  },
+  {
+    "id": 1910,
+    "category": "1876-1900: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "🇬🇧🇺🇸 Bloque 20",
+    "spanish": "Frases 1901–2000 (sin duplicados, con enfoque tecnológico FullStack + IA)"
+  },
+  {
+    "id": 1911,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's align the engineering expectations before defining the next sprint goals.",
+    "spanish": "Alineemos las expectativas de ingeniería antes de definir los objetivos del próximo sprint."
+  },
+  {
+    "id": 1912,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the technical dependencies to prevent future integration issues.",
+    "spanish": "Estoy revisando las dependencias técnicas para evitar problemas de integración futuros."
+  },
+  {
+    "id": 1913,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's clarify the architectural assumptions so we can plan with precision.",
+    "spanish": "Aclaramos las suposiciones arquitectónicas para poder planificar con precisión."
+  },
+  {
+    "id": 1914,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the sprint board to identify tasks that require reestimation.",
+    "spanish": "Estoy revisando el tablero del sprint para identificar tareas que requieren reestimación."
+  },
+  {
+    "id": 1915,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's sync with the engineering team before adjusting the technical roadmap.",
+    "spanish": "Sincronizémonos con el equipo de ingeniería antes de ajustar la hoja de ruta técnica."
+  },
+  {
+    "id": 1916,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a summary of the engineering decisions made during the week.",
+    "spanish": "Estoy preparando un resumen de las decisiones de ingeniería tomadas durante la semana."
+  },
+  {
+    "id": 1917,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep communication steady throughout the development phases.",
+    "spanish": "Mantengamos la comunicación constante durante las fases de desarrollo."
+  },
+  {
+    "id": 1918,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the sprint metrics to refine our planning approach.",
+    "spanish": "Estoy revisando las métricas del sprint para refinar nuestro enfoque de planificación."
+  },
+  {
+    "id": 1919,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid lastminute requirement changes unless they're unavoidable.",
+    "spanish": "Evitemos cambios de requisitos de última hora salvo que sean inevitables."
+  },
+  {
+    "id": 1920,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's feedback before adjusting the iteration scope.",
+    "spanish": "Estoy revisando el feedback del equipo antes de ajustar el alcance de la iteración."
+  },
+  {
+    "id": 1921,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's document the architectural reasoning behind each major update.",
+    "spanish": "Documentemos el razonamiento arquitectónico detrás de cada actualización importante."
+  },
+  {
+    "id": 1922,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the acceptance criteria to ensure technical clarity.",
+    "spanish": "Estoy revisando los criterios de aceptación para asegurar claridad técnica."
+  },
+  {
+    "id": 1923,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the discussion focused on engineering deliverables.",
+    "spanish": "Mantengamos la discusión centrada en entregables de ingeniería."
+  },
+  {
+    "id": 1924,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the dependency graph to anticipate integration challenges.",
+    "spanish": "Estoy revisando el grafo de dependencias para anticipar desafíos de integración."
+  },
+  {
+    "id": 1925,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the priorities before planning the next release cycle.",
+    "spanish": "Confirmemos las prioridades antes de planificar el siguiente ciclo de lanzamiento."
+  },
+  {
+    "id": 1926,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical briefing for the upcoming engineering sync.",
+    "spanish": "Estoy preparando un briefing técnico para la próxima sincronización de ingeniería."
+  },
+  {
+    "id": 1927,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's ensure everyone understands the longterm engineering implications.",
+    "spanish": "Asegurémonos de que todos entienden las implicaciones de ingeniería a largo plazo."
+  },
+  {
+    "id": 1928,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the design tokens to maintain UI consistency across modules.",
+    "spanish": "Estoy revisando los design tokens para mantener consistencia en la UI entre módulos."
+  },
+  {
+    "id": 1929,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the feedback loop tight to accelerate iteration speed.",
+    "spanish": "Mantengamos el ciclo de feedback ajustado para acelerar la iteración."
+  },
+  {
+    "id": 1930,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm reviewing the user stories to ensure they're technically actionable.",
+    "spanish": "Estoy revisando las user stories para asegurar que son técnicamente accionables."
+  },
+  {
+    "id": 1931,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's avoid scope drift by defining strict engineering boundaries.",
+    "spanish": "Evitemos desviaciones de alcance definiendo límites estrictos de ingeniería."
+  },
+  {
+    "id": 1932,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm checking the team's workload before assigning new tasks.",
+    "spanish": "Estoy revisando la carga del equipo antes de asignar nuevas tareas."
+  },
+  {
+    "id": 1933,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's keep the meeting focused on concrete technical outcomes.",
+    "spanish": "Mantengamos la reunión enfocada en resultados técnicos concretos."
+  },
+  {
+    "id": 1934,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "I'm preparing a technical recap for the weekly engineering review.",
+    "spanish": "Estoy preparando un resumen técnico para la revisión semanal de ingeniería."
+  },
+  {
+    "id": 1935,
+    "category": "1901-1925: Comunicación profesional en equipos de ingeniería",
+    "english": "Let's confirm the integration workflow before merging the feature branch.",
+    "spanish": "Confirmemos el flujo de integración antes de hacer merge de la rama de la funcionalidad."
+  },
+  {
+    "id": 1936,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the microservice boundaries to ensure proper isolation.",
+    "spanish": "Estoy revisando los límites de los microservicios para asegurar aislamiento adecuado."
+  },
+  {
+    "id": 1937,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API payload formats for crossservice consistency.",
+    "spanish": "Revisemos los formatos de payload de la API para asegurar consistencia entre servicios."
+  },
+  {
+    "id": 1938,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the authentication middleware with the updated provider.",
+    "spanish": "Estoy validando el middleware de autenticación con el proveedor actualizado."
+  },
+  {
+    "id": 1939,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the caching layers to reduce backend latency.",
+    "spanish": "Optimicemos las capas de caché para reducir la latencia del backend."
+  },
+  {
+    "id": 1940,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the database partitioning strategy for scalability.",
+    "spanish": "Estoy revisando la estrategia de particionado de la base de datos para mejorar la escalabilidad."
+  },
+  {
+    "id": 1941,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the error boundaries in the UI to improve resilience.",
+    "spanish": "Revisemos los límites de error en la UI para mejorar la resiliencia."
+  },
+  {
+    "id": 1942,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the frontend components to support the new layout engine.",
+    "spanish": "Estoy actualizando los componentes del frontend para soportar el nuevo motor de layout."
+  },
+  {
+    "id": 1943,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the state management logic before enabling the feature.",
+    "spanish": "Validemos la lógica de gestión de estado antes de habilitar la funcionalidad."
+  },
+  {
+    "id": 1944,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the server configuration to improve fault tolerance.",
+    "spanish": "Estoy revisando la configuración del servidor para mejorar la tolerancia a fallos."
+  },
+  {
+    "id": 1945,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the environment setup for the production cluster.",
+    "spanish": "Revisemos la configuración del entorno para el clúster de producción."
+  },
+  {
+    "id": 1946,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the routing rules to support dynamic module injection.",
+    "spanish": "Estoy actualizando las reglas de routing para soportar inyección dinámica de módulos."
+  },
+  {
+    "id": 1947,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's analyse the load distribution across microservices.",
+    "spanish": "Analicemos la distribución de carga entre microservicios."
+  },
+  {
+    "id": 1948,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the CI pipeline to ensure deterministic builds.",
+    "spanish": "Estoy revisando el pipeline de CI para asegurar builds deterministas."
+  },
+  {
+    "id": 1949,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the API versioning strategy before rolling out changes.",
+    "spanish": "Revisemos la estrategia de versionado de la API antes de desplegar cambios."
+  },
+  {
+    "id": 1950,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm validating the hydration logic for serverrendered pages.",
+    "spanish": "Estoy validando la lógica de hidratación para páginas renderizadas en servidor."
+  },
+  {
+    "id": 1951,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's optimise the asset pipeline for faster delivery.",
+    "spanish": "Optimicemos el pipeline de assets para una entrega más rápida."
+  },
+  {
+    "id": 1952,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the logging configuration to improve traceability.",
+    "spanish": "Estoy revisando la configuración de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 1953,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the retry strategy for unstable integrations.",
+    "spanish": "Revisemos la estrategia de reintentos para integraciones inestables."
+  },
+  {
+    "id": 1954,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the linting configuration to enforce stricter rules.",
+    "spanish": "Estoy actualizando la configuración de linting para aplicar reglas más estrictas."
+  },
+  {
+    "id": 1955,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the database migrations in a sandbox environment.",
+    "spanish": "Validemos las migraciones en un entorno sandbox."
+  },
+  {
+    "id": 1956,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the API throttling rules to ensure fairness.",
+    "spanish": "Estoy revisando las reglas de throttling de la API para asegurar equidad."
+  },
+  {
+    "id": 1957,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's check the session persistence strategy for multidevice usage.",
+    "spanish": "Revisemos la estrategia de persistencia de sesiones para uso multidispositivo."
+  },
+  {
+    "id": 1958,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm updating the dependency tree to remove outdated packages.",
+    "spanish": "Estoy actualizando el árbol de dependencias para eliminar paquetes obsoletos."
+  },
+  {
+    "id": 1959,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "Let's validate the WebSocket reconnection flow.",
+    "spanish": "Validemos el flujo de reconexión de WebSocket."
+  },
+  {
+    "id": 1960,
+    "category": "1926-1950: Desarrollo FullStack y arquitectura de software",
+    "english": "I'm reviewing the build output to ensure minimal bundle size.",
+    "spanish": "Estoy revisando el output del build para asegurar un tamaño mínimo."
+  },
+  {
+    "id": 1961,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating integration test suites using AIassisted workflows.",
+    "spanish": "Estoy generando suites de tests de integración con flujos asistidos por IA."
+  },
+  {
+    "id": 1962,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's analyse the codebase using an AIdriven optimisation engine.",
+    "spanish": "Analicemos la base de código usando un motor de optimización basado en IA."
+  },
+  {
+    "id": 1963,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm using AI to detect potential architectural bottlenecks.",
+    "spanish": "Estoy usando IA para detectar posibles cuellos de botella arquitectónicos."
+  },
+  {
+    "id": 1964,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's generate API documentation automatically using AI models.",
+    "spanish": "Generemos documentación de API automáticamente usando modelos de IA."
+  },
+  {
+    "id": 1965,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated performance recommendations.",
+    "spanish": "Estoy revisando las recomendaciones de rendimiento generadas por IA."
+  },
+  {
+    "id": 1966,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to simulate peaktraffic scenarios.",
+    "spanish": "Usemos IA para simular escenarios de tráfico máximo."
+  },
+  {
+    "id": 1967,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm training a lightweight model to predict user navigation patterns.",
+    "spanish": "Estoy entrenando un modelo ligero para predecir patrones de navegación de usuario."
+  },
+  {
+    "id": 1968,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to classify system alerts automatically.",
+    "spanish": "Usemos IA para clasificar alertas del sistema automáticamente."
+  },
+  {
+    "id": 1969,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm generating synthetic logs using an AIpowered generator.",
+    "spanish": "Estoy generando logs sintéticos con un generador basado en IA."
+  },
+  {
+    "id": 1970,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect inefficient rendering paths.",
+    "spanish": "Usemos IA para detectar rutas de renderizado ineficientes."
+  },
+  {
+    "id": 1971,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated architecture diagrams for accuracy.",
+    "spanish": "Estoy revisando los diagramas de arquitectura generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1972,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve search relevance across the platform.",
+    "spanish": "Usemos IA para mejorar la relevancia de búsqueda en la plataforma."
+  },
+  {
+    "id": 1973,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AI model predictions before production rollout.",
+    "spanish": "Estoy validando las predicciones del modelo de IA antes del despliegue en producción."
+  },
+  {
+    "id": 1974,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to optimise database indexing strategies.",
+    "spanish": "Usemos IA para optimizar estrategias de indexación de bases de datos."
+  },
+  {
+    "id": 1975,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated refactor proposals for feasibility.",
+    "spanish": "Estoy revisando las propuestas de refactor generadas por IA para evaluar su viabilidad."
+  },
+  {
+    "id": 1976,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to automate repetitive QA workflows.",
+    "spanish": "Usemos IA para automatizar flujos repetitivos de QA."
+  },
+  {
+    "id": 1977,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI model metrics to ensure longterm stability.",
+    "spanish": "Estoy revisando las métricas del modelo de IA para asegurar estabilidad a largo plazo."
+  },
+  {
+    "id": 1978,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to enhance the recommendation engine logic.",
+    "spanish": "Usemos IA para mejorar la lógica del motor de recomendaciones."
+  },
+  {
+    "id": 1979,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the training dataset to avoid systemic bias.",
+    "spanish": "Estoy validando el dataset de entrenamiento para evitar sesgos sistémicos."
+  },
+  {
+    "id": 1980,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to generate alternative UI flows.",
+    "spanish": "Usemos IA para generar flujos de UI alternativos."
+  },
+  {
+    "id": 1981,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm reviewing the AIgenerated test coverage improvements.",
+    "spanish": "Estoy revisando las mejoras de cobertura de tests generadas por IA."
+  },
+  {
+    "id": 1982,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to detect unused modules automatically.",
+    "spanish": "Usemos IA para detectar módulos no utilizados automáticamente."
+  },
+  {
+    "id": 1983,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm checking the AI inference performance under heavy load.",
+    "spanish": "Estoy revisando el rendimiento de inferencia de IA bajo carga pesada."
+  },
+  {
+    "id": 1984,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "Let's use AI to improve the errorrecovery mechanisms.",
+    "spanish": "Usemos IA para mejorar los mecanismos de recuperación de errores."
+  },
+  {
+    "id": 1985,
+    "category": "1951-1975: IA aplicada al desarrollo y automatización",
+    "english": "I'm validating the AIgenerated deployment scripts for accuracy.",
+    "spanish": "Estoy validando los scripts de despliegue generados por IA para asegurar precisión."
+  },
+  {
+    "id": 1986,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment timeline to avoid overlapping releases.",
+    "spanish": "Estoy revisando el calendario de despliegue para evitar solapamientos."
+  },
+  {
+    "id": 1987,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the container logs for unexpected behaviour.",
+    "spanish": "Revisemos los logs de contenedores para detectar comportamientos inesperados."
+  },
+  {
+    "id": 1988,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the Docker configuration to improve layer caching.",
+    "spanish": "Estoy actualizando la configuración de Docker para mejorar la caché de capas."
+  },
+  {
+    "id": 1989,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the Kubernetes autoscaling rules.",
+    "spanish": "Validemos las reglas de autoescalado de Kubernetes."
+  },
+  {
+    "id": 1990,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the monitoring alerts to reduce noise.",
+    "spanish": "Estoy revisando las alertas de monitorización para reducir ruido."
+  },
+  {
+    "id": 1991,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the rollback strategy for highrisk deployments.",
+    "spanish": "Revisemos la estrategia de rollback para despliegues de alto riesgo."
+  },
+  {
+    "id": 1992,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the CI workflows to improve pipeline resilience.",
+    "spanish": "Estoy actualizando los workflows de CI para mejorar la resiliencia del pipeline."
+  },
+  {
+    "id": 1993,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the certificate renewal process.",
+    "spanish": "Validemos el proceso de renovación de certificados."
+  },
+  {
+    "id": 1994,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the infrastructure scripts to ensure consistency.",
+    "spanish": "Estoy revisando los scripts de infraestructura para asegurar consistencia."
+  },
+  {
+    "id": 1995,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the server load graphs for anomalies.",
+    "spanish": "Revisemos los gráficos de carga del servidor para detectar anomalías."
+  },
+  {
+    "id": 1996,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the staging environment to mirror production.",
+    "spanish": "Estoy actualizando el entorno de staging para que refleje producción."
+  },
+  {
+    "id": 1997,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the backup integrity before archiving.",
+    "spanish": "Validemos la integridad del backup antes de archivarlo."
+  },
+  {
+    "id": 1998,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the deployment pipeline to reduce friction points.",
+    "spanish": "Estoy revisando el pipeline de despliegue para reducir puntos de fricción."
+  },
+  {
+    "id": 1999,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the autoscaling thresholds for accuracy.",
+    "spanish": "Revisemos los umbrales de autoescalado para asegurar precisión."
+  },
+  {
+    "id": 2000,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the log format to improve traceability.",
+    "spanish": "Estoy actualizando el formato de logs para mejorar la trazabilidad."
+  },
+  {
+    "id": 2001,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the loadtesting scenarios before release.",
+    "spanish": "Validemos los escenarios de pruebas de carga antes del lanzamiento."
+  },
+  {
+    "id": 2002,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the cloud usage metrics to optimise resource allocation.",
+    "spanish": "Estoy revisando las métricas de uso en la nube para optimizar la asignación de recursos."
+  },
+  {
+    "id": 2003,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the firewall rules for potential misconfigurations.",
+    "spanish": "Revisemos las reglas del firewall para detectar posibles errores de configuración."
+  },
+  {
+    "id": 2004,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the deployment templates to improve automation.",
+    "spanish": "Estoy actualizando las plantillas de despliegue para mejorar la automatización."
+  },
+  {
+    "id": 2005,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the failover behaviour under stress conditions.",
+    "spanish": "Validemos el comportamiento de failover bajo condiciones de estrés."
+  },
+  {
+    "id": 2006,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the CI/CD notifications to reduce alert fatigue.",
+    "spanish": "Estoy revisando las notificaciones de CI/CD para reducir la fatiga de alertas."
+  },
+  {
+    "id": 2007,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's check the infrastructure logs for suspicious patterns.",
+    "spanish": "Revisemos los logs de infraestructura para detectar patrones sospechosos."
+  },
+  {
+    "id": 2008,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm updating the cloud IAM roles to strengthen security.",
+    "spanish": "Estoy actualizando los roles IAM de la nube para reforzar la seguridad."
+  },
+  {
+    "id": 2009,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "Let's validate the deployment window with all engineering teams.",
+    "spanish": "Validemos la ventana de despliegue con todos los equipos de ingeniería."
+  },
+  {
+    "id": 2010,
+    "category": "1976-2000: Productividad técnica, DevOps y flujo de trabajo",
+    "english": "I'm reviewing the DevOps checklist before final approval.",
+    "spanish": "Estoy revisando la checklist de DevOps antes de la aprobación final."
+  }
+];
