@@ -22,13 +22,39 @@
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
             background: #94a3b8;
         }
+        .section-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+            width: 100%;
+            max-width: 56rem;
+            margin: 1.25rem auto 0;
+            padding: 0 1rem;
+        }
+        .section-nav button {
+            flex: 1 1 auto;
+            min-height: 2.75rem;
+            padding: .5rem .85rem;
+            border: 1px solid #e2e8f0;
+            border-radius: .75rem;
+            background: white;
+            color: #334155;
+            font-size: .875rem;
+            font-weight: 600;
+        }
+        .section-nav button:hover { background: #eef2ff; }
+        .section-nav button[aria-pressed="true"] {
+            border-color: #4338ca;
+            background: #4338ca;
+            color: white;
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col pb-8">
 
     <!-- Header -->
-    <header class="bg-indigo-600 text-white shadow-md py-4 px-6 sticky top-0 z-40">
-        <div class="max-w-4xl mx-auto flex justify-between items-center">
+    <header class="bg-indigo-600 text-white shadow-md py-4 px-4 sticky top-0 z-40">
+        <div class="max-w-4xl mx-auto flex flex-wrap gap-3 justify-between items-center">
             <div class="flex items-center space-x-3">
                 <i class="fa-solid fa-graduation-cap text-2xl text-amber-300"></i>
                 <h1 class="text-xl font-bold tracking-wide">EnglishApp</h1>
@@ -36,7 +62,7 @@
             <div class="flex items-center space-x-4 text-sm font-medium">
                 <span class="bg-indigo-700 px-3 py-1 rounded-full shadow-inner">
                     <i class="fa-solid fa-list-check mr-1.5 text-amber-300"></i>
-                    Frases: <span id="total-phrases-count">0</span>
+                    <span id="section-count-label">Frases</span>: <span id="total-phrases-count">0</span>
                 </span>
                 <span class="bg-indigo-700 px-3 py-1 rounded-full shadow-inner">
                     <i class="fa-solid fa-star mr-1.5 text-amber-300"></i>
@@ -45,6 +71,14 @@
             </div>
         </div>
     </header>
+
+    <nav class="section-nav" aria-label="Secciones de estudio">
+        <button type="button" data-section="phrases" aria-pressed="true">Frases</button>
+        <button type="button" data-section="construction" aria-pressed="false">Construcción de frases</button>
+        <button type="button" data-section="tenses" aria-pressed="false">Tiempos verbales</button>
+        <button type="button" data-section="vocabulary" aria-pressed="false">Vocabulario</button>
+        <button type="button" data-section="questions" aria-pressed="false">Preguntas y respuestas</button>
+    </nav>
 
     <!-- Main Container -->
     <main class="max-w-4xl mx-auto w-full px-4 flex-grow mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -59,13 +93,13 @@
                 
                 <!-- Search Box -->
                 <div class="relative">
-                    <input type="text" id="search-input" placeholder="Buscar frase..." 
+                    <input type="search" id="search-input" aria-label="Buscar en la sección" placeholder="Buscar frase..."
                            class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-sm">
                     <i class="fa-solid fa-search absolute left-3.5 top-3 text-slate-400 text-sm"></i>
                 </div>
 
                 <!-- Category Selector -->
-                <div>
+                <div id="category-filter">
                     <label for="category-select" class="block text-xs font-semibold text-slate-400 mb-1.5 uppercase tracking-wider">Categoría</label>
                     <select id="category-select" class="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
                         <option value="all">Todas las categorías</option>
@@ -119,11 +153,11 @@
         <div class="md:col-span-2 space-y-6">
 
             <!-- Flashcard Display -->
-            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 flex flex-col justify-between min-h-[320px] relative overflow-hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 flex flex-col justify-between min-h-[320px] relative overflow-hidden" aria-label="Ficha de estudio">
                 <!-- Top card utility row -->
                 <div class="flex justify-between items-center text-xs text-slate-400 font-semibold mb-4">
                     <span id="card-index-label" class="bg-slate-100 text-slate-600 px-3 py-1 rounded-full">Frase 0 / 0</span>
-                    <button id="star-btn" class="text-slate-300 hover:text-amber-400 text-2xl transition focus:outline-none">
+                    <button id="star-btn" aria-label="Marcar como favorita" aria-pressed="false" class="text-slate-300 hover:text-amber-400 text-2xl transition">
                         <i class="fa-regular fa-star"></i>
                     </button>
                 </div>
@@ -133,7 +167,7 @@
                     <!-- English Phrase Card -->
                     <div id="english-card" class="space-y-2 cursor-pointer group">
                         <div class="text-slate-400 text-xs font-bold uppercase tracking-wider group-hover:text-indigo-500 transition">Inglés (US/UK)</div>
-                        <div id="english-text" class="text-2xl md:text-3xl font-extrabold text-slate-800 leading-snug break-words px-4">
+                        <div id="english-text" lang="en" class="text-2xl md:text-3xl font-extrabold text-slate-800 leading-snug break-words px-4">
                             Selecciona una categoría para empezar
                         </div>
                     </div>
@@ -151,6 +185,12 @@
                             Mostrar traducción
                         </button>
                     </div>
+                    <div id="question-answer" hidden class="space-y-2 rounded-xl bg-indigo-50 p-4">
+                        <div class="text-indigo-700 text-xs font-bold uppercase tracking-wider">Respuesta modelo</div>
+                        <p id="answer-english" lang="en" class="text-lg font-semibold text-slate-800 break-words"></p>
+                        <p id="answer-spanish" class="text-slate-600 break-words"></p>
+                        <button id="play-answer-btn" type="button" class="rounded-lg border border-indigo-200 bg-white px-3 py-2 text-sm font-semibold text-indigo-700 hover:bg-indigo-100">Escuchar respuesta en inglés</button>
+                    </div>
                 </div>
 
                 <!-- Bottom Category Indicator -->
@@ -163,27 +203,27 @@
             <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-5 space-y-5">
                 <div class="flex items-center justify-around">
                     <!-- Previous Button -->
-                    <button id="prev-btn" class="w-12 h-12 flex items-center justify-center bg-slate-50 hover:bg-slate-100 hover:text-indigo-600 text-slate-600 rounded-full border border-slate-200 shadow-sm transition active:scale-95">
+                    <button id="prev-btn" aria-label="Ficha anterior" class="w-12 h-12 flex items-center justify-center bg-slate-50 hover:bg-slate-100 hover:text-indigo-600 text-slate-600 rounded-full border border-slate-200 shadow-sm transition active:scale-95">
                         <i class="fa-solid fa-backward-step text-lg"></i>
                     </button>
 
                     <!-- Play English Button -->
-                    <button id="play-en-btn" class="w-16 h-16 flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white rounded-full shadow-lg hover:shadow-indigo-200 transition active:scale-95">
+                    <button id="play-en-btn" aria-label="Escuchar en inglés" class="w-16 h-16 flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white rounded-full shadow-lg hover:shadow-indigo-200 transition active:scale-95 disabled:opacity-40">
                         <i class="fa-solid fa-volume-high text-2xl"></i>
                     </button>
 
                     <!-- Play Spanish Button -->
-                    <button id="play-es-btn" class="w-12 h-12 flex items-center justify-center bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-full border border-indigo-100 shadow-sm transition active:scale-95">
+                    <button id="play-es-btn" aria-label="Escuchar en español" class="w-12 h-12 flex items-center justify-center bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-full border border-indigo-100 shadow-sm transition active:scale-95 disabled:opacity-40">
                         <i class="fa-solid fa-earth-americas text-md"></i>
                     </button>
 
                     <!-- Next Button -->
-                    <button id="next-btn" class="w-12 h-12 flex items-center justify-center bg-slate-50 hover:bg-slate-100 hover:text-indigo-600 text-slate-600 rounded-full border border-slate-200 shadow-sm transition active:scale-95">
+                    <button id="next-btn" aria-label="Ficha siguiente" class="w-12 h-12 flex items-center justify-center bg-slate-50 hover:bg-slate-100 hover:text-indigo-600 text-slate-600 rounded-full border border-slate-200 shadow-sm transition active:scale-95">
                         <i class="fa-solid fa-forward-step text-lg"></i>
                     </button>
 
                     <!-- Shuffle Button -->
-                    <button id="shuffle-btn" class="w-12 h-12 flex items-center justify-center bg-slate-50 hover:bg-slate-100 text-slate-400 hover:text-indigo-600 rounded-full border border-slate-200 shadow-sm transition active:scale-95">
+                    <button id="shuffle-btn" aria-label="Mezclar fichas" class="w-12 h-12 flex items-center justify-center bg-slate-50 hover:bg-slate-100 text-slate-400 hover:text-indigo-600 rounded-full border border-slate-200 shadow-sm transition active:scale-95">
                         <i class="fa-solid fa-shuffle text-md"></i>
                     </button>
                 </div>
@@ -195,7 +235,7 @@
                             <span class="text-sm font-bold text-slate-700 flex items-center">
                                 <i class="fa-solid fa-circle-play mr-2 text-emerald-500"></i>Reproducción Continua (Manos Libres)
                             </span>
-                            <span class="text-xs text-slate-400">Reproduce inglés, espera un instante, luego traduce</span>
+                            <span id="autoplay-description" class="text-xs text-slate-500">Reproduce el inglés y luego la traducción</span>
                         </div>
                         <button id="autoplay-toggle" class="px-5 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold rounded-xl border border-slate-200 uppercase tracking-wider transition">
                             Activar
@@ -231,7 +271,7 @@
                 </h3>
                 <ul class="text-xs text-indigo-700 space-y-1.5 list-disc list-inside">
                     <li>Haz clic sobre el texto en inglés para volverlo a escuchar en cualquier momento.</li>
-                    <li>Las frases favoritas se guardan en tu dispositivo y se mantienen al cerrar el navegador.</li>
+                    <li>Las fichas favoritas se guardan en tu dispositivo y se mantienen al cerrar el navegador.</li>
                     <li><strong>Para el móvil:</strong> Si decides estudiar activamente, puedes agregar esta página a tu pantalla de inicio en Chrome ("Añadir a pantalla de inicio") o Safari ("Compartir -> Añadir a pantalla de inicio") para usarla a pantalla completa como una App.</li>
                 </ul>
             </div>
@@ -12308,11 +12348,15 @@ const PHRASES_DATA = [
   }
 ];
 </script>
+    <script src="manual-data.js"></script>
     <script>
         // DOM Elements
         const totalPhrasesCount = document.getElementById('total-phrases-count');
         const starredPhrasesCount = document.getElementById('starred-phrases-count');
+        const sectionCountLabel = document.getElementById('section-count-label');
+        const sectionButtons = document.querySelectorAll('[data-section]');
         const searchInput = document.getElementById('search-input');
+        const categoryFilter = document.getElementById('category-filter');
         const categorySelect = document.getElementById('category-select');
         const toggleStarredFilter = document.getElementById('toggle-starred-filter');
         const starredOnlyBadge = document.getElementById('starred-only-badge');
@@ -12326,9 +12370,14 @@ const PHRASES_DATA = [
         const cardCategoryLabel = document.getElementById('card-category-label');
         const starBtn = document.getElementById('star-btn');
         const englishText = document.getElementById('english-text');
+        const spanishCard = document.getElementById('spanish-card');
         const spanishText = document.getElementById('spanish-text');
         const revealBtn = document.getElementById('reveal-btn');
         const englishCard = document.getElementById('english-card');
+        const questionAnswer = document.getElementById('question-answer');
+        const answerEnglish = document.getElementById('answer-english');
+        const answerSpanish = document.getElementById('answer-spanish');
+        const playAnswerBtn = document.getElementById('play-answer-btn');
         
         const prevBtn = document.getElementById('prev-btn');
         const nextBtn = document.getElementById('next-btn');
@@ -12337,20 +12386,29 @@ const PHRASES_DATA = [
         const shuffleBtn = document.getElementById('shuffle-btn');
         
         const autoplayToggle = document.getElementById('autoplay-toggle');
+        const autoplayDescription = document.getElementById('autoplay-description');
         const autoplaySettings = document.getElementById('autoplay-settings');
         const delayEnRange = document.getElementById('delay-en-range');
         const delayEsRange = document.getElementById('delay-es-range');
         const delayEnLabel = document.getElementById('delay-en-label');
         const delayEsLabel = document.getElementById('delay-es-label');
 
-        // State Variables
+        const sections = {
+            phrases: { cards: PHRASES_DATA, countLabel: 'Frases', itemLabel: 'Frase', search: 'Buscar frase…' },
+            construction: { cards: MANUAL_DATA.construction, countLabel: 'Frases', itemLabel: 'Frase', search: 'Buscar frase…' },
+            tenses: { cards: MANUAL_DATA.tenses, countLabel: 'Ejemplos', itemLabel: 'Ejemplo', search: 'Buscar ejemplo…' },
+            vocabulary: { cards: MANUAL_DATA.vocabulary, countLabel: 'Palabras', itemLabel: 'Palabra', search: 'Buscar palabra…' },
+            questions: { cards: MANUAL_DATA.questions, countLabel: 'Preguntas', itemLabel: 'Pregunta', search: 'Buscar pregunta o respuesta…' },
+        };
+        const speech = window.speechSynthesis;
+        let activeSection = 'phrases';
         let currentPhrasesList = []; // Active list matching current filters
         let currentIndex = 0;
         let starredPhrases = new Set();
         let starredOnly = false;
         let isAutoplayRunning = false;
         let autoplayTimeout = null;
-        let isSpanishRevealed = false;
+        let autoplayRun = 0;
 
         // Speech Synthesis Voices
         let voices = [];
@@ -12368,30 +12426,41 @@ const PHRASES_DATA = [
                     starredPhrases = new Set();
                 }
             }
-            updateStarredCount();
-
-            // Populate categories dropdown
-            const categories = [...new Set(PHRASES_DATA.map(p => p.category))];
-            categories.forEach(cat => {
-                const opt = document.createElement('option');
-                opt.value = cat;
-                opt.textContent = cat;
-                categorySelect.appendChild(opt);
-            });
-
-            // Initial Filter
-            filterPhrases();
+            selectSection('phrases');
             
             // Load voices
-            initVoices();
-            if (window.speechSynthesis.onvoiceschanged !== undefined) {
-                window.speechSynthesis.onvoiceschanged = initVoices;
+            if (speech) {
+                initVoices();
+                speech.addEventListener('voiceschanged', initVoices);
             }
         });
 
+        function selectSection(section) {
+            stopAutoplay();
+            activeSection = section;
+            const { cards, countLabel, search } = sections[section];
+            sectionButtons.forEach(button => {
+                button.setAttribute('aria-pressed', String(button.dataset.section === section));
+            });
+            sectionCountLabel.textContent = countLabel;
+            totalPhrasesCount.textContent = cards.length;
+            searchInput.value = '';
+            searchInput.placeholder = search;
+            categorySelect.replaceChildren(new Option('Todas las categorías', 'all'));
+            const categories = new Set(cards.map(card => card.category).filter(Boolean));
+            categories.forEach(category => categorySelect.add(new Option(category, category)));
+            categoryFilter.hidden = categories.size === 0;
+            revealBtn.textContent = section === 'questions' ? 'Mostrar traducción y respuesta' : 'Mostrar traducción';
+            autoplayDescription.textContent = section === 'questions'
+                ? 'Reproduce la pregunta, la respuesta y sus traducciones'
+                : 'Reproduce el inglés y, si está disponible, la traducción';
+            updateStarredCount();
+            filterPhrases();
+        }
+
         // Functions
         function initVoices() {
-            voices = window.speechSynthesis.getVoices();
+            voices = speech.getVoices();
             
             // Clear existing selects except default
             voiceSelect.innerHTML = '<option value="auto">Selección Automática (US/UK)</option>';
@@ -12435,78 +12504,62 @@ const PHRASES_DATA = [
             esVoice = esSpainVoice;
         }
 
+        function normalizeSearch(text) {
+            return text.toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, '');
+        }
+
         function filterPhrases() {
-            const searchQuery = searchInput.value.toLowerCase().trim();
-            const categoryFilter = categorySelect.value;
-
-            currentPhrasesList = PHRASES_DATA.filter(p => {
-                // Category match
-                if (categoryFilter !== 'all' && p.category !== categoryFilter) {
-                    return false;
-                }
-                // Starred match
-                if (starredOnly && !starredPhrases.has(p.id)) {
-                    return false;
-                }
-                // Text search match
-                if (searchQuery !== '') {
-                    const matchEn = p.english.toLowerCase().includes(searchQuery);
-                    const matchEs = p.spanish.toLowerCase().includes(searchQuery);
-                    return matchEn || matchEs;
-                }
-                return true;
-            });
-
-            totalPhrasesCount.textContent = PHRASES_DATA.length;
+            if (isAutoplayRunning) stopAutoplay();
+            const searchQuery = normalizeSearch(searchInput.value.trim());
+            const category = categorySelect.value;
+            currentPhrasesList = sections[activeSection].cards.filter(card =>
+                (category === 'all' || card.category === category)
+                && (!starredOnly || starredPhrases.has(card.id))
+                && (!searchQuery || [card.english, card.spanish, card.answerEnglish, card.answerSpanish]
+                    .some(text => text && normalizeSearch(text).includes(searchQuery)))
+            );
             currentIndex = 0;
             updateDisplay();
         }
 
         function updateDisplay() {
-            if (currentPhrasesList.length === 0) {
-                cardIndexLabel.textContent = "Frase 0 / 0";
-                englishText.textContent = "Ninguna frase coincide con los filtros";
-                cardCategoryLabel.textContent = "Filtro sin resultados";
-                spanishText.textContent = "";
-                revealBtn.style.display = "none";
-                starBtn.style.color = "#cbd5e1"; // Slate 300
-                return;
-            }
+            const card = currentPhrasesList[currentIndex];
+            const index = card ? currentIndex + 1 : 0;
+            cardIndexLabel.textContent = `${sections[activeSection].itemLabel} ${index} / ${currentPhrasesList.length}`;
+            cardCategoryLabel.textContent = card?.category ?? '';
+            cardCategoryLabel.hidden = !card?.category;
+            englishText.textContent = card?.english ?? 'Ninguna ficha coincide con los filtros';
+            englishText.lang = card ? 'en' : 'es';
 
-            const p = currentPhrasesList[currentIndex];
-            cardIndexLabel.textContent = `Frase ${currentIndex + 1} / ${currentPhrasesList.length}`;
-            cardCategoryLabel.textContent = p.category;
-            englishText.textContent = p.english;
-            
-            // Set star button visual state
-            if (starredPhrases.has(p.id)) {
-                starBtn.innerHTML = '<i class="fa-solid fa-star text-amber-400"></i>';
-            } else {
-                starBtn.innerHTML = '<i class="fa-regular fa-star text-slate-300"></i>';
+            const isStarred = Boolean(card && starredPhrases.has(card.id));
+            starBtn.innerHTML = isStarred
+                ? '<i class="fa-solid fa-star text-amber-400"></i>'
+                : '<i class="fa-regular fa-star text-slate-300"></i>';
+            starBtn.setAttribute('aria-pressed', String(isStarred));
+            starBtn.setAttribute('aria-label', isStarred ? 'Quitar de favoritas' : 'Marcar como favorita');
+            for (const button of [starBtn, prevBtn, nextBtn, shuffleBtn]) {
+                button.disabled = !card;
             }
-
-            // Hide Spanish by default on card load (Flashcard Mode)
-            hideSpanish();
+            playEnBtn.disabled = !speech || !card;
+            playEsBtn.disabled = !speech || !card?.spanish;
+            playAnswerBtn.disabled = !speech;
+            autoplayToggle.disabled = !speech || !card;
+            spanishCard.hidden = !card;
+            questionAnswer.hidden = true;
+            spanishText.textContent = card?.spanish ? '' : 'Traducción pendiente';
+            revealBtn.style.display = card?.spanish ? 'block' : 'none';
         }
 
         function showSpanish() {
-            if (currentPhrasesList.length === 0) return;
-            const p = currentPhrasesList[currentIndex];
-            spanishText.textContent = p.spanish;
-            spanishText.classList.remove('select-none', 'text-transparent', 'bg-slate-100', 'px-6', 'rounded-md');
-            spanishText.classList.add('text-slate-500');
-            revealBtn.style.display = "none";
-            isSpanishRevealed = true;
-        }
-
-        function hideSpanish() {
-            if (currentPhrasesList.length === 0) return;
-            const p = currentPhrasesList[currentIndex];
-            spanishText.textContent = "Haga clic para revelar la traducción";
-            spanishText.classList.add('select-none', 'text-transparent', 'bg-slate-100', 'px-6', 'rounded-md');
-            spanishText.classList.remove('text-slate-500');
-            revealBtn.style.display = "block";
-            isSpanishRevealed = false;
+            const card = currentPhrasesList[currentIndex];
+            if (!card?.spanish) return;
+            spanishText.textContent = card.spanish;
+            revealBtn.style.display = 'none';
+            if (card.answerEnglish) {
+                answerEnglish.textContent = card.answerEnglish;
+                answerSpanish.textContent = card.answerSpanish;
+                questionAnswer.hidden = false;
+            }
         }
 
         function toggleStar() {
@@ -12521,22 +12574,20 @@ const PHRASES_DATA = [
             localStorage.setItem('starred_phrases', JSON.stringify([...starredPhrases]));
             
             updateStarredCount();
-            updateDisplay();
-            
-            // If we are filtering by starred and just un-starred the current item, re-filter
             if (starredOnly && !starredPhrases.has(p.id)) {
                 filterPhrases();
+            } else {
+                updateDisplay();
             }
         }
 
         function updateStarredCount() {
-            starredPhrasesCount.textContent = starredPhrases.size;
+            starredPhrasesCount.textContent = sections[activeSection].cards
+                .filter(card => starredPhrases.has(card.id)).length;
         }
 
         // Speech engine speak wrapper
-        function speakText(text, lang, isSpanish = false) {
-            window.speechSynthesis.cancel(); // Stop anything playing first
-            
+        function speakText(text, isSpanish = false, onFinish) {
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.rate = parseFloat(speedRange.value);
 
@@ -12559,13 +12610,15 @@ const PHRASES_DATA = [
                 utterance.lang = 'en-US';
             }
 
-            window.speechSynthesis.speak(utterance);
-            return utterance;
+            utterance.onend = onFinish ?? null;
+            utterance.onerror = onFinish ?? null;
+            speech.speak(utterance);
         }
 
         // Autoplay Cycle Logic
         function startAutoplay() {
-            if (currentPhrasesList.length === 0) return;
+            if (!speech || currentPhrasesList.length === 0) return;
+            speech.cancel();
             isAutoplayRunning = true;
             autoplayToggle.textContent = "Detener";
             autoplayToggle.classList.replace('bg-slate-100', 'bg-red-500');
@@ -12578,11 +12631,12 @@ const PHRASES_DATA = [
 
         function stopAutoplay() {
             isAutoplayRunning = false;
-            if (autoplayTimeout) {
-                clearTimeout(autoplayTimeout);
-                autoplayTimeout = null;
-            }
-            window.speechSynthesis.cancel();
+            autoplayRun++;
+            clearTimeout(autoplayTimeout);
+            autoplayTimeout = null;
+            speech?.cancel();
+            playEnBtn.classList.remove('ring-4', 'ring-indigo-300');
+            playEsBtn.classList.remove('ring-4', 'ring-indigo-100');
             autoplayToggle.textContent = "Activar";
             autoplayToggle.classList.replace('bg-red-500', 'bg-slate-100');
             autoplayToggle.classList.replace('text-white', 'text-slate-700');
@@ -12591,51 +12645,59 @@ const PHRASES_DATA = [
         }
 
         function runAutoplayStep() {
-            if (!isAutoplayRunning || currentPhrasesList.length === 0) return;
-
-            const p = currentPhrasesList[currentIndex];
-            
-            // 1. Speak English
-            const enUtterance = speakText(p.english, 'en', false);
-            playEnBtn.classList.add('ring-4', 'ring-indigo-300');
-            
-            enUtterance.onend = () => {
-                playEnBtn.classList.remove('ring-4', 'ring-indigo-300');
-                if (!isAutoplayRunning) return;
-
-                // 2. Pause after english
-                const delayEn = parseFloat(delayEnRange.value) * 1000;
+            const card = currentPhrasesList[currentIndex];
+            const run = autoplayRun;
+            const nextCard = () => {
+                if (run !== autoplayRun) return;
+                playEsBtn.classList.remove('ring-4', 'ring-indigo-100');
                 autoplayTimeout = setTimeout(() => {
-                    // Reveal spanish translation in UI
-                    showSpanish();
-                    
-                    // 3. Speak Spanish
-                    const esUtterance = speakText(p.spanish, 'es', true);
-                    playEsBtn.classList.add('ring-4', 'ring-indigo-100');
-                    
-                    esUtterance.onend = () => {
-                        playEsBtn.classList.remove('ring-4', 'ring-indigo-100');
-                        if (!isAutoplayRunning) return;
-
-                        // 4. Pause before next phrase
-                        const delayEs = parseFloat(delayEsRange.value) * 1000;
-                        autoplayTimeout = setTimeout(() => {
-                            // Move to next
-                            if (currentIndex < currentPhrasesList.length - 1) {
-                                currentIndex++;
-                            } else {
-                                currentIndex = 0; // Loop to start
-                            }
-                            updateDisplay();
-                            // Next phrase loop
-                            runAutoplayStep();
-                        }, delayEs);
-                    };
-                }, delayEn);
+                    currentIndex = (currentIndex + 1) % currentPhrasesList.length;
+                    updateDisplay();
+                    runAutoplayStep();
+                }, Number(delayEsRange.value) * 1000);
             };
+            const playSpanish = () => {
+                if (run !== autoplayRun) return;
+                playEsBtn.classList.add('ring-4', 'ring-indigo-100');
+                speakText(spanishAudio(card), true, nextCard);
+            };
+
+            playEnBtn.classList.add('ring-4', 'ring-indigo-300');
+            speakText(card.english, false, () => {
+                if (run !== autoplayRun) return;
+                playEnBtn.classList.remove('ring-4', 'ring-indigo-300');
+                if (!card.spanish) {
+                    nextCard();
+                    return;
+                }
+                autoplayTimeout = setTimeout(() => {
+                    showSpanish();
+                    if (card.answerEnglish) {
+                        speakText(card.answerEnglish, false, playSpanish);
+                    } else {
+                        playSpanish();
+                    }
+                }, Number(delayEnRange.value) * 1000);
+            });
+        }
+
+        function spanishAudio(card) {
+            return card.answerSpanish ? `${card.spanish} ${card.answerSpanish}` : card.spanish;
+        }
+
+        function playCurrentEnglish() {
+            const card = currentPhrasesList[currentIndex];
+            if (!speech || !card) return;
+            stopAutoplay();
+            speakText(card.english);
         }
 
         // Event Listeners
+        sectionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                if (button.dataset.section !== activeSection) selectSection(button.dataset.section);
+            });
+        });
         searchInput.addEventListener('input', filterPhrases);
         categorySelect.addEventListener('change', filterPhrases);
         
@@ -12659,24 +12721,22 @@ const PHRASES_DATA = [
 
         starBtn.addEventListener('click', toggleStar);
         
-        // Manual Speech trigger clicking on English block
-        englishCard.addEventListener('click', () => {
-            if (currentPhrasesList.length > 0) {
-                speakText(currentPhrasesList[currentIndex].english, 'en', false);
-            }
-        });
-
-        playEnBtn.addEventListener('click', () => {
-            if (currentPhrasesList.length > 0) {
-                speakText(currentPhrasesList[currentIndex].english, 'en', false);
-            }
-        });
+        englishCard.addEventListener('click', playCurrentEnglish);
+        playEnBtn.addEventListener('click', playCurrentEnglish);
 
         playEsBtn.addEventListener('click', () => {
-            if (currentPhrasesList.length > 0) {
-                showSpanish();
-                speakText(currentPhrasesList[currentIndex].spanish, 'es', true);
-            }
+            const card = currentPhrasesList[currentIndex];
+            if (!speech || !card?.spanish) return;
+            stopAutoplay();
+            showSpanish();
+            speakText(spanishAudio(card), true);
+        });
+
+        playAnswerBtn.addEventListener('click', () => {
+            const card = currentPhrasesList[currentIndex];
+            if (!speech || !card?.answerEnglish) return;
+            stopAutoplay();
+            speakText(card.answerEnglish);
         });
 
         revealBtn.addEventListener('click', showSpanish);
